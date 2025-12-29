@@ -1,0 +1,254 @@
+[
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 0.0,
+        "end": 10.0,
+        "text": " Dear students, welcome to GIT Smashers  In today's video I am going to explain  Ensemble Learning  And I will explain it with real life example  So here the first important point"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 10.0,
+        "end": 20.0,
+        "text": " you can see  Ensemble, what does it mean?  Group, group of people as we say  But in our condition  in our term we can say"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 20.0,
+        "end": 30.0,
+        "text": " Group of predictors  or group of prediction algorithms  Now what is the concept here?  It is the simplest concept  You will understand from this real life example"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 30.0,
+        "end": 40.0,
+        "text": " Like, it is election time  So you have to find out  Which party will win the election  Means you have to predict  So what can you do? Either you can ask an expert"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 40.0,
+        "end": 50.0,
+        "text": " You gave all the data to an expert  Sample data, all the things  You gave it and on the basis of that  It predicted that chances of winning are high  So you got an output"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 50.0,
+        "end": 60.0,
+        "text": " But what can be the second method?  Ensembling  What does ensembling say?  You bring all the experts  Give them the data and on the basis of that"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 60.0,
+        "end": 70.0,
+        "text": " They will give some output  And you can assemble that output  Make a group  And after that you can put voting on it  And you can check that on the basis of voting"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 70.0,
+        "end": 80.0,
+        "text": " Whose vote is the highest  So there are more chances of winning  So what is the advantage here?  That my prediction  It will be more accurate than before"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 80.0,
+        "end": 90.0,
+        "text": " But what is the disadvantage?  Computational cost  Earlier my computational cost was less  There was only one predictor algorithm  You used it and did it"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 90.0,
+        "end": 100.0,
+        "text": " Now there is a multiple predictor algorithm  So the computational cost has increased  But it doesn't matter  Computational cost is not as effective  As much as the accuracy of the prediction is more important"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 100.0,
+        "end": 110.0,
+        "text": " So that's why  Ensembled learning is very popular  In today's time  In terms of remote sensing  Like Chandrayantri"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 110.0,
+        "end": 120.0,
+        "text": " You know that he has gone to the moon  And we are gathering things  Sample data  Sample things are being gathered  And on the basis of that, prediction is also happening"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 120.0,
+        "end": 130.0,
+        "text": " We are checking the past and also checking the prediction  Talk about medicine  Talk about cyber security  Talk about fraud detection  Even all the things that are going on today"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 130.0,
+        "end": 140.0,
+        "text": " Talk about image analysis  Everywhere in your machine learning  Ensembled learning concept  Is being used a lot  What is the reason for this?"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 140.0,
+        "end": 150.0,
+        "text": " The reason is that prediction is more accurate  As compared to the traditional single single methods  So this is its advantage  It uses multiple learning algorithms  To obtain better predictive performance"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 150.0,
+        "end": 160.0,
+        "text": " So you can understand this  With the simplest example  Like I want to do classification  The same yes or no concept  If my binary classifier is there"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 160.0,
+        "end": 170.0,
+        "text": " Then I have to check  Should I do this work or not  So what did I give here  I had a sample data set  Learning data set"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 170.0,
+        "end": 180.0,
+        "text": " In which we have many tuples  You can say instances  Whatever we did to that thing  I gave that whole sample data  To the KNN classifier"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 180.0,
+        "end": 190.0,
+        "text": " It gave me some output  I gave some output to logistic  I gave some output to random forest  I gave some output to svm  So what is the simplest method here"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 190.0,
+        "end": 200.0,
+        "text": " If I don't do ensemble  Then it's okay, you can give it to anyone  You can get your output  But accuracy  Will come somewhere"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 200.0,
+        "end": 210.0,
+        "text": " Because it is called weak learning  But if I want to make this thing strong  Then what can I do  I will give the same sample data to multiple  And the output"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 210.0,
+        "end": 220.0,
+        "text": " All those outputs  After ensembling  Through voting  I can check  Whose highest voting came"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 220.0,
+        "end": 230.0,
+        "text": " Means if he said yes  He said no, he said yes  So here you can say  My yes is 3  So voting is yes"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 230.0,
+        "end": 240.0,
+        "text": " So this is the simple concept of the ensembling  So that's why it is very popular  At the time of today  It is being used extensively  Now here"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 240.0,
+        "end": 250.0,
+        "text": " If seen somewhere  So many times they ask about their techniques  Sir, how are we, what are the types  So I will explain to you one by one  Just as an example you can note"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 250.0,
+        "end": 260.0,
+        "text": " Bootstrap aggregating  Stacking is a method  Voting is a method  And how is its implementation  Random forest"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 260.0,
+        "end": 270.0,
+        "text": " Generally we classify decision tree  In yes or no  Some binary output came to me  That either this work will happen or not  But that is the same that a single method"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 270.0,
+        "end": 280.0,
+        "text": " It becomes a weak learner in itself  When we have a huge amount of data  And we have to make the prediction more accurate  So we combined multiple decision trees  What did it become"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 280.0,
+        "end": 290.0,
+        "text": " So that random forest  Which is actually the implementation  Which actually uses  Ensemble learning concept  So here data like"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 290.0,
+        "end": 300.0,
+        "text": " I give the simplest example, otherwise I will explain separately  Bootstrap so what can you do  Like you have a huge amount of data  Now it has multiple instances  Like a b c d e"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 300.0,
+        "end": 310.0,
+        "text": " F  So what can you do  You can choose a random amount of data  Like you made a random data set of it  A A B B"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 310.0,
+        "end": 320.0,
+        "text": " C you made one  A B C D E  You made one  A B B C D E  You are creating random data set"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 320.0,
+        "end": 330.0,
+        "text": " And you are giving that data set  To multiple predictors  And then they will give the output  And based on that output you can check by voting  So this data"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 330.0,
+        "end": 340.0,
+        "text": " You have to give the whole data as it is to multiple people  Or from that data  By removing the subset  And giving it to different people  So we will do that thing later"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 340.0,
+        "end": 350.0,
+        "text": " In boosting, bootstrapping, stacking  And in this  So this is the simplest concept  Which I am explaining to you from real life example  Note this because all these things"
+    },
+    {
+        "number": "Lec-12",
+        "title": "Introduction to Ensemble Learning with Real Life Examples",
+        "start": 350.0,
+        "end": 358.0,
+        "text": " Are linked to each other  So if you will watch all these videos one by one  You will understand easily  Thank you"
+    }
+]

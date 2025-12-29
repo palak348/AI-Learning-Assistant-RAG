@@ -1,0 +1,373 @@
+[
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 0.0,
+        "end": 10.0,
+        "text": " Dear students, Welcome to Gate Smashers  In today's video I am going to explain  Supervised Learning and what all  techniques and algorithms are used  in supervised learning"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 10.0,
+        "end": 20.0,
+        "text": " So guys, quickly like the video and subscribe to the channel  If you haven't done it yet and if you have done it  then you can get more devices to subscribe  Subscribers are very important  So let's start, first of all"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 20.0,
+        "end": 30.0,
+        "text": " you can understand by the name  What is the meaning of supervised?  Where a supervisor, a teacher is available  You can also say the best example of this  Like you all are learning"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 30.0,
+        "end": 40.0,
+        "text": " through me  So I am a supervisor here  And what is this? A supervised  learning is happening. If we talk  from the point of view of the machine"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 40.0,
+        "end": 50.0,
+        "text": " So here supervised learning  says, it is like teaching a computer  how to do something  by showing it example  Means we are teaching the machine"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 50.0,
+        "end": 60.0,
+        "text": " that you have to do things  in this way. So supervised  learning, if we have to understand it in the best way  So you can take the simplest example  Like we explain to a small child"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 60.0,
+        "end": 70.0,
+        "text": " When he goes to school  then what do we explain to him? A for  Apple, B for Ball  C for Cat, D for Dog  And along with that pictures"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 70.0,
+        "end": 80.0,
+        "text": " images are also shown to him  So what does he do in his mind?  He creates an image. And how will he make the image?  Like A for Apple  will see its shape, will see its color"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 80.0,
+        "end": 90.0,
+        "text": " B for Ball, saw its shape, saw its color  saw its size  C for Cat, saw its texture, saw its fur  Means all those things  he will keep in his mind"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 90.0,
+        "end": 100.0,
+        "text": " And on the basis of that, what will he do?  What is he learning?  He is learning that what is its size  what is its color and based on that  he will start classifying things somewhere"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 100.0,
+        "end": 110.0,
+        "text": " So next time  when I will show him a ball  Maybe I have shown him an image of a football  And later if I show him  a basketball or a tennis ball"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 110.0,
+        "end": 120.0,
+        "text": " then he will guess somewhere  he will put it somewhere, he will classify  that this is actually an example of a ball  So this is the supervised learning  where we"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 120.0,
+        "end": 130.0,
+        "text": " labelled data, the data  we give to the machine, the data  we give to the system, what is that?  It is labelled data in which it is written  that this thing is like this and this thing is not like this"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 130.0,
+        "end": 140.0,
+        "text": " so that the system can understand first  then we train it  After training, then it is tested  Let's understand another example  Email Spam Detection"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 140.0,
+        "end": 150.0,
+        "text": " Means email  in your system, obviously you use emails  so email comes, so many times  what happens is that if you check  then on the left side you have an option where inbox, outbox"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 150.0,
+        "end": 160.0,
+        "text": " there you have an option of spam  where those emails come  which are actually spams  which in a way you can say  that dangerous type in which"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 160.0,
+        "end": 170.0,
+        "text": " if you can do phishing attack etc  so that's why the system sends them  in spam first, so what are we doing here?  We are designing such a system  We are designing a system, we are modelling"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 170.0,
+        "end": 180.0,
+        "text": " the system, we are training it  that tell me whether it is spam  or not spam  which we also call ham  spam or ham which means not spam"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 180.0,
+        "end": 190.0,
+        "text": " so for that, what is done first  in supervised learning  what we do first is data collection  first of all data is given to it  data is given to the model first"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 190.0,
+        "end": 200.0,
+        "text": " and which data? Labelled  means the data we give  we will give a set of emails  on which it will be mentioned that this is spam  this is not spam"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 200.0,
+        "end": 210.0,
+        "text": " this is spam, this is not spam  same example of a child, first we are giving him data  first we are showing him images  that this is apple, this is ball  this is cat, this is dog"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 210.0,
+        "end": 220.0,
+        "text": " so in a way, data is being  fed to him first and that data is labeled  on which it would be written  that this is spam, this is not spam  what will happen in the second phase? Training"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 220.0,
+        "end": 230.0,
+        "text": " now we are training the model  to train we use  multiple methods, we use  mathematical models like  here I have to do classification"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 230.0,
+        "end": 240.0,
+        "text": " what is classification? It classifies  that is it or not  so in the case of classification  I can use KNN, using decision tree  method, I am training it"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 240.0,
+        "end": 250.0,
+        "text": " so that it understands  the data that it got  that this is spam, this is not spam  why is this spam? In it it  checks what is the keyword"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 250.0,
+        "end": 260.0,
+        "text": " in the keyword it sees that it is written  happy, congratulation, kudos  so somewhere it will see those keywords  or such phrases are written  limited time offer"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 260.0,
+        "end": 270.0,
+        "text": " do it fast  hurry up, whenever it will see these things  then it will feel that in this spam  all these are those mails  or sender's id"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 270.0,
+        "end": 280.0,
+        "text": " some such sender's id is 6478  means in this way numeric  at the rate some values are written  so somewhere first those things  it will learn based on"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 280.0,
+        "end": 290.0,
+        "text": " the labelled data and on its  basis finally when  we gave it training, all  its training is done, after that  its testing is done, then"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 290.0,
+        "end": 300.0,
+        "text": " our data, the data we collected  from that data let's suppose  from 80% we trained it  in the last 20%  from that same email I picked up"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 300.0,
+        "end": 310.0,
+        "text": " one email and then I asked it  now when we will ask it  then is it actually  validating, is it able to find out  is it able to classify that this is"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 310.0,
+        "end": 320.0,
+        "text": " spam or not, if it  is able to do it means our model  is working and if not then  means model is not working  then we can use it in real life scenario also"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 320.0,
+        "end": 330.0,
+        "text": " this is a kind of common  steps which are used in  every modeling, in ML  whenever we model the system  it is used, so this is a basic example"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 330.0,
+        "end": 340.0,
+        "text": " of supervised learning  you can say, now here  whenever we talk about supervised learning  so two techniques are mainly  used here, one is your"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 340.0,
+        "end": 350.0,
+        "text": " classification and second is your  regression, many times we were asking  classification is already popular  what is classification, like I  just gave you the example of spam"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 350.0,
+        "end": 360.0,
+        "text": " is it spam or not  means we gave two buckets or three buckets  we have to put that  put apple in this bucket, if it is  ball then put it in this bucket, so when"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 360.0,
+        "end": 370.0,
+        "text": " we will show similar kind of data to it, then it  is able to classify that this thing  is like this, so that is what a classification  regression is  actually, regression is basically"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 370.0,
+        "end": 380.0,
+        "text": " where numerical data  continuous numerical data is  worked on, like as an example  in the same example we take  like if I tell you to prepare a model"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 380.0,
+        "end": 390.0,
+        "text": " where we  have to check the  sale price of the house  that how much should I sell it  based on its size, so"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 390.0,
+        "end": 400.0,
+        "text": " here we are dealing with numerical data  work is the same, but here  we generally deal with numerical data and here  we simply classify  that this thing is there or not"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 400.0,
+        "end": 410.0,
+        "text": " so whenever we deal with numerical data  like the house example  that if I have to know based on the size of the house  that what will be  its sale price"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 410.0,
+        "end": 420.0,
+        "text": " then what I can do, I can create a regression model  work is the same, we will do data  collection, first what we will do  we will collect multiple data  that if the house is of 100 square feet"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 420.0,
+        "end": 430.0,
+        "text": " then in this price, 200 square feet  300 square feet, 400 square feet  500 square feet, like this  we have collected the data like this  then I trained it"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 430.0,
+        "end": 440.0,
+        "text": " so I told that  based on this size, the price  is correlated, means if the size increases  then the price will also increase  if the size decreases then the price will also decrease"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 440.0,
+        "end": 450.0,
+        "text": " so correlation, so here  I can use linear regression  so this is polynomial regression  so these methods are  under linear regression and then I will test"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 450.0,
+        "end": 460.0,
+        "text": " then I will give a data to it  then I will give a size of the house  so now it will tell me  by predicting that is the price of this house  is this much or not"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 460.0,
+        "end": 470.0,
+        "text": " so means in a way, the prediction  that is happening, when there is a prediction on numerical data  regression, when we  in a way, check in labeled that  this thing is like this, this thing is not like this"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 470.0,
+        "end": 480.0,
+        "text": " so that is classification, so this prediction  model is generally used  classification and regression in the  supervised and here further  comes which algorithms, KNN"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 480.0,
+        "end": 490.0,
+        "text": " K nearest neighbor  logistic regression comes, decision tree  very important, support vector machine  SVM which is called neural network  all these generally comes in classification"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 490.0,
+        "end": 500.0,
+        "text": " in regression you have linear regression  polynomial regression, various  types of regression tree, all these one by one  because now first  it is very important to understand it theoretically"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 500.0,
+        "end": 510.0,
+        "text": " then we will understand it practically  so first understand it theoretically  with mathematics, with stats  I will explain it by relating it  then we will make it practical, so that's why"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 510.0,
+        "end": 520.0,
+        "text": " do it carefully because most  the field which is popular at this time  and do you know the reason for being popular  this is interdisciplinary  it is not that only computer science IT"
+    },
+    {
+        "number": "Lec-2",
+        "title": "Supervised Learning Algorithms",
+        "start": 520.0,
+        "end": 530.0,
+        "text": " people are doing this, non CSC  non IT people are doing this most  so somewhere this field  you have to prepare well  Thank you"
+    }
+]

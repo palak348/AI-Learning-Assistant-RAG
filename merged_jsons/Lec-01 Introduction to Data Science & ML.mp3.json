@@ -1,0 +1,149 @@
+[
+    {
+        "number": "Lec-1",
+        "title": "Introduction to Data Science & ML",
+        "start": 0.0,
+        "end": 26.8,
+        "text": " It won't be wrong to say that today we all are down from data science  or precisely if I say this, you can also say that we are down from all data  Like if we talk about smart watch, then what is actually happening in smart watch?  How many steps we have taken, our heart rate, all these things are being noted in one way  and it comes in the app and what is this? It is a data generator"
+    },
+    {
+        "number": "Lec-1",
+        "title": "Introduction to Data Science & ML",
+        "start": 26.8,
+        "end": 47.8,
+        "text": " If we talk about our mobile, I think we check our mobile every 2 minutes  and what are they actually doing in mobile? Either they are checking social media on whatsapp or facebook  and what are we doing on that? Either we are doing some message or if someone's message has come  we are reading that message, means we are dealing with data  or if I want to book a ride from Uber, then I am generating data"
+    },
+    {
+        "number": "Lec-1",
+        "title": "Introduction to Data Science & ML",
+        "start": 47.8,
+        "end": 67.8,
+        "text": " If I want to do an online transaction, then I am generating data  or if I want to order something to eat, then I am generating data  Means we are down from data from all sides  and when these companies extract some insights from this data  and extract some important information, that is called the data science"
+    },
+    {
+        "number": "Lec-1",
+        "title": "Introduction to Data Science & ML",
+        "start": 67.8,
+        "end": 87.6,
+        "text": " Hello students, welcome to Gate Smashers  The title of today's video is how to become a data scientist  or we can also call it as road map for the data science  If you want to do data science, if you want to read it properly and understand it properly  then how can you read it? How can you understand it?"
+    },
+    {
+        "number": "Lec-1",
+        "title": "Introduction to Data Science & ML",
+        "start": 87.6,
+        "end": 110.8,
+        "text": " So what are its proper steps?  So I am going to explain it in a generalized way that how you can become a data scientist or data analyst  But I actually want to emphasize more on data science instead of data scientist or data analyst  Because when the concept is caught, then you have to become a data analyst in the future  You have to become a data engineer, you can become a data scientist in any field"
+    },
+    {
+        "number": "Lec-1",
+        "title": "Introduction to Data Science & ML",
+        "start": 110.8,
+        "end": 132.2,
+        "text": " But first catch the concept properly  So here the first important thing, what is the first step of the road map  Whenever we talk about data science that I have to extract important information from data  I have to extract insights so that I can grow in business  So for this thing, first of all, what you have to do is understand the business problem"
+    },
+    {
+        "number": "Lec-1",
+        "title": "Introduction to Data Science & ML",
+        "start": 132.2,
+        "end": 156.2,
+        "text": " Means let's suppose Netflix gives you the data of 2022 and tells you to check the data of 2022  and extract some important information from it  So what will you extract? You can see how many movies came in total  You can also check that how many movies were there in the drama category or genre  Or how many horror movies came, how many action movies came"
+    },
+    {
+        "number": "Lec-1",
+        "title": "Introduction to Data Science & ML",
+        "start": 156.2,
+        "end": 178.2,
+        "text": " You can also check how much total revenue came, how much was my total expenditure  How much total profit was there, in which particular genre  Means how much profit did I get in the drama category, how much loss did I get, how much on this  And on the basis of this, what can you do one more thing  You can also recommend them that if you focus on this thing in 2024, then you will get more benefit"
+    },
+    {
+        "number": "Lec-1",
+        "title": "Introduction to Data Science & ML",
+        "start": 178.2,
+        "end": 204.2,
+        "text": " So what is this actually? That I caught one data, I caught that data and extracted some important information from it  And did some prediction or did some forecasting, this concept is actually called data science  So here the first thing is that you have to understand the problem of business  What is this business? I have to understand that business well  That this is actually demand, this customer wants, this company wants"
+    },
+    {
+        "number": "Lec-1",
+        "title": "Introduction to Data Science & ML",
+        "start": 204.2,
+        "end": 229.2,
+        "text": " And how can I provide them the best thing  And all the companies, whether you talk about food related, talk about McD, talk about KFC  Or if we talk online, whatever the hotel is, Goa, MMT, etc.  Take the example of all the companies, all of them are following this business model, these steps at the present time  Because business is running on the basis of this only at the present time"
+    },
+    {
+        "number": "Lec-1",
+        "title": "Introduction to Data Science & ML",
+        "start": 229.2,
+        "end": 252.2,
+        "text": " All the businesses that are running are not running with traditional methods, that is a method  But the advanced method you can say is actually this  So first of all, I understood the business problem, when I understood the business problem  So then finally what I did, when I covered this step, after that what is to collect the data  Means what I have to do with multiple sources, I have to collect the data"
+    },
+    {
+        "number": "Lec-1",
+        "title": "Introduction to Data Science & ML",
+        "start": 252.2,
+        "end": 278.2,
+        "text": " Like take the example of Netflix, so you have to collect all the data of Netflix people  Customer, the people who have taken the subscription, which movie are they clicking, which are they not clicking  Who are they liking, who are they disliking, how long are they watching, when are they closing  All these things you have to collect data first  So this is the you can say second phase that when I understood the business, understood the problem"
+    },
+    {
+        "number": "Lec-1",
+        "title": "Introduction to Data Science & ML",
+        "start": 278.2,
+        "end": 301.2,
+        "text": " Now I have to collect the data, it can be structured data, it can be unstructured data  Now here the student comes to mind, many times students ask  Sir, we can't do this thing, data collection and all these steps of data science alone with Excel  A lot of things can be done with Excel, you can do a lot of analytics, Math, Stats, a lot of things  It supports a lot, but what is the problem, that this data collection"
+    },
+    {
+        "number": "Lec-1",
+        "title": "Introduction to Data Science & ML",
+        "start": 301.2,
+        "end": 326.2,
+        "text": " At this time we are dealing with a huge amount of big data, where the data is not all structured  Data is lying in an unstructured way, so when a huge amount of data comes  Then I can't work with normal Excel, although you can do a lot with Excel  It's not that today there are a lot of jobs, if you go to LinkedIn  There are a lot of jobs of data analytics, where if you get Excel, if you get SQL"
+    },
+    {
+        "number": "Lec-1",
+        "title": "Introduction to Data Science & ML",
+        "start": 326.2,
+        "end": 345.2,
+        "text": " You can go there well, but the same is that add on  The better you will get today, there are chances of better growth  So get the first step and after that you have better growth  So I have done data collection from multiple sources, when my phase is complete  After that data cleaning, because when data is collected, it is very messy"
+    },
+    {
+        "number": "Lec-1",
+        "title": "Introduction to Data Science & ML",
+        "start": 345.2,
+        "end": 372.2,
+        "text": " There are a lot of outliers, errors, etc. in it, data has to be cleaned so that I can normalize it well  I can do deduplication, I can show them my data types properly  According to the numeric, according to the date, it is very important to clean them well  So that my results are as good as they are, because if you work on wrong data  Error data will only bring error results, so that's why you have to bring it on this step"
+    },
+    {
+        "number": "Lec-1",
+        "title": "Introduction to Data Science & ML",
+        "start": 372.2,
+        "end": 402.2,
+        "text": " Power queries are used a lot in data cleaning, like power is also there, if we talk about the tool  Then comes the build model, build model means when I have cleaned the data well  After that I divide the data, which we generally do in ML, machine learning, etc.  By the way, your data analytics will be up to this, after this you can get insights  You can use a visualization tool like Tableau, Power BI, you can make a good dashboard of it"
+    },
+    {
+        "number": "Lec-1",
+        "title": "Introduction to Data Science & ML",
+        "start": 402.2,
+        "end": 432.2,
+        "text": " You can check that is my up going, down going, you can analyze things well  But when we talk about prediction, when we talk about forecasting, then there is a little complexity  There we have to train the data well, so first I train the data and then finally test  That the model I made, is it actually working properly or not  My errors, my mean value errors, how much level are my errors coming, all these things are checked in modeling"
+    },
+    {
+        "number": "Lec-1",
+        "title": "Introduction to Data Science & ML",
+        "start": 432.2,
+        "end": 467.2,
+        "text": " And then finally when it comes here, then the last stage comes, you have to get insights from the data you collected  And when you get insights, then obviously you will get growth in business  And these things are generalized steps, but all the projects, all the companies that are working at the time  They follow these steps only, so basically if you have data collection, data collection multiple sources  Like ETL tools are used, then after that you should know data cleaning, SQL, basic"
+    },
+    {
+        "number": "Lec-1",
+        "title": "Introduction to Data Science & ML",
+        "start": 467.2,
+        "end": 494.2,
+        "text": " If I talk about data science, then you should be good in SQL, Tableau or Power BI  Like Power BI is very popular, Tableau is very popular, you should be good in it  You should know basic SQL, along with SQL you should know Excel information  You should know lookups, how to apply, you should know basic math stats  Like mean, median, mode, variance, standard deviation, you should have basic knowledge of these things"
+    },
+    {
+        "number": "Lec-1",
+        "title": "Introduction to Data Science & ML",
+        "start": 494.2,
+        "end": 503.2,
+        "text": " And then finally you can go towards data scientist in a way  So this is a basic road map, you can follow it, Thank you"
+    }
+]

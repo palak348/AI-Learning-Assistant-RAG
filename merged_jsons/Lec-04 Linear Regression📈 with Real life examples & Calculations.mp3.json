@@ -1,0 +1,611 @@
+[
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 0.0,
+        "end": 12.0,
+        "text": " Dear students, Welcome to GATEs Measures  In today's video I am going to explain linear regression  And I will explain this with example only  But I will relate it with mathematics  Because without mathematics"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 12.0,
+        "end": 24.0,
+        "text": " It is impossible to understand the concepts of machine learning  And mathematics is very important  Because this is the basic foundation of ML  So at maximum place  Simply we tell about machine learning"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 24.0,
+        "end": 35.0,
+        "text": " That this is regression, this is linear regression  But the behind the scenes  The mathematics is very important to understand  Because you are making the machine learn  First make your brain learn"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 35.0,
+        "end": 46.0,
+        "text": " That how does it actually work  So see, if we talk about linear regression  So what is regression basically?  That we have to show the relationship between variables  What is linear regression?"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 46.0,
+        "end": 58.0,
+        "text": " That whenever we have two variables  One dependent and the other independent  So between independent and dependent  I have to show the relationship  And I have to do prediction on the basis of it"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 58.0,
+        "end": 68.0,
+        "text": " So I will explain all these things in this video  With mathematics  So watch this video till the end  So see, first thing here  You should know the equation"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 68.0,
+        "end": 80.0,
+        "text": " What is the equation of linear regression?  So what is the equation of linear regression?  Y is equal to Mx plus B  Here Mx plus B  And here Y"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 80.0,
+        "end": 89.0,
+        "text": " What is Y? Dependent variable  What is X? Independent variable  I have already told you  In the last class of regression  But I will tell you again"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 89.0,
+        "end": 99.0,
+        "text": " If I have to predict the score of the student's exam  Based on their study hours  That how many hours did they study  So what I have to predict?  What is their score?"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 99.0,
+        "end": 111.0,
+        "text": " So what I have to do prediction of  That is dependent variable  And on whose basis I have to do  That how many hours did he study  Means the study hours before the exam"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 111.0,
+        "end": 121.0,
+        "text": " How many hours did he study?  That is dependent variable  And here M is the slope of the line  What does it mean?  You already know, we have done it before"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 121.0,
+        "end": 132.0,
+        "text": " But here I will tell you  How much Y changes for a unit change in X  Means what is the meaning of slope?  If I change 1 in X  Change of 1 unit"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 132.0,
+        "end": 142.0,
+        "text": " So how many units are changing in Y?  That is what a slope  And what is B? Intercept  What is the meaning of intercept?  If I keep the value of X as 0"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 142.0,
+        "end": 153.0,
+        "text": " Means if I keep the value of X as 0  Means the value of Y  We have to calculate all these things  How to do? I will tell you all these things  Just stay tuned in the video"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 153.0,
+        "end": 164.0,
+        "text": " See here I will explain it with the project  Then only you will understand the story  What is my project?  Predicting Pizza Prices  What I have to do with the price of pizza?"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 164.0,
+        "end": 172.0,
+        "text": " I have to predict  So what is the first phase here?  Data collection  Means first of all I collect the data  I will go to multiple pizza stores"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 172.0,
+        "end": 178.0,
+        "text": " And collect the data  That how much is your diameter?  How much is the small pizza?  Tell me its diameter  Tell me the medium"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 178.0,
+        "end": 184.0,
+        "text": " Tell me the large  And what are their prices?  So based on that  I will first collect the data  Then I will clean that data"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 184.0,
+        "end": 192.0,
+        "text": " So that I can remove the wrong information from there  And after that the main story starts  See this  First of all what I did?  I collected the data"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 192.0,
+        "end": 202.0,
+        "text": " Just see these two columns  I collected the data  Diameter  The diameter of the pizza  I wrote these inches first"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 202.0,
+        "end": 213.0,
+        "text": " I have taken small data  Because obviously you are learning things here  So first work on small data  Then after that you can easily work on large data  Understand the concept first"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 213.0,
+        "end": 223.0,
+        "text": " So here I took the value  8, 10 and 12  Means this is the diameter of my pizza  And what is the price here?  10 dollars, 13 dollars and 16 dollars"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 223.0,
+        "end": 235.0,
+        "text": " Okay, so first of all I collected the data  Now what is my X here?  X is independent  Means what is my diameter? Independent  Based on this I have to predict the price"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 235.0,
+        "end": 242.0,
+        "text": " So what is my price here?  Dependent variable  So I have capitalized this  I have capitalized this  I hope everyone understood this story"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 242.0,
+        "end": 251.0,
+        "text": " Now here  Our equation  What is the equation?  Y is equal to MX plus B  Now here the Y I have"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 251.0,
+        "end": 264.0,
+        "text": " Dependent variable  I have brought something here  I have something here of X  First of all let's calculate M and B  So here we will use the linear equation concept"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 264.0,
+        "end": 271.0,
+        "text": " And least square method  What is least square method?  You will know now  See, keep going line by line  It is very easy"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 271.0,
+        "end": 279.0,
+        "text": " But note everything once  This is given to us  These two things are given to us  First of all what did I calculate?  Calculated the mean of X"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 279.0,
+        "end": 285.0,
+        "text": " X means our diameter  See 8 plus 10 plus 12  How many will be 30?  Divide by total value  How many are 3?"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 285.0,
+        "end": 291.0,
+        "text": " So what value do I have?  10  Similarly you calculate the mean of Y  10 plus 13 plus 16  Divide by 3"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 291.0,
+        "end": 296.0,
+        "text": " So what is there?  13 is there  So mean of X, mean of Y is done  After that what we are doing?  Deviation"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 296.0,
+        "end": 302.0,
+        "text": " Deviation of X first  Deviation means  How much my value is deviating from the mean  So my mean is  How much was X?"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 302.0,
+        "end": 308.0,
+        "text": " 10  10 minus 8  Means you have  Means in a way  Let's minus the value of mean from it"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 308.0,
+        "end": 313.0,
+        "text": " So 8 minus 10  Minus 2  10 minus 10  0  10 minus 10"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 313.0,
+        "end": 318.0,
+        "text": " What will you do?  2 will come  So this is my deviation  Now deviation of Y  So what is the value of Y here?"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 318.0,
+        "end": 323.0,
+        "text": " 10  And what was the mean?  13  So 10 minus 13  13 minus 13"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 323.0,
+        "end": 328.0,
+        "text": " 16 minus 13  So what did I get?  Simple deviation came  After that product of deviation  Means I got the deviation of X"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 328.0,
+        "end": 333.0,
+        "text": " Deviation of Y came  And we know  In linear regression  There are only two variables  One dependent"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 333.0,
+        "end": 339.0,
+        "text": " One independent  X is my independent  Y is my dependent  So I calculated the deviation of both of them  Multiply it"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 339.0,
+        "end": 345.0,
+        "text": " If you multiply this and this  What will be 6?  Minus minus becomes plus  6  And this will remain 0"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 345.0,
+        "end": 351.0,
+        "text": " Till here done  After that sum of product of deviation  There is nothing  It is visible  Don't know what we are doing"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 351.0,
+        "end": 356.0,
+        "text": " Easy  What did we do of all these?  Summed it  Can't we do it now?  6 plus 0 plus 6"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 356.0,
+        "end": 362.0,
+        "text": " What happened?  12  After that square of deviation of X  Only the deviation of X  Where was it?"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 362.0,
+        "end": 367.0,
+        "text": " Square them  If you square minus 2  Then plus 4  Because square is always plus  So it becomes 4"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 367.0,
+        "end": 372.0,
+        "text": " Square of 0  Square of 2  Square of 4  Your story is done  Now on their basis"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 372.0,
+        "end": 379.0,
+        "text": " What will we calculate first?  M  That is a slope  And what did I tell?  If I change one unit in X"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 379.0,
+        "end": 387.0,
+        "text": " Then how many are changing in Y?  That is what a slope  So what is the value here?  Sum of product of deviation  Sum of product of deviation"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 387.0,
+        "end": 392.0,
+        "text": " We have already calculated  What is yours?  12  And divide it  With what?"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 392.0,
+        "end": 398.0,
+        "text": " Sum of square of deviation for X  Sum all of these  4 plus 0 plus 4  What happened?  8"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 398.0,
+        "end": 404.0,
+        "text": " So 12 by 8  What will come?  1 point  What is your 1 point?  5 came"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 404.0,
+        "end": 409.0,
+        "text": " Okay  So this simple  Your value of slope came  What did you get from this?  Tell me"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 409.0,
+        "end": 417.0,
+        "text": " What did you get from this?  He found out  That if I change one in the value of X  Then in the value of Y  1.5"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 417.0,
+        "end": 425.0,
+        "text": " Means there will be a change of 1.5  If I change one value in X  Then there will be a change of 1.5 in Y  This was the most important thing  To understand"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 425.0,
+        "end": 430.0,
+        "text": " That is a M  Slope  Second  Calculate B  Intercept"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 430.0,
+        "end": 436.0,
+        "text": " Means  The value of X is 0  Means the diameter of the pizza is of 0 size  Just for example  It is of 0 size"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 436.0,
+        "end": 445.0,
+        "text": " So how much money will I charge?  Obviously  400 will not happen  But still you have to calculate the value according to the data  Don't guess by yourself"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 445.0,
+        "end": 452.0,
+        "text": " So mean of Y  We have already calculated the mean of Y  What is it?  13  Minus"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 452.0,
+        "end": 458.0,
+        "text": " We just calculated the value of M  1.5  And we calculated the mean of X  What is it?  10"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 458.0,
+        "end": 463.0,
+        "text": " So if you do this  What will come?  15 will come  13 minus 15  What happens to you?"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 463.0,
+        "end": 468.0,
+        "text": " Minus 2  Here it is  Minus 2  Means if the value of X is 0  Diameter is 0"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 468.0,
+        "end": 473.0,
+        "text": " So in a way  You don't have to pay anything  Means minus 2 dollars  In a way  In a way you can say"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 473.0,
+        "end": 480.0,
+        "text": " That this thing  It shows intercept  That your  When we will visualize it in the graph  So how the value is intercepted"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 480.0,
+        "end": 490.0,
+        "text": " When these things are calculated  Now what can we easily do?  Now we can easily visualize it  Visualize means  We can show it in a graph"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 490.0,
+        "end": 495.0,
+        "text": " In the graph  What happens on this side?  X axis  What happens on this side?  Y axis"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 495.0,
+        "end": 500.0,
+        "text": " What is Y?  Independent  Means  The diameter  Take it this way"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 500.0,
+        "end": 505.0,
+        "text": " Price  Take it this way  And simply I drew the values  Now see  When the value of X was 0"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 505.0,
+        "end": 512.0,
+        "text": " So what is the value of Y?  Minus 2  This is what we just calculated  And the rest of the values are the same  If the value of X is 8"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 512.0,
+        "end": 519.0,
+        "text": " Then the value of Y is 10  I have already told you this  According to the data  Calculated and told  This is our"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 519.0,
+        "end": 524.0,
+        "text": " In a way  Visualized  Because we have all the values  Now a simple question  If I ask you"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 524.0,
+        "end": 534.0,
+        "text": " Some pizza guy comes and says  That I have  I have designed a new pizza  Or I am going to do  Whose diameter is 20 inches"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 534.0,
+        "end": 544.0,
+        "text": " Whose diameter is 20 inches  What prediction can you do?  What will be the price of it?  Or how much should be kept?  So how will you calculate?"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 544.0,
+        "end": 550.0,
+        "text": " Now you have everything  Y is equal to MS  Put it  What is the value of M?  1.5"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 550.0,
+        "end": 556.0,
+        "text": " How much  He wants to keep the diameter  Of the new pizza  20  And how much is the value of B?"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 556.0,
+        "end": 561.0,
+        "text": " Minus 2  So put minus 2  So what is this?  This is yours  This is yours"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 561.0,
+        "end": 566.0,
+        "text": " 30  And 30 minus 2  If you do  28  So you have done the prediction"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 566.0,
+        "end": 576.0,
+        "text": " 28 dollars  If it is a 20 inch pizza  Then its price will be 28 dollars  This is the concept  This is in the best case"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 576.0,
+        "end": 583.0,
+        "text": " This is in the best case  When all your values  Coming in a straight line  This is the best case I have taken before  When all your values"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 583.0,
+        "end": 588.0,
+        "text": " Coming in a straight line  Coming in a linear line  But when we take data  Because I have taken data  So easy"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 588.0,
+        "end": 597.0,
+        "text": " From which all are coming like this  But in real life  Data is not like this  Your data is scattered  So when you make a line"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 597.0,
+        "end": 606.0,
+        "text": " When you make a line  So it is possible  Some data will come away from this line  In this way  Some data will be scattered away from this line"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 606.0,
+        "end": 614.0,
+        "text": " You can also say that  In real life  Means you calculated  If it is a 20 inch pizza  Then its price should be 28 dollars"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 614.0,
+        "end": 624.0,
+        "text": " But it is possible  Some person has done 30 dollars  Or someone may have done 25 dollars  So that means  Your prediction is actually changing a little"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 624.0,
+        "end": 632.0,
+        "text": " So what do we call that thing?  Like for example  My actual values are this  And I did this much prediction  So this difference coming"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 632.0,
+        "end": 640.0,
+        "text": " What is this difference actually?  Outliers or we call it errors  Error  And why does this error come?  Generally because of outliers"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 640.0,
+        "end": 647.0,
+        "text": " Generally error comes  So here if your data is well refined  Is cleaned  So we try to reduce these errors  But still somewhere"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 647.0,
+        "end": 658.0,
+        "text": " Some or the other errors come  But you know the concept  How linear regression works  How all calculations are done  And how predictions are done"
+    },
+    {
+        "number": "Lec-4",
+        "title": "Linear Regression📈 with Real life examples & Calculations",
+        "start": 658.0,
+        "end": 659.0,
+        "text": " Thank you"
+    }
+]

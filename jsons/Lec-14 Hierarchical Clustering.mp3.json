@@ -1,0 +1,1027 @@
+{
+    "chunks": [
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 0.0,
+            "end": 2.0,
+            "text": " Dear students, welcome to GITs measures."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 2.0,
+            "end": 4.0,
+            "text": " In today's video, I am going to explain"
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 4.0,
+            "end": 7.0,
+            "text": " hierarchical clustering and I will explain it with example."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 7.0,
+            "end": 10.0,
+            "text": " Basically, what is the funda of hierarchical clustering?"
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 10.0,
+            "end": 13.0,
+            "text": " We understood that the data points which are similar"
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 13.0,
+            "end": 16.0,
+            "text": " and close to each other, we kept them in a cluster"
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 16.0,
+            "end": 20.0,
+            "text": " and those which are not close to each other, we created them in different clusters."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 20.0,
+            "end": 22.0,
+            "text": " We understood this simple funda."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 22.0,
+            "end": 24.0,
+            "text": " Now, what is the meaning of hierarchy?"
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 24.0,
+            "end": 28.0,
+            "text": " Hierarchy means a sequence, we have to attach it with a sequence."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 28.0,
+            "end": 31.0,
+            "text": " Like in inheritance, there are grandparents,"
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 31.0,
+            "end": 34.0,
+            "text": " we connect them with parents and then with child."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 34.0,
+            "end": 37.0,
+            "text": " So, in a way, we create hierarchy here."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 37.0,
+            "end": 39.0,
+            "text": " And why is it necessary to do this here?"
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 39.0,
+            "end": 43.0,
+            "text": " From the point of view of business, let's suppose you are running an e-commerce website."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 43.0,
+            "end": 47.0,
+            "text": " Now, there are many people, many consumers, many customers"
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 47.0,
+            "end": 49.0,
+            "text": " who purchase different things."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 49.0,
+            "end": 52.0,
+            "text": " Like some purchase clothes more, some purchase electronics items more,"
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 52.0,
+            "end": 54.0,
+            "text": " some purchase groceries more."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 54.0,
+            "end": 57.0,
+            "text": " Now, if I am creating an offer,"
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 57.0,
+            "end": 59.0,
+            "text": " that everyone gets 50% off."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 59.0,
+            "end": 61.0,
+            "text": " So, this is okay somewhere."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 61.0,
+            "end": 63.0,
+            "text": " It can be successful in some way."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 63.0,
+            "end": 65.0,
+            "text": " But we did not give a target in it."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 65.0,
+            "end": 68.0,
+            "text": " According to the target audience, we did not work on it."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 68.0,
+            "end": 70.0,
+            "text": " What we could have done better?"
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 70.0,
+            "end": 72.0,
+            "text": " We could have created a hierarchy."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 72.0,
+            "end": 77.0,
+            "text": " First, we should pick those people who spend more on clothes."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 77.0,
+            "end": 80.0,
+            "text": " Then they spend more on electronics, more on groceries."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 80.0,
+            "end": 83.0,
+            "text": " And based on that, when we created a cluster,"
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 83.0,
+            "end": 85.0,
+            "text": " then a hierarchy should be created that"
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 85.0,
+            "end": 88.0,
+            "text": " if I give this much percentage off to the clothing person,"
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 88.0,
+            "end": 90.0,
+            "text": " and give something off to the electronics person."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 90.0,
+            "end": 92.0,
+            "text": " Means, the person who is more focused on clothes,"
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 92.0,
+            "end": 95.0,
+            "text": " we have to give more off to him only in clothing."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 95.0,
+            "end": 97.0,
+            "text": " Because their pattern is more towards that side."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 97.0,
+            "end": 99.0,
+            "text": " Their interest is more towards that side."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 99.0,
+            "end": 101.0,
+            "text": " So, this hierarchical clustering of yours,"
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 101.0,
+            "end": 103.0,
+            "text": " you can say,"
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 103.0,
+            "end": 108.0,
+            "text": " it helps a lot in creating a relation between clusters."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 108.0,
+            "end": 111.0,
+            "text": " So, here you can create in two ways."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 111.0,
+            "end": 114.0,
+            "text": " One is agglomerative and the other is divisive."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 114.0,
+            "end": 116.0,
+            "text": " Agglomerative means aggregation."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 116.0,
+            "end": 119.0,
+            "text": " Means, all the data points are lying separately."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 119.0,
+            "end": 123.0,
+            "text": " Based on their closeness, you are combining them in a cluster."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 123.0,
+            "end": 125.0,
+            "text": " That is aggregation."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 125.0,
+            "end": 128.0,
+            "text": " And in aggregation, you say agglomerative."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 128.0,
+            "end": 130.0,
+            "text": " And it will go from bottom to top."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 130.0,
+            "end": 132.0,
+            "text": " Because all the points are at the bottom."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 132.0,
+            "end": 135.0,
+            "text": " You are combining them based on their closeness."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 135.0,
+            "end": 137.0,
+            "text": " And divisive means division based."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 137.0,
+            "end": 139.0,
+            "text": " Means, all are in one place."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 139.0,
+            "end": 141.0,
+            "text": " Then you divide them further."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 141.0,
+            "end": 142.0,
+            "text": " So, this is the top-down approach."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 142.0,
+            "end": 144.0,
+            "text": " I will explain with a simple example."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 144.0,
+            "end": 145.0,
+            "text": " Then it will be clear to you."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 145.0,
+            "end": 147.0,
+            "text": " Let's suppose, we take a data here."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 147.0,
+            "end": 149.0,
+            "text": " 1, 5, 8."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 149.0,
+            "end": 151.0,
+            "text": " You can easily understand it with a small data."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 151.0,
+            "end": 153.0,
+            "text": " 10, 19, 20."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 153.0,
+            "end": 154.0,
+            "text": " Okay?"
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 154.0,
+            "end": 158.0,
+            "text": " Now, here I have all the different data points."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 158.0,
+            "end": 161.0,
+            "text": " Now, what I will do by looking at these data points?"
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 161.0,
+            "end": 163.0,
+            "text": " First of all, let's create a proximity matrix."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 163.0,
+            "end": 165.0,
+            "text": " What is a proximity matrix?"
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 165.0,
+            "end": 168.0,
+            "text": " Through that matrix, we find out the difference between each other."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 168.0,
+            "end": 170.0,
+            "text": " On one side, I have put 1, 5, 8."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 170.0,
+            "end": 171.0,
+            "text": " Like this, 1, 5, 8."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 171.0,
+            "end": 174.0,
+            "text": " Now, I can say the distance between 1 and 1 is 0."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 174.0,
+            "end": 175.0,
+            "text": " Between 1 and 5, it is 4."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 175.0,
+            "end": 177.0,
+            "text": " Between 1 and 8, it is 7."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 177.0,
+            "end": 180.0,
+            "text": " Between 5 and 1, it is 4, 0, 3."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 180.0,
+            "end": 183.0,
+            "text": " Like this, you can write the distance in the proximity matrix."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 183.0,
+            "end": 185.0,
+            "text": " You can also use the Lucidian distance formula."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 185.0,
+            "end": 187.0,
+            "text": " There are various methods."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 187.0,
+            "end": 192.0,
+            "text": " So, first of all, we have to find out the distance between them."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 192.0,
+            "end": 194.0,
+            "text": " Now, I have seen that this is a simple figure."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 194.0,
+            "end": 198.0,
+            "text": " Here, the distance is 4, 3, 2, 9, and 1."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 198.0,
+            "end": 201.0,
+            "text": " So, where the distance is the least, we have put them in a cluster."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 201.0,
+            "end": 205.0,
+            "text": " So, what I did was, I put 19 and 20 in a cluster."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 205.0,
+            "end": 206.0,
+            "text": " Simple."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 206.0,
+            "end": 207.0,
+            "text": " These two will be in a cluster."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 207.0,
+            "end": 211.0,
+            "text": " You can say that a cluster of 19 and 20 is formed."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 211.0,
+            "end": 214.0,
+            "text": " Now, I saw that what can be done after this?"
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 214.0,
+            "end": 216.0,
+            "text": " Here, it is 4, 3, and 2."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 216.0,
+            "end": 219.0,
+            "text": " So, we put the distance of 2 in one place."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 219.0,
+            "end": 222.0,
+            "text": " I mean, I created another cluster of 8 and 10."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 222.0,
+            "end": 223.0,
+            "text": " So, there are two clusters."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 223.0,
+            "end": 226.0,
+            "text": " One cluster is of 19 and 20, and the other is of 8 and 10."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 226.0,
+            "end": 228.0,
+            "text": " Then, I saw that what can be done now?"
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 228.0,
+            "end": 230.0,
+            "text": " 1, 5, 8, 10, and this."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 230.0,
+            "end": 231.0,
+            "text": " Like this."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 231.0,
+            "end": 232.0,
+            "text": " Earlier, there were 6 items."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 232.0,
+            "end": 234.0,
+            "text": " Now, you have 4 left."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 234.0,
+            "end": 238.0,
+            "text": " Like this, 1, 5, 8, and 10 are combined."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 238.0,
+            "end": 240.0,
+            "text": " Similarly, 19 and 20 are combined."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 240.0,
+            "end": 242.0,
+            "text": " Now, you have to see that there is a distance of 3 between them."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 242.0,
+            "end": 244.0,
+            "text": " There is more distance between the others."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 244.0,
+            "end": 248.0,
+            "text": " So, what you did is, you combined 5 and 8 like this."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 248.0,
+            "end": 253.0,
+            "text": " Now, you can say that 5, 8, and 10 are formed."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 253.0,
+            "end": 255.0,
+            "text": " You have a big cluster."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 255.0,
+            "end": 257.0,
+            "text": " 8 and 10 were already there."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 257.0,
+            "end": 259.0,
+            "text": " Now, 5 is also formed."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 259.0,
+            "end": 261.0,
+            "text": " So, you can create a cluster like this."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 261.0,
+            "end": 263.0,
+            "text": " Then, you saw that what can be done now?"
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 263.0,
+            "end": 265.0,
+            "text": " Now, you can say that there is a distance of 4."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 265.0,
+            "end": 266.0,
+            "text": " There is more distance here."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 266.0,
+            "end": 270.0,
+            "text": " So, what you did is, you created a cluster of 1 and 1."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 270.0,
+            "end": 274.0,
+            "text": " So, 1, 5, 8, and 10."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 274.0,
+            "end": 278.0,
+            "text": " Like this, you created a new cluster."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 278.0,
+            "end": 280.0,
+            "text": " Finally, what you can do is,"
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 280.0,
+            "end": 282.0,
+            "text": " I have only 2 items left."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 282.0,
+            "end": 283.0,
+            "text": " 1 cluster and 1 cluster."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 283.0,
+            "end": 288.0,
+            "text": " So, what you did is, you combined these 2 and created a single item."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 288.0,
+            "end": 294.0,
+            "text": " In which, you can say that 1, 5, 8, and 10 are formed like this."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 294.0,
+            "end": 297.0,
+            "text": " Along with that, you have another cluster here."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 297.0,
+            "end": 299.0,
+            "text": " 19 and 20."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 299.0,
+            "end": 303.0,
+            "text": " So, like this, you can create a hierarchy of clustering."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 303.0,
+            "end": 305.0,
+            "text": " Like I did in the agglomerating."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 305.0,
+            "end": 307.0,
+            "text": " Because I went from bottom to top."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 307.0,
+            "end": 309.0,
+            "text": " And if you do divisive,"
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 309.0,
+            "end": 314.0,
+            "text": " then you can say that 1, 5, 8, 10, 19, 20."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 314.0,
+            "end": 315.0,
+            "text": " All of these are there."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 315.0,
+            "end": 317.0,
+            "text": " So, first of all, let's suppose,"
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 317.0,
+            "end": 319.0,
+            "text": " 19 and 20 are separated."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 319.0,
+            "end": 322.0,
+            "text": " And 1, 5, 8, and 10 are separated."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 322.0,
+            "end": 323.0,
+            "text": " Okay?"
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 323.0,
+            "end": 325.0,
+            "text": " Then, you separated 1 from this."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 325.0,
+            "end": 327.0,
+            "text": " 5, 8, and 10 are separated."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 327.0,
+            "end": 330.0,
+            "text": " Then, you separated 5 and 8 and 10."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 330.0,
+            "end": 332.0,
+            "text": " Then, you separated 8 and 10."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 332.0,
+            "end": 334.0,
+            "text": " And 19 and 20 are separated here."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 334.0,
+            "end": 336.0,
+            "text": " So, in a way, you go from top to bottom."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 336.0,
+            "end": 338.0,
+            "text": " And here, you go from bottom to top."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 338.0,
+            "end": 340.0,
+            "text": " So, this is the basic approach we use here."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 340.0,
+            "end": 343.0,
+            "text": " This is called dendrogram."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 343.0,
+            "end": 345.0,
+            "text": " Dendrogram."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 345.0,
+            "end": 346.0,
+            "text": " Okay?"
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 346.0,
+            "end": 349.0,
+            "text": " So, like we have a line chart, graph chart."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 349.0,
+            "end": 351.0,
+            "text": " So, like this, we have a histogram."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 351.0,
+            "end": 353.0,
+            "text": " Similarly, you have a dendrogram."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 353.0,
+            "end": 356.0,
+            "text": " It is called skypy library in Python."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 356.0,
+            "end": 358.0,
+            "text": " In which, you can create this."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 358.0,
+            "end": 360.0,
+            "text": " So, note this simple point."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 360.0,
+            "end": 363.0,
+            "text": " You can easily answer this in any of the interviews."
+        },
+        {
+            "number": "Lec-14",
+            "title": "Hierarchical Clustering",
+            "start": 363.0,
+            "end": 365.0,
+            "text": " Thank you."
+        }
+    ],
+    "text": " Dear students, welcome to GITs measures. In today's video, I am going to explain hierarchical clustering and I will explain it with example. Basically, what is the funda of hierarchical clustering? We understood that the data points which are similar and close to each other, we kept them in a cluster and those which are not close to each other, we created them in different clusters. We understood this simple funda. Now, what is the meaning of hierarchy? Hierarchy means a sequence, we have to attach it with a sequence. Like in inheritance, there are grandparents, we connect them with parents and then with child. So, in a way, we create hierarchy here. And why is it necessary to do this here? From the point of view of business, let's suppose you are running an e-commerce website. Now, there are many people, many consumers, many customers who purchase different things. Like some purchase clothes more, some purchase electronics items more, some purchase groceries more. Now, if I am creating an offer, that everyone gets 50% off. So, this is okay somewhere. It can be successful in some way. But we did not give a target in it. According to the target audience, we did not work on it. What we could have done better? We could have created a hierarchy. First, we should pick those people who spend more on clothes. Then they spend more on electronics, more on groceries. And based on that, when we created a cluster, then a hierarchy should be created that if I give this much percentage off to the clothing person, and give something off to the electronics person. Means, the person who is more focused on clothes, we have to give more off to him only in clothing. Because their pattern is more towards that side. Their interest is more towards that side. So, this hierarchical clustering of yours, you can say, it helps a lot in creating a relation between clusters. So, here you can create in two ways. One is agglomerative and the other is divisive. Agglomerative means aggregation. Means, all the data points are lying separately. Based on their closeness, you are combining them in a cluster. That is aggregation. And in aggregation, you say agglomerative. And it will go from bottom to top. Because all the points are at the bottom. You are combining them based on their closeness. And divisive means division based. Means, all are in one place. Then you divide them further. So, this is the top-down approach. I will explain with a simple example. Then it will be clear to you. Let's suppose, we take a data here. 1, 5, 8. You can easily understand it with a small data. 10, 19, 20. Okay? Now, here I have all the different data points. Now, what I will do by looking at these data points? First of all, let's create a proximity matrix. What is a proximity matrix? Through that matrix, we find out the difference between each other. On one side, I have put 1, 5, 8. Like this, 1, 5, 8. Now, I can say the distance between 1 and 1 is 0. Between 1 and 5, it is 4. Between 1 and 8, it is 7. Between 5 and 1, it is 4, 0, 3. Like this, you can write the distance in the proximity matrix. You can also use the Lucidian distance formula. There are various methods. So, first of all, we have to find out the distance between them. Now, I have seen that this is a simple figure. Here, the distance is 4, 3, 2, 9, and 1. So, where the distance is the least, we have put them in a cluster. So, what I did was, I put 19 and 20 in a cluster. Simple. These two will be in a cluster. You can say that a cluster of 19 and 20 is formed. Now, I saw that what can be done after this? Here, it is 4, 3, and 2. So, we put the distance of 2 in one place. I mean, I created another cluster of 8 and 10. So, there are two clusters. One cluster is of 19 and 20, and the other is of 8 and 10. Then, I saw that what can be done now? 1, 5, 8, 10, and this. Like this. Earlier, there were 6 items. Now, you have 4 left. Like this, 1, 5, 8, and 10 are combined. Similarly, 19 and 20 are combined. Now, you have to see that there is a distance of 3 between them. There is more distance between the others. So, what you did is, you combined 5 and 8 like this. Now, you can say that 5, 8, and 10 are formed. You have a big cluster. 8 and 10 were already there. Now, 5 is also formed. So, you can create a cluster like this. Then, you saw that what can be done now? Now, you can say that there is a distance of 4. There is more distance here. So, what you did is, you created a cluster of 1 and 1. So, 1, 5, 8, and 10. Like this, you created a new cluster. Finally, what you can do is, I have only 2 items left. 1 cluster and 1 cluster. So, what you did is, you combined these 2 and created a single item. In which, you can say that 1, 5, 8, and 10 are formed like this. Along with that, you have another cluster here. 19 and 20. So, like this, you can create a hierarchy of clustering. Like I did in the agglomerating. Because I went from bottom to top. And if you do divisive, then you can say that 1, 5, 8, 10, 19, 20. All of these are there. So, first of all, let's suppose, 19 and 20 are separated. And 1, 5, 8, and 10 are separated. Okay? Then, you separated 1 from this. 5, 8, and 10 are separated. Then, you separated 5 and 8 and 10. Then, you separated 8 and 10. And 19 and 20 are separated here. So, in a way, you go from top to bottom. And here, you go from bottom to top. So, this is the basic approach we use here. This is called dendrogram. Dendrogram. Okay? So, like we have a line chart, graph chart. So, like this, we have a histogram. Similarly, you have a dendrogram. It is called skypy library in Python. In which, you can create this. So, note this simple point. You can easily answer this in any of the interviews. Thank you."
+}

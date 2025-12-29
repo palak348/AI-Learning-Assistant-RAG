@@ -1,0 +1,1272 @@
+{
+    "chunks": [
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 0.0,
+            "end": 2.0,
+            "text": " Hello students, Welcome to GATE SMASHERS"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 2.0,
+            "end": 6.5,
+            "text": " Everyone is talking about Artificial Intelligence and Machine Learning"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 6.5,
+            "end": 8.5,
+            "text": " Because it is a hot topic and very popular"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 8.5,
+            "end": 12.5,
+            "text": " Even non computer science background people are talking a lot about this topic"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 12.5,
+            "end": 19.0,
+            "text": " Because many jobs are oriented based on Artificial Intelligence, Machine Learning"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 19.0,
+            "end": 22.0,
+            "text": " And a lot of content is also available online"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 22.0,
+            "end": 25.0,
+            "text": " That this is machine learning, there are algorithms in machine learning"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 25.0,
+            "end": 28.0,
+            "text": " How to train a model, there are many things"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 28.0,
+            "end": 32.0,
+            "text": " But what is missing is basic mathematics"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 32.0,
+            "end": 38.0,
+            "text": " The concept of behind the scene is missing"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 38.0,
+            "end": 41.0,
+            "text": " Because whenever we talk about linear regression"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 41.0,
+            "end": 45.0,
+            "text": " So what do we do immediately, linear regression comes under supervised learning"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 45.0,
+            "end": 48.0,
+            "text": " We collect data like this, train like this, test like this"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 48.0,
+            "end": 51.0,
+            "text": " Means we will tell all the stories in a minute with example"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 51.0,
+            "end": 56.0,
+            "text": " But it is very important to tell the basic math behind it"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 56.0,
+            "end": 61.0,
+            "text": " This regression is a topic of the 19th century"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 61.0,
+            "end": 64.0,
+            "text": " And this machine learning is coming, artificial intelligence"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 64.0,
+            "end": 66.0,
+            "text": " We are talking a lot about it at this time"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 66.0,
+            "end": 70.0,
+            "text": " Although this topic is not new, but machine learning, deep learning is a very new topic"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 70.0,
+            "end": 74.0,
+            "text": " So the basic math that we have been talking about since the 19th century"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 74.0,
+            "end": 77.0,
+            "text": " Regression, linear regression, first understand that"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 77.0,
+            "end": 80.0,
+            "text": " What is actual regression, what is linear regression"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 80.0,
+            "end": 84.0,
+            "text": " After that we will relate this thing to machine learning"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 84.0,
+            "end": 87.0,
+            "text": " That how does a person understand this thing"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 87.0,
+            "end": 90.0,
+            "text": " Now we will talk about how the machine will understand this thing"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 90.0,
+            "end": 94.0,
+            "text": " So that's why I will make you start from the very basics"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 94.0,
+            "end": 97.0,
+            "text": " I will teach you from the very basics that what is regression"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 97.0,
+            "end": 100.0,
+            "text": " I am not talking about machine learning right now"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 100.0,
+            "end": 102.0,
+            "text": " I will talk about what is regression first"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 102.0,
+            "end": 105.0,
+            "text": " I will tell you basic math, so let's understand what is regression first"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 105.0,
+            "end": 110.0,
+            "text": " Regression is a statistical method that helps to understand what"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 110.0,
+            "end": 113.0,
+            "text": " And predict the relationship between the variables"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 113.0,
+            "end": 115.0,
+            "text": " Means there are multiple variables"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 115.0,
+            "end": 118.0,
+            "text": " The relationship that has to be understood between them"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 118.0,
+            "end": 122.0,
+            "text": " And on the basis of that, something has to be predicted, has to be forecasted"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 122.0,
+            "end": 124.0,
+            "text": " That is basically the regression"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 124.0,
+            "end": 127.0,
+            "text": " Now here you will understand the rest of the story"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 127.0,
+            "end": 129.0,
+            "text": " Means what can happen in the future"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 129.0,
+            "end": 131.0,
+            "text": " Understand things"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 131.0,
+            "end": 133.0,
+            "text": " The first thing is variable"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 133.0,
+            "end": 135.0,
+            "text": " Sir what is variable?"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 135.0,
+            "end": 137.0,
+            "text": " We have heard in C programming, C++"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 137.0,
+            "end": 139.0,
+            "text": " What is variable?"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 139.0,
+            "end": 142.0,
+            "text": " Variable is a quantitative metric"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 142.0,
+            "end": 146.0,
+            "text": " A kind of value where we measure quantity"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 146.0,
+            "end": 148.0,
+            "text": " Like height, I said 6 feet"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 148.0,
+            "end": 150.0,
+            "text": " Weight, I said 100 kg"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 150.0,
+            "end": 152.0,
+            "text": " What is this? I am assigning a value"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 152.0,
+            "end": 154.0,
+            "text": " So what is variable?"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 154.0,
+            "end": 158.0,
+            "text": " It is a quantitative data on which we are measuring some values"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 158.0,
+            "end": 160.0,
+            "text": " There is some metric"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 160.0,
+            "end": 163.0,
+            "text": " Now I have to show the relationship between these variables"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 163.0,
+            "end": 165.0,
+            "text": " So I use regression"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 165.0,
+            "end": 167.0,
+            "text": " Who? Regression"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 167.0,
+            "end": 169.0,
+            "text": " So here the variable"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 169.0,
+            "end": 171.0,
+            "text": " Now I understood the story of the variable"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 171.0,
+            "end": 174.0,
+            "text": " Now this variable, we have it in two ways"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 174.0,
+            "end": 175.0,
+            "text": " There are two types of variables"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 175.0,
+            "end": 178.0,
+            "text": " One is dependent and one is independent"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 178.0,
+            "end": 181.0,
+            "text": " You can understand dependent and independent in this way"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 181.0,
+            "end": 184.0,
+            "text": " Dependent means the thing we have to predict"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 184.0,
+            "end": 187.0,
+            "text": " Means the value that we have to predict is dependent"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 187.0,
+            "end": 191.0,
+            "text": " And independent means on whose basis we have to do"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 191.0,
+            "end": 194.0,
+            "text": " It has to be predicted on the basis of this"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 194.0,
+            "end": 196.0,
+            "text": " So on whose basis we have to do it is independent"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 196.0,
+            "end": 198.0,
+            "text": " On whose basis we have to do it is dependent"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 198.0,
+            "end": 200.0,
+            "text": " As an example you can say"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 200.0,
+            "end": 204.0,
+            "text": " Predicting the salary based on year of experience"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 204.0,
+            "end": 206.0,
+            "text": " Means on the basis of year of experience"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 206.0,
+            "end": 209.0,
+            "text": " I have to predict how much salary will be"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 209.0,
+            "end": 212.0,
+            "text": " So what will be the year of experience here?"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 212.0,
+            "end": 213.0,
+            "text": " Independent"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 213.0,
+            "end": 216.0,
+            "text": " And what will be the salary to be predicted?"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 216.0,
+            "end": 217.0,
+            "text": " Dependent"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 217.0,
+            "end": 218.0,
+            "text": " This is a simple story"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 218.0,
+            "end": 219.0,
+            "text": " See more"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 219.0,
+            "end": 222.0,
+            "text": " Predicting exam score based on study hours"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 222.0,
+            "end": 224.0,
+            "text": " Means study hours"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 224.0,
+            "end": 227.0,
+            "text": " How many hours of study I have to check the score on the basis of it"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 227.0,
+            "end": 230.0,
+            "text": " So how many hours did it take?"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 230.0,
+            "end": 232.0,
+            "text": " What has happened? Independent"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 232.0,
+            "end": 234.0,
+            "text": " And how much score has come or can come?"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 234.0,
+            "end": 236.0,
+            "text": " That has become your dependent"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 236.0,
+            "end": 240.0,
+            "text": " Similarly predicting resale price based on vehicle age"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 240.0,
+            "end": 243.0,
+            "text": " Means according to the age of the vehicle"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 243.0,
+            "end": 245.0,
+            "text": " I have to check its price"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 245.0,
+            "end": 247.0,
+            "text": " What can be the resale price?"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 247.0,
+            "end": 249.0,
+            "text": " What has happened to the resale price here?"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 249.0,
+            "end": 250.0,
+            "text": " Dependent"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 250.0,
+            "end": 252.0,
+            "text": " And what will be the age of the vehicle? Independent"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 252.0,
+            "end": 254.0,
+            "text": " This is a simple story"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 254.0,
+            "end": 256.0,
+            "text": " First understand this"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 256.0,
+            "end": 259.0,
+            "text": " Then we will understand things by doing mathematical slowly"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 259.0,
+            "end": 261.0,
+            "text": " And machine learning and all those concepts will go"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 261.0,
+            "end": 264.0,
+            "text": " So this is understood what is independent and what is dependent"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 264.0,
+            "end": 266.0,
+            "text": " Now the regression here"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 266.0,
+            "end": 268.0,
+            "text": " We have to show the relationship between them"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 268.0,
+            "end": 271.0,
+            "text": " So to show the relationship what can we do simply?"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 271.0,
+            "end": 273.0,
+            "text": " Simply we can represent it with a graphical method"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 273.0,
+            "end": 274.0,
+            "text": " How?"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 274.0,
+            "end": 277.0,
+            "text": " As soon as I made a simple graph here"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 277.0,
+            "end": 279.0,
+            "text": " I am making a 2D graph"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 279.0,
+            "end": 281.0,
+            "text": " Here you know what is x-axis"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 281.0,
+            "end": 283.0,
+            "text": " Here you know what is y-axis"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 283.0,
+            "end": 288.0,
+            "text": " Now this x-axis is used for our independent"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 288.0,
+            "end": 290.0,
+            "text": " Means my independent variable"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 290.0,
+            "end": 292.0,
+            "text": " I keep it on x-axis"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 292.0,
+            "end": 294.0,
+            "text": " And the dependent"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 294.0,
+            "end": 296.0,
+            "text": " Where do I keep it?"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 296.0,
+            "end": 297.0,
+            "text": " On y-axis"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 297.0,
+            "end": 302.0,
+            "text": " Means you have to check the score of the student based on study hours"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 302.0,
+            "end": 303.0,
+            "text": " How many hours did it take?"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 303.0,
+            "end": 305.0,
+            "text": " So the hours of the study"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 305.0,
+            "end": 307.0,
+            "text": " I will keep my independent here"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 307.0,
+            "end": 309.0,
+            "text": " And how much my score came"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 309.0,
+            "end": 311.0,
+            "text": " You have to predict that I will keep it on y"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 311.0,
+            "end": 313.0,
+            "text": " Means this story I hope everyone understood"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 313.0,
+            "end": 315.0,
+            "text": " Now what does the story say here?"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 315.0,
+            "end": 318.0,
+            "text": " That this regression means the relation between them"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 318.0,
+            "end": 321.0,
+            "text": " This relation can be positive or negative"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 321.0,
+            "end": 323.0,
+            "text": " Positive means like this"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 325.0,
+            "end": 326.0,
+            "text": " What to understand?"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 326.0,
+            "end": 330.0,
+            "text": " That if the value of my independent variable is increasing"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 330.0,
+            "end": 332.0,
+            "text": " Then it is also increasing"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 332.0,
+            "end": 334.0,
+            "text": " And if this value is decreasing then it is also decreasing"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 334.0,
+            "end": 335.0,
+            "text": " Understood?"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 335.0,
+            "end": 337.0,
+            "text": " Means if I increased this value then it also increased"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 337.0,
+            "end": 339.0,
+            "text": " So that is a positive regression"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 339.0,
+            "end": 341.0,
+            "text": " And what is negative regression?"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 341.0,
+            "end": 343.0,
+            "text": " Like this"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 343.0,
+            "end": 345.0,
+            "text": " You can call it negative regression"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 345.0,
+            "end": 347.0,
+            "text": " Same example of resale"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 347.0,
+            "end": 349.0,
+            "text": " Age is increasing of the vehicle"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 349.0,
+            "end": 351.0,
+            "text": " So resale value is decreasing"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 351.0,
+            "end": 352.0,
+            "text": " So what is this?"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 352.0,
+            "end": 353.0,
+            "text": " A negative regression"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 353.0,
+            "end": 355.0,
+            "text": " Means you understand the main story first"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 355.0,
+            "end": 357.0,
+            "text": " Understand its crux first"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 357.0,
+            "end": 359.0,
+            "text": " Then we will relate further"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 359.0,
+            "end": 361.0,
+            "text": " Now this regression has multiple types"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 361.0,
+            "end": 363.0,
+            "text": " Like linear regression"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 363.0,
+            "end": 365.0,
+            "text": " What does linear regression say?"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 365.0,
+            "end": 368.0,
+            "text": " Whenever we find out the correlation between two variables"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 368.0,
+            "end": 370.0,
+            "text": " Or find out their understanding"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 370.0,
+            "end": 372.0,
+            "text": " That how it is related"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 372.0,
+            "end": 374.0,
+            "text": " One independent and one dependent"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 374.0,
+            "end": 375.0,
+            "text": " So it is linear"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 375.0,
+            "end": 378.0,
+            "text": " The second way can be multilinear regression"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 378.0,
+            "end": 382.0,
+            "text": " Multilinear regression where multiple independent"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 382.0,
+            "end": 385.0,
+            "text": " Multiple independent and one dependent"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 385.0,
+            "end": 387.0,
+            "text": " What will that be?"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 387.0,
+            "end": 389.0,
+            "text": " Multilinear regression"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 389.0,
+            "end": 391.0,
+            "text": " And the third let's suppose polynomial"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 391.0,
+            "end": 393.0,
+            "text": " What is the meaning of polynomial?"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 393.0,
+            "end": 396.0,
+            "text": " It is not necessary that your line will always be linear like this"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 396.0,
+            "end": 398.0,
+            "text": " Positive or negative"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 398.0,
+            "end": 401.0,
+            "text": " Many times our line does not become linear like this"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 401.0,
+            "end": 404.0,
+            "text": " Our line can also become like this"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 404.0,
+            "end": 406.0,
+            "text": " Our line can also become like this"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 406.0,
+            "end": 407.0,
+            "text": " Can become non-linear"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 407.0,
+            "end": 410.0,
+            "text": " Polynomial is called that thing"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 410.0,
+            "end": 412.0,
+            "text": " This is a simple first mathematics"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 412.0,
+            "end": 414.0,
+            "text": " Slowly and gradually"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 414.0,
+            "end": 416.0,
+            "text": " When you will understand this"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 416.0,
+            "end": 418.0,
+            "text": " The story after that is very simple"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 418.0,
+            "end": 420.0,
+            "text": " What to do after that?"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 420.0,
+            "end": 421.0,
+            "text": " Everything is made in Python"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 421.0,
+            "end": 422.0,
+            "text": " Libraries are made"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 422.0,
+            "end": 424.0,
+            "text": " Pick up the data"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 424.0,
+            "end": 425.0,
+            "text": " Train on it"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 425.0,
+            "end": 426.0,
+            "text": " Test it"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 426.0,
+            "end": 427.0,
+            "text": " End of the story"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 427.0,
+            "end": 428.0,
+            "text": " Main story"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 428.0,
+            "end": 429.0,
+            "text": " If no one understood"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 429.0,
+            "end": 431.0,
+            "text": " Then first we will understand this one by one"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 431.0,
+            "end": 432.0,
+            "text": " Then we will move forward slowly"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 432.0,
+            "end": 433.0,
+            "text": " So in the next video"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 433.0,
+            "end": 435.0,
+            "text": " Linear regression with example"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 435.0,
+            "end": 436.0,
+            "text": " I will do with numerical"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 436.0,
+            "end": 437.0,
+            "text": " So read it well"
+        },
+        {
+            "number": "Lec-3",
+            "title": "Introduction to Regression with Real Life Examples",
+            "start": 437.0,
+            "end": 438.0,
+            "text": " Thank you"
+        }
+    ],
+    "text": " Hello students, Welcome to GATE SMASHERS Everyone is talking about Artificial Intelligence and Machine Learning Because it is a hot topic and very popular Even non computer science background people are talking a lot about this topic Because many jobs are oriented based on Artificial Intelligence, Machine Learning And a lot of content is also available online That this is machine learning, there are algorithms in machine learning How to train a model, there are many things But what is missing is basic mathematics The concept of behind the scene is missing Because whenever we talk about linear regression So what do we do immediately, linear regression comes under supervised learning We collect data like this, train like this, test like this Means we will tell all the stories in a minute with example But it is very important to tell the basic math behind it This regression is a topic of the 19th century And this machine learning is coming, artificial intelligence We are talking a lot about it at this time Although this topic is not new, but machine learning, deep learning is a very new topic So the basic math that we have been talking about since the 19th century Regression, linear regression, first understand that What is actual regression, what is linear regression After that we will relate this thing to machine learning That how does a person understand this thing Now we will talk about how the machine will understand this thing So that's why I will make you start from the very basics I will teach you from the very basics that what is regression I am not talking about machine learning right now I will talk about what is regression first I will tell you basic math, so let's understand what is regression first Regression is a statistical method that helps to understand what And predict the relationship between the variables Means there are multiple variables The relationship that has to be understood between them And on the basis of that, something has to be predicted, has to be forecasted That is basically the regression Now here you will understand the rest of the story Means what can happen in the future Understand things The first thing is variable Sir what is variable? We have heard in C programming, C++ What is variable? Variable is a quantitative metric A kind of value where we measure quantity Like height, I said 6 feet Weight, I said 100 kg What is this? I am assigning a value So what is variable? It is a quantitative data on which we are measuring some values There is some metric Now I have to show the relationship between these variables So I use regression Who? Regression So here the variable Now I understood the story of the variable Now this variable, we have it in two ways There are two types of variables One is dependent and one is independent You can understand dependent and independent in this way Dependent means the thing we have to predict Means the value that we have to predict is dependent And independent means on whose basis we have to do It has to be predicted on the basis of this So on whose basis we have to do it is independent On whose basis we have to do it is dependent As an example you can say Predicting the salary based on year of experience Means on the basis of year of experience I have to predict how much salary will be So what will be the year of experience here? Independent And what will be the salary to be predicted? Dependent This is a simple story See more Predicting exam score based on study hours Means study hours How many hours of study I have to check the score on the basis of it So how many hours did it take? What has happened? Independent And how much score has come or can come? That has become your dependent Similarly predicting resale price based on vehicle age Means according to the age of the vehicle I have to check its price What can be the resale price? What has happened to the resale price here? Dependent And what will be the age of the vehicle? Independent This is a simple story First understand this Then we will understand things by doing mathematical slowly And machine learning and all those concepts will go So this is understood what is independent and what is dependent Now the regression here We have to show the relationship between them So to show the relationship what can we do simply? Simply we can represent it with a graphical method How? As soon as I made a simple graph here I am making a 2D graph Here you know what is x-axis Here you know what is y-axis Now this x-axis is used for our independent Means my independent variable I keep it on x-axis And the dependent Where do I keep it? On y-axis Means you have to check the score of the student based on study hours How many hours did it take? So the hours of the study I will keep my independent here And how much my score came You have to predict that I will keep it on y Means this story I hope everyone understood Now what does the story say here? That this regression means the relation between them This relation can be positive or negative Positive means like this What to understand? That if the value of my independent variable is increasing Then it is also increasing And if this value is decreasing then it is also decreasing Understood? Means if I increased this value then it also increased So that is a positive regression And what is negative regression? Like this You can call it negative regression Same example of resale Age is increasing of the vehicle So resale value is decreasing So what is this? A negative regression Means you understand the main story first Understand its crux first Then we will relate further Now this regression has multiple types Like linear regression What does linear regression say? Whenever we find out the correlation between two variables Or find out their understanding That how it is related One independent and one dependent So it is linear The second way can be multilinear regression Multilinear regression where multiple independent Multiple independent and one dependent What will that be? Multilinear regression And the third let's suppose polynomial What is the meaning of polynomial? It is not necessary that your line will always be linear like this Positive or negative Many times our line does not become linear like this Our line can also become like this Our line can also become like this Can become non-linear Polynomial is called that thing This is a simple first mathematics Slowly and gradually When you will understand this The story after that is very simple What to do after that? Everything is made in Python Libraries are made Pick up the data Train on it Test it End of the story Main story If no one understood Then first we will understand this one by one Then we will move forward slowly So in the next video Linear regression with example I will do with numerical So read it well Thank you"
+}

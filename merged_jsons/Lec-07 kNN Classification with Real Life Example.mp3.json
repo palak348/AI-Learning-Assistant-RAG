@@ -1,0 +1,436 @@
+[
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 0.0,
+        "end": 10.0,
+        "text": " Dear students, welcome to Gate Smashers  In today's video I am going to explain  KNN and I will explain it with example  with numerical example  So wherever you are asked"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 10.0,
+        "end": 20.0,
+        "text": " in competitive exams, college university exams  even in interviews  you can easily write the answer to this  So guys like the video and subscribe to the channel  If you haven't done it yet and if you have done it then"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 20.0,
+        "end": 30.0,
+        "text": " you can subscribe with the help of devices  Subscriber is very important. So let's start  The first and most important point  First of all, the student who is  studying all these concepts of computer learning"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 30.0,
+        "end": 40.0,
+        "text": " then keep a copy and pen with you  Note all the main points  because all the concepts  I am teaching here  I am teaching with all the mathematics"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 40.0,
+        "end": 50.0,
+        "text": " I am teaching with calculations  because you have the direct  usability of it that we will do it later  with Python and R programming  But first understand the behind the scenes"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 50.0,
+        "end": 60.0,
+        "text": " the maths first  When you understand that thing then you can easily implement it  So see first of all  Why do they use classification generally?  For predicting the classes"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 60.0,
+        "end": 70.0,
+        "text": " and your regression is used  for predicting the values  So here the KNN algorithm  that is K nearest neighbor algorithm  So you can say it like"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 70.0,
+        "end": 80.0,
+        "text": " a hello world program  for the classification  Means it is like a hello world program  that whenever you want to learn classification properly  then learn from KNN in the starting"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 80.0,
+        "end": 90.0,
+        "text": " It is the easiest algorithm  It is a very simple algorithm but it is very important  So see the crux of this  I will tell you what is it actually  What is the meaning of nearest neighbor"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 90.0,
+        "end": 100.0,
+        "text": " Like for example  I have to take a decision  You know the meaning of classification  Either this or this  Like we say category"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 100.0,
+        "end": 110.0,
+        "text": " For example if I ask you  If I give you an apple, is it a fruit or a vegetable  Means you have to predict  In which class it will go  So here let's suppose"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 110.0,
+        "end": 120.0,
+        "text": " I have to check if I should make a new channel  So what I did for this  My nearest neighbor  What is the meaning of nearest neighbor  That I have a very close person"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 120.0,
+        "end": 130.0,
+        "text": " I took a voting from him  So on the basis of that voting  I am finalizing that I should take this decision  Yes I should make a channel  Or no I should not make a channel"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 130.0,
+        "end": 140.0,
+        "text": " So this is a kind of classification  On the basis of nearest neighbors  So here the distance  has to be calculated and on the basis of that  we find out who is nearest to me"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 140.0,
+        "end": 150.0,
+        "text": " I will tell you with an example  You will easily understand all the points  Just keep noting  We are taking an example of predicting movie genre  Means if I have to find out the genre of the movie"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 150.0,
+        "end": 160.0,
+        "text": " That my movies are  There are different genres of movies  Like drama movie, action movie, horror movie  So I have to predict  Of any movie that what is it"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 160.0,
+        "end": 170.0,
+        "text": " Which genre does it come in  But what is the first step in it  Data collection, first of all you have to  Collect data  As an example"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 170.0,
+        "end": 180.0,
+        "text": " In real world  We take a huge amount of data  Big data  But here I am just explaining the concept  Because when you understand the concept on small data"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 180.0,
+        "end": 190.0,
+        "text": " You will also understand on big data  So see what data I took here  I took IMDb rating here  Duration and generally  I took some data and this data"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 190.0,
+        "end": 200.0,
+        "text": " Is real time data only  Now there are only movies of 2023  So here IMDb is 8.0  Duration is impossible  Its genre is action"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 200.0,
+        "end": 210.0,
+        "text": " Generally there are multiple genres like action, comedy  But you don't go too deep  You understand the main concept  What I am trying to tell  I took GADHA 2, 6.2, IMDb"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 210.0,
+        "end": 220.0,
+        "text": " Actually the data on IMDb website  I took from there, duration and action  Rocky and Rani 7.2  This is its duration, this is comedy  And here OMG 2"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 220.0,
+        "end": 230.0,
+        "text": " This is your IMDb rating  Duration and its genre is comedy  There are multiple genres, its drama and comedy  But I have kept it in comedy  Just to explain the concept to you"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 230.0,
+        "end": 240.0,
+        "text": " So this is my first data collection  I will collect the data first  I clean all these concepts  After that I come to training  So here I did it first"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 240.0,
+        "end": 250.0,
+        "text": " Now after that I have to find out  Predict the genre of Barbie movie  A movie has come, Barbie movie  Whose rating is 7.4 and duration is  114 minutes"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 250.0,
+        "end": 260.0,
+        "text": " So tell me which genre it will come in  Based on this data  That's what happened to you  First I gave labeled data  Because this is your supervised learning"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 260.0,
+        "end": 270.0,
+        "text": " So first I gave labeled data  And on its basis I have to give labeled data again  As a prediction and then check  Does it come in this or this  Means"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 270.0,
+        "end": 280.0,
+        "text": " Classification is to be done  Does it come in action or comedy  So this is my scenario  Now let's do  Calculation, Math"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 280.0,
+        "end": 290.0,
+        "text": " Without that the story will not be understood  So what is the first step  Calculate the distances  So what is the first step, I have to calculate the distance  And which method will we use here"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 290.0,
+        "end": 300.0,
+        "text": " We will use the method of Lycedian distance  Lycedian distance is a very simple concept  If you want to know  Straight line distance  Between two things"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 300.0,
+        "end": 310.0,
+        "text": " Like for example, this is my x-axis  This is my y-axis  Here let's suppose there is a point P  And here let's suppose there is a point Q  Now between these two points"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 310.0,
+        "end": 320.0,
+        "text": " If I have to find the distance  Straight line distance, let's suppose D  So how will I find it  So see the corresponding value of P will be x1  And here a value will be y1"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 320.0,
+        "end": 330.0,
+        "text": " Similarly here a value will be x2  And here a value will be y2  You can write here  This is your y1, y2  So see here the corresponding value of P"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 330.0,
+        "end": 340.0,
+        "text": " I have x1 value and y1  And the corresponding of Q is x2 and y2  So how do we calculate the distance  x2 minus x1  Whole square"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 340.0,
+        "end": 350.0,
+        "text": " Plus y2 minus y1  Whole square  And square root  So this is my distance  Between P and Q"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 350.0,
+        "end": 360.0,
+        "text": " So this is how the Lycedian distance is calculated  So now let's apply this method  So how will you apply it  We know that what I have been given  What I have been given"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 360.0,
+        "end": 370.0,
+        "text": " That my prediction of Barbie movie  Its IMDB is 7.4 and duration is 114  So IMDB is 7.4  And duration is 114  Now see the first movie"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 370.0,
+        "end": 380.0,
+        "text": " Which was Mission Impossible  In that IMDB was 8 and duration was this  So this is my x1 and x2  Same x1 y1  x2 y2, so we will take it according to that"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 380.0,
+        "end": 390.0,
+        "text": " So 7.4 minus 8  Means see this  You can say this is my  Let's suppose this is my x2  This is my x1 and this is my y2"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 390.0,
+        "end": 400.0,
+        "text": " This is my y1  So here see 8  You can do it in reverse also because if you square  The answer will be same  Because if it comes in minus then square will make it plus"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 400.0,
+        "end": 410.0,
+        "text": " So see here 7.4  Minus 8 square plus  114 minus 608 square  And its whole root  I have taken square root here"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 410.0,
+        "end": 420.0,
+        "text": " So this value will be something  I have calculated this  Just to save time I am doing it quickly  So I have calculated this value  After that distance, I have taken the second movie"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 420.0,
+        "end": 430.0,
+        "text": " According to the second movie  Whatever was my IMDB and this  And this value is fixed for me, this barbie value  So this minus this and this minus this  So here I got the value"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 430.0,
+        "end": 440.0,
+        "text": " According to the third movie I have 7.2168  And here my 7.4 minus 7.2 square  114 minus 168 square  So this value came  And my fourth was"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 440.0,
+        "end": 450.0,
+        "text": " I think OMG  So according to that 7.4 minus 8.2 square  114 minus 155 square  Here I have taken square root  And this is my value"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 450.0,
+        "end": 460.0,
+        "text": " So this Lucidian distance  On its basis, I have calculated  All the 4 movies, done?  Now what to do?  Now what to do?"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 460.0,
+        "end": 470.0,
+        "text": " Select k nearest neighbor  First of all, let's suppose I check  That my k is equal to 1  Means I check only one neighbor  Tell me who is nearest"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 470.0,
+        "end": 480.0,
+        "text": " So see the distance, nearest  Means which is the least distance  Out of these all, which is the least distance  So 41  Whose was it?"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 480.0,
+        "end": 490.0,
+        "text": " Whose was the last one?  And what is its genre?  So you can find out from this  It has been predicted that the genre of Barbie movie  What is it? Comedy"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 490.0,
+        "end": 500.0,
+        "text": " And really it comes in comedy  So I have taken real time example  I have taken real data  I have not taken any fake data  Here I got to know from k is equal to 1"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 500.0,
+        "end": 510.0,
+        "text": " This is the best case  But in real life, you  Generally do not know from k is equal to 2  Because if it is noisy data  You generally can not find out"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 510.0,
+        "end": 520.0,
+        "text": " It is best to take the value of k at least  5, 4 or 5  But here you can not take 4 or 5  Because our data is less  But I take the value of k as 3"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 520.0,
+        "end": 530.0,
+        "text": " This is the most important thing  How do you tune its value  Tuning the value of k is itself  Major challenge but still  The value of k is 5, which is suitable"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 530.0,
+        "end": 540.0,
+        "text": " But here 5 cannot be taken  So this is my work  But at least take 3  Because sometimes exact solution does not come out of 1  Although it came out"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 540.0,
+        "end": 550.0,
+        "text": " But still sometimes it does not come out  So k is equal to 3  Take 3 values  Pick 3 nearest neighbors  One will come out"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 550.0,
+        "end": 560.0,
+        "text": " One will come out and one will come out  56 is the farthest, so remove it  So see 46, first, third and fourth  So see who is the first, third and fourth  First, third and fourth"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 560.0,
+        "end": 570.0,
+        "text": " So that means action, comedy, comedy  So that means k value is 3  According to that action, comedy, comedy  So what you have to do in the last  Majority voting"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 570.0,
+        "end": 580.0,
+        "text": " So action, comedy, comedy  Means I have taken 3 votes here  Out of which 2 votes are saying comedy  So that means Barbie movie is playing comedy  So that means it is absolutely right"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 580.0,
+        "end": 590.0,
+        "text": " Where my work is working properly  I have worked on the original data  So this way knn works  Using Lucidian distance  By the way, manhattan distance"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 590.0,
+        "end": 600.0,
+        "text": " Is also used, but lucidian  Straight line distance is easy  Method to find out  And this is a simple best example  For you so that you can easily answer"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 600.0,
+        "end": 610.0,
+        "text": " In real world, your data is very big  It has to be cleaned, there are outliers  We will do that slowly  But you will have a basic understanding  How knn works, what are the various"
+    },
+    {
+        "number": "Lec-7",
+        "title": "kNN Classification with Real Life Example",
+        "start": 610.0,
+        "end": 612.0,
+        "text": " Steps, Thank you"
+    }
+]

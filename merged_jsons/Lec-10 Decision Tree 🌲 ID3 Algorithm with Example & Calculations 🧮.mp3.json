@@ -1,0 +1,702 @@
+[
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 0.0,
+        "end": 10.0,
+        "text": " Dear students, welcome to GATE SMASHERS  In today's video we are going to create  or you can say we are going to draw  decision tree  and step by step I will tell you"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 10.0,
+        "end": 22.0,
+        "text": " all the things with the mathematics  that how we create decision tree  and then finally we reach to a decision  because we have seen that decision tree  we use as a classification"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 22.0,
+        "end": 32.0,
+        "text": " we can also use it as a regression purpose  but more like  we use it for classification purpose  so we have to find out the answer  that from which class this thing belongs"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 32.0,
+        "end": 42.0,
+        "text": " so the simplest example of this  I was thinking before making the video  that when I was taking its take  that I should make it with specs  or without specs"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 42.0,
+        "end": 52.0,
+        "text": " so this is also a classification  that should I make it with or without  so you can give me the answer  you can classify it as yes or no  in the comment section"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 52.0,
+        "end": 62.0,
+        "text": " so this is also a real life example of classification  so see here if we talk  video can be little long  first I will tell you the concept of  star, mark, terms and condition"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 62.0,
+        "end": 72.0,
+        "text": " but video is very easy  actually there are only two steps  that I have to calculate entropy  and I have to calculate information gain  entropy and information gain"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 72.0,
+        "end": 82.0,
+        "text": " because my ID3 algorithm  how can we create decision tree  one method is  through ID3 algorithm  whose name is iterative dichromizer"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 82.0,
+        "end": 92.0,
+        "text": " or you can use  random forest  or you can use cart  but this is very popular ID3  and random forest, we will do random forest next"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 92.0,
+        "end": 102.0,
+        "text": " because in this we can combine multiple  decision tree so here how ID3  works I will tell you  so we have to calculate entropy and information gain  and on the basis of this"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 102.0,
+        "end": 112.0,
+        "text": " we draw  decision tree so first thing  we need is data set  what we actually want to find out  so listen carefully to my data set"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 112.0,
+        "end": 122.0,
+        "text": " note everything carefully  what is in data set, I have multiple days  data, weather is here  whether it is sunny, cloudy or rain  three are there"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 122.0,
+        "end": 132.0,
+        "text": " temperature, in temperature values are  either hot or mild or cold  or cool which you can call  and next we have  humidity is high or normal"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 132.0,
+        "end": 142.0,
+        "text": " wind comes that we have  strong, means wind is blowing more or  wind is weak and on the basis of that  means these four attributes  on the basis of these I find out"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 142.0,
+        "end": 152.0,
+        "text": " whether I should play  football, tennis or any other game  or not  so according to this data we  predict, now if someone ask us"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 152.0,
+        "end": 162.0,
+        "text": " that let's say today is sunny  but wind is weak  so should I play or not  means if in this way  we say to predict then"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 162.0,
+        "end": 172.0,
+        "text": " how will you find out yes or no  with the help of decision tree  so first of all in decision tree how to make  we have entropy and information gain  only two things, very simple"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 172.0,
+        "end": 182.0,
+        "text": " but why lengthy because every data set  has to be calculated accordingly  that's why it is lengthy but there are only two steps  entropy and information gain  so let's start first thing"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 182.0,
+        "end": 192.0,
+        "text": " that you will say that sir  we have to make a decision tree  where we will say that this is my  root node then I further split it  then further split like that"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 192.0,
+        "end": 202.0,
+        "text": " but what is the first step  that who will be the root node  means I have  weather, temperature, humidity  and wind, who should I start"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 202.0,
+        "end": 212.0,
+        "text": " my root node will be  so root node is not like that  you can make anything as per your wish  for root node first of all  you have to calculate entropy and information gain"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 212.0,
+        "end": 222.0,
+        "text": " of everyone  means of weather  then of temperature  of humidity and of wind  and the most information gain"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 222.0,
+        "end": 232.0,
+        "text": " will come out of four  if probability is less then  you will choose that, that will be the winner  that will be called root node  so let's do that, you just have to see the step"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 232.0,
+        "end": 242.0,
+        "text": " after that there is a repeat  and calculation, so first of all  information gain of weather is calculated  first attribute was weather, temperature  humidity and wind, so remember"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 242.0,
+        "end": 252.0,
+        "text": " first we calculate weather  entropy of entire data set, what is the first step  you have to calculate the entropy of  the entire data set, how will you do that  what is 9 here, what is 5"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 252.0,
+        "end": 262.0,
+        "text": " what is plus and minus, nothing  listen once, next time you will do it yourself  see  your output which will be my final label  which will be my final output"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 262.0,
+        "end": 272.0,
+        "text": " in that in the entire data set  how many are yes and how many are no, so see how many are yes  9 and how many are no  5, so I  am representing yes with positive sign"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 272.0,
+        "end": 282.0,
+        "text": " and your negative  means no, I am representing it with minus  just a representation so that you will not get confused  so just as a representation  I am doing this"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 282.0,
+        "end": 292.0,
+        "text": " so see here 9 is my positive  yes means 9 and no is my  5 in the entire data set, so just  what is the formula of entropy, what is the symbol of entropy  capital S"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 292.0,
+        "end": 302.0,
+        "text": " so we have to calculate the entire data set  9 by 14 minus 9 by  9 means positive divided by total number  of rows, how many are the total number of  rows, 14, in the entire data set there are 14 rows"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 302.0,
+        "end": 312.0,
+        "text": " log 2 9 by 14 minus  5 by 14, log 2 5 by 14  base is 2  so I got the value of 0.94  you can do this calculation"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 312.0,
+        "end": 322.0,
+        "text": " with calculator, it will be easy from there  because otherwise it will be very difficult  so see this is here, after that  what is step 2, entropy of all attributes  what was inside the weather, sunny"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 322.0,
+        "end": 332.0,
+        "text": " was inside the weather, cloudy  was inside the weather and rain was inside the weather  so take out entropy  according to these three  we are calculating entropy of the entire data set"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 332.0,
+        "end": 342.0,
+        "text": " now what are the values  inside that attribute, there is one value  my sunny, so see sunny  inside sunny we have 2 and 3  what is it representing, see once"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 342.0,
+        "end": 352.0,
+        "text": " after that you will understand, what are 2 and 3  just see sunny, here is sunny  here is sunny, apart from that 3  4, 5, total 5  are the rows of sunny, see among them"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 352.0,
+        "end": 362.0,
+        "text": " how many are 9, 1, 2  after that see here, here 3, 9  and how many are yes, yes  you have 2, so total 2 are yes  rest of 3 are 9"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 362.0,
+        "end": 372.0,
+        "text": " this is the thing, this you have to calculate  according to the data  and similarly according to rain  and similarly according to cloudy  see where is cloudy, 1, 2"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 372.0,
+        "end": 382.0,
+        "text": " 2 and see here  what is yes and here also  what is yes, ok, yes and here also  what is yes, that's it, just this  and similarly according to rain"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 382.0,
+        "end": 392.0,
+        "text": " just once you will feel for the first time  that sir it is little difficult but nothing is there  same steps are being repeated, so in sunny  2 are yes, only in sunny  we are seeing inside sunny, not in the entire data set"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 392.0,
+        "end": 402.0,
+        "text": " in the entire data set, only in sunny  2 are yes, 3 are negative  in the entire cloud, 4 are  yes and  0 is no, you can check here"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 402.0,
+        "end": 412.0,
+        "text": " see this, I am showing you once  because again and again otherwise it will take a lot of time  1, 2, 3  4 and see in 4, yes  yes and one was here, yes"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 412.0,
+        "end": 422.0,
+        "text": " and one was here, yes, that's it  this is the story, ok, similarly we will have  in rain and here I have  in cloudy 4 are yes, 0 is no  1 is yes in rain and 2 is no"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 422.0,
+        "end": 432.0,
+        "text": " just data is same, same formula of entropy  minus 2 by 5  total number of rows in sunny  not in the entire data set, it is already taken out  of the entire data set, now we are taking out according to sunny"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 432.0,
+        "end": 442.0,
+        "text": " so log 2 by 5, log  3 by 5, this came, after that  4 and 0, if one attribute  comes 0, then you don't need to take tension  your answer will be 0"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 442.0,
+        "end": 452.0,
+        "text": " then 3, 2, now here I have  0.97, this calculation you can easily  do, by the way I will tell you  if you do 0 by 4, then what will be the answer  it will be 0 and here 4 by 4"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 452.0,
+        "end": 462.0,
+        "text": " is 1 and log base to  1 is 0, so because of this your  answer is 0, now information gain  came, in last  entropy of the entire data set came"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 462.0,
+        "end": 472.0,
+        "text": " in that attribute, all the values  are of different types  now information gain, whose  information gain is yours, weather  how will you calculate, first"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 472.0,
+        "end": 482.0,
+        "text": " write entropy of the entire data set, what is it  0.94 minus  total number of rows sunny  divided by, total rows of sunny  is 5, divided by total rows"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 482.0,
+        "end": 492.0,
+        "text": " in the data set, 14, entropy of  sunny, minus total number of rows  of cloudy, divided by total rows  in the data set, 4 by 14  next, entropy of rain, total number"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 492.0,
+        "end": 502.0,
+        "text": " of rows in rain is 5, divided  by total number of rows in the data  set, 14, entropy of  rain, just multiply them by this value  and finally I got an answer"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 502.0,
+        "end": 512.0,
+        "text": " this one  this is one step, now  how many attributes I had  remember, how many  attributes were there, second attribute"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 512.0,
+        "end": 522.0,
+        "text": " was temperature, now do I need to tell  that's why I am saying, it seems like  it is lengthy but it is easy, now according to temperature  of the entire data set, we will  get the same, because it is same"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 522.0,
+        "end": 532.0,
+        "text": " but what is there in temperature  hot, mild, cold, so hot  mild and cold according to that  values are taken out and then finally  information gain is taken out, whose, temperature"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 532.0,
+        "end": 542.0,
+        "text": " how, same, entire data set  entropy, minus total number  of rows, hot, divided by total  number of rows of the data set, into entropy  of hot, minus 6"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 542.0,
+        "end": 552.0,
+        "text": " total number of rows of this, divided by  total number of rows of the entire data set, into  entropy of mild, just like this  cold was done, fill the values  and you will get an output"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 552.0,
+        "end": 562.0,
+        "text": " there will be two attributes, weather  and temperature, after that  what we will do, sir we have third  attribute, which one, humidity  so according to humidity, entire"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 562.0,
+        "end": 572.0,
+        "text": " data set will be same, but  you have all attributes, now what is there in humidity  high and normal, there are only two  values, high is humidity and normal is  humidity, so according to high and normal"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 572.0,
+        "end": 582.0,
+        "text": " we have taken out values and then  whose information gain was taken out  of humidity, you can do  sir, you can do it very easily, because if you  get to know one, then you will get four"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 582.0,
+        "end": 592.0,
+        "text": " now your wind is here, in wind  total of entire data set, we have already calculated  now what is there in wind  wind is going very fast, or  wind is going normal, so according to that"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 592.0,
+        "end": 602.0,
+        "text": " we have taken out entropy  and then finally, the formula of information gain  is same, total entropy  minus total number of rows in the  strong, divided by total number of rows in the data set"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 602.0,
+        "end": 612.0,
+        "text": " into entropy of strong, then minus  total number of rows in the normal, divided  by total number of rows in the data set, into  entropy of wind, so  our first step is going to be"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 612.0,
+        "end": 622.0,
+        "text": " complete, we have taken out  four attributes, entropy  and information gain, so  information gain is here, now see  whose is the maximum,"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 622.0,
+        "end": 632.0,
+        "text": " maximum is this one, so  means you got to know that  your weather, what will  become, it will become your  root node, what will become, root node"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 632.0,
+        "end": 642.0,
+        "text": " now what was inside weather, one  was sunny, what else was there  cloudy, what else was there  rain, so in a way  these three branches"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 642.0,
+        "end": 652.0,
+        "text": " come out, so this  story we got to know till here  now see, a little face has started  to be made, you can see a little  now see, here you can see"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 652.0,
+        "end": 662.0,
+        "text": " you can put a little more guess here  you can calculate, in cloudy  everywhere is yes, means  everywhere if you see carefully  in cloudy everywhere is yes, so"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 662.0,
+        "end": 672.0,
+        "text": " you directly reach your label in this  label means reach the last value  yes, this reached leaf node, that this  will come yes, because no is not there, so  I got the answer that if anywhere"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 672.0,
+        "end": 682.0,
+        "text": " is cloudy today, so should I play,  play, no problem, but not in rain  and sunny, because in rain yes, no is also there  in sunny also yes, no is there  so now what is the next step, same"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 682.0,
+        "end": 692.0,
+        "text": " same thing, but now we will calculate  from the point of view of sunny, whose  from the point of view of sunny, so see how  we will calculate, in the whole data set  only sunny, weather came"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 692.0,
+        "end": 702.0,
+        "text": " above root node became weather  now what was inside weather, sunny, cloudy and  rain, cloudy is fixed, yes  but for sunny and rain we have to calculate  because we have to see next node"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 702.0,
+        "end": 712.0,
+        "text": " which one, which will be the next vertex  so according to sunny see  how many rows are there, 5, so these 5  separate and separate the one with rain  so first separate the one with sunny"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 712.0,
+        "end": 722.0,
+        "text": " so the 5 rows with sunny  which were my day wise  that got separated, now sunny is fixed  sunny is fixed, in weather  sunny, now in sunny"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 722.0,
+        "end": 732.0,
+        "text": " temperature, humidity and from wind  next attribute, who  I will make vertex of tree  how, information gain  temperature, humidity"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 732.0,
+        "end": 742.0,
+        "text": " wind, now according to this data set  according to temperature information gain  humidity information gain  wind information gain, listen carefully  step is same, calculate"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 742.0,
+        "end": 752.0,
+        "text": " temperature information, but now keep in mind  entropy of entire data set not, now  here entropy of my, according to sunny  we have to calculate, so in sunny there are 5 rows  we have already seen"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 752.0,
+        "end": 762.0,
+        "text": " so you calculate, after that  in entropy, means in sunny  hot, mild and cool, but now here  according to only 5 rows  your 5 rows, only according to this"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 762.0,
+        "end": 772.0,
+        "text": " we have to calculate, and formula  is same, so first  information gain we calculated, temperature  according to sunny, then we  calculated, information gain"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 772.0,
+        "end": 782.0,
+        "text": " humidity according to sunny  and then we calculated  wind information gain  according to sunny, so now see  here when you calculate"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 782.0,
+        "end": 792.0,
+        "text": " values came, in values see  what is the value of humidity  what we got, what we got  that weather was fixed  root node, in that"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 792.0,
+        "end": 802.0,
+        "text": " one was sunny, in that  one was cloudy  and in that one was rain  now in cloudy  yes answer is done, but in sunny"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 802.0,
+        "end": 812.0,
+        "text": " now next, who I  not root, root is done  means who I make next vertex, make node  humidity, because its information  gain is most, means in this impurity"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 812.0,
+        "end": 822.0,
+        "text": " is least, so  done, now in humidity  what was, humidity was either high  what was, humidity  either you had humidity high"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 822.0,
+        "end": 832.0,
+        "text": " or your humidity  was normal, once  see here, in humidity  what you had here, either high or normal  now what is in high, no"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 832.0,
+        "end": 842.0,
+        "text": " and what is in normal, yes  so we got one more answer  what we got, see carefully  we got one more answer, that  in humidity, next one is, humidity"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 842.0,
+        "end": 852.0,
+        "text": " either high or normal, if  high, then no, if normal  then yes, so we came  on leaf node, yes, no  answer is found, last is"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 852.0,
+        "end": 862.0,
+        "text": " rain, what to do, then  from all data set, rain  weather is your rain, take it out  this sunny one is done, now after that  from all data set, now weather"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 862.0,
+        "end": 872.0,
+        "text": " was fixed, because root node is  weather, but in that rain, rain  rain, rain, go away  take out all, ok  so how much is rain, 1, 2, 3, 4, 5"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 872.0,
+        "end": 882.0,
+        "text": " same 5 rows came  according to 5, now temperature  information gain, humidity information gain  wind information gain, calculate  that's it, first rain"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 882.0,
+        "end": 892.0,
+        "text": " 5 rows, according to that calculated  what is in that, hot, mild and cool  now remember, only according to these 5 rows  calculate, only according to rain  your value is, positive, negative"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 892.0,
+        "end": 902.0,
+        "text": " positive, negative, yes or no, yes or no  calculate and finally, now  it is easy, calculation will be easy  because values will be equal or zero  if equal, then one answer will come, otherwise"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 902.0,
+        "end": 912.0,
+        "text": " zero will be your answer, otherwise you calculate  take it, information gain came  next according to humidity  next according to wind  so take it, we got"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 912.0,
+        "end": 922.0,
+        "text": " one more answer, that gain  when rain is fixed, then  according to temperature, humidity and wind  who got maximum, wind  what we got, now"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 922.0,
+        "end": 932.0,
+        "text": " finally we got, that weather  that inside, either sunny or cloudy  or rainy  and in sunny, what we got next  node, humidity"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 932.0,
+        "end": 942.0,
+        "text": " if humidity is high, then no  don't play, if humidity is normal  then yes, we will play  if cloudy, then no problem  we will play, someone stop and show"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 942.0,
+        "end": 952.0,
+        "text": " and in rain, who got  most, wind, that means  next node, in this  wind will be made, that's it  wind will be made"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 952.0,
+        "end": 962.0,
+        "text": " so in wind, see where is wind  what is the answer in wind, weak  strong, so in strong case  no, in rest of the case  yes, take it"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 962.0,
+        "end": 972.0,
+        "text": " if yours is strong  or weak, if your wind is  very strong, then don't play  don't fly anywhere, and if  your wind is normal"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 972.0,
+        "end": 982.0,
+        "text": " or weak, then  in that case, yes, we will play  someone stop and show, done  now give anything, that  in which humidity is"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 982.0,
+        "end": 992.0,
+        "text": " high, and it is sunny  so should we play  see, it is sunny, humidity  is high, so no, answer is no  now you can easily predict based on"
+    },
+    {
+        "number": "Lec-10",
+        "title": "Decision Tree 🌲 ID3 Algorithm with Example & Calculations 🧮",
+        "start": 992.0,
+        "end": 998.0,
+        "text": " the decision tree, so this is all about  the calculations in the decision  tree, thank you"
+    }
+]

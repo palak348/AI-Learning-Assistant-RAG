@@ -1,0 +1,79 @@
+[
+    {
+        "number": "Lec-6",
+        "title": "Linear Regression Vs",
+        "start": 0.0,
+        "end": 26.0,
+        "text": " Dear students, Welcome to GITsmeasures  In today's video I am going to explain the difference between linear regression and logistic regression  Students often predict values in regression, they predict numeric values  So it seems that both of these are used to predict numeric values  But let me tell you that even though their name is same, but there is a major difference between them"
+    },
+    {
+        "number": "Lec-6",
+        "title": "Linear Regression Vs",
+        "start": 26.0,
+        "end": 47.0,
+        "text": " Some things are similar but some things are different  So I will tell you all the stories  Linear regression and logistic regression both are there in supervised learning  But in supervised also you have two categories, one is classification and other is regression  So this linear is used in regression model where we predict values, numeric values"
+    },
+    {
+        "number": "Lec-6",
+        "title": "Linear Regression Vs",
+        "start": 47.0,
+        "end": 75.0,
+        "text": " And here we do classification where we predict the class, that from which class it belongs  Simplest example is email, that this particular email is spam or not  If I give you this symptom of disease, then will there be disease or not  Will there be fever or not, will student pass or student fail  Means whenever we are doing this category, this classification comes under this"
+    },
+    {
+        "number": "Lec-6",
+        "title": "Linear Regression Vs",
+        "start": 75.0,
+        "end": 102.0,
+        "text": " And whenever we are predicting values like if I talk about stock price  That this particular company has stock prices, let's suppose I say what will be the price after 6 months  So they are actually predicting a value or let's suppose it is house price  If I predict house price according to the size of the house, then what will happen  Let's suppose if the house is of 100 sq.ft. 200, 300, 400, 500 and what will be the prices here"
+    },
+    {
+        "number": "Lec-6",
+        "title": "Linear Regression Vs",
+        "start": 102.0,
+        "end": 124.0,
+        "text": " There will be no category, yes or no, what will happen, price will be a value  1000, 1 lakh, 2 lakh, 5 lakh, 10 lakh, 20 lakh, kind of a continuous data will be there in it  So just keep this in mind, here also independent variable is dependent variable  Here also independent and dependent variable is there  Independent variable here also helps in predicting in both cases"
+    },
+    {
+        "number": "Lec-6",
+        "title": "Linear Regression Vs",
+        "start": 124.0,
+        "end": 149.0,
+        "text": " And dependent variable is that which we predict  Now here the independent variable is continuous, here also it is continuous  But the data of dependent variable is continuous here but here it is discrete  What happens? It is category based in the form of discrete 0 or 1  The same simplest example, if I talk here, if I see the price here, like house price"
+    },
+    {
+        "number": "Lec-6",
+        "title": "Linear Regression Vs",
+        "start": 149.0,
+        "end": 178.0,
+        "text": " House's let's suppose size and price, now see here if I take the size of the house  So what is this value? Continuous kind of anything, like this we are taking some data  There is no category in the form of 0 or 1 and what will be the price like this  Let's suppose it is 1 lakh or 2 lakh or 5 lakh or 6 lakh or 10 lakh, any value like this  But the value in our logistic will be category based"
+    },
+    {
+        "number": "Lec-6",
+        "title": "Linear Regression Vs",
+        "start": 178.0,
+        "end": 203.0,
+        "text": " Category means yes or no, means either value 0 or value 1  In this way the value is category based in logistic  Now here the equation of linear regression is y is equal to a0 plus a1 x1  What is this x1 here? Independent variable, what is this? Dependent  I have already told you all the stories how linear regression works"
+    },
+    {
+        "number": "Lec-6",
+        "title": "Linear Regression Vs",
+        "start": 203.0,
+        "end": 230.0,
+        "text": " I have explained you with example, you will get the link in the description box also in the i section  I have explained the whole story of logistic regression with example, you will get its link in the i section also  So first read about it, you will understand half of the story there  Now this is your intercept, a1 is your coefficient that if I change x value then how much y value is increasing  And here this is sigmoid, this is your sigmoid function"
+    },
+    {
+        "number": "Lec-6",
+        "title": "Linear Regression Vs",
+        "start": 230.0,
+        "end": 261.0,
+        "text": " According to sigmoid function we calculate the value, here we calculate according to linear  Because here we are assuming that values are linearly independent  But the values here are actually category based  So if I have continuous data then I put it in sigmoid function and bring it between 0 and 1  This y, you know what it does? It checks the value of my x and brings every output in the category of 0 or 1"
+    },
+    {
+        "number": "Lec-6",
+        "title": "Linear Regression Vs",
+        "start": 261.0,
+        "end": 276.0,
+        "text": " And then predicts that which class it will come in  Here we predict the value in the form of 0 or 1, in the form of numeric value  This is the major difference between logistic and linear regression  Thank You"
+    }
+]

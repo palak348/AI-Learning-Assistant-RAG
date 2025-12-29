@@ -1,0 +1,268 @@
+[
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 0.0,
+        "end": 10.0,
+        "text": " Dear students, welcome to GATE SMASHERS  In today's video I am going to explain  Conditional Probability  See this topic of probability or stats  comes under mathematics"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 10.0,
+        "end": 20.0,
+        "text": " But why am I making this topic?  Because whenever we talk about machine learning  So for its foundations  All these topics are very important  Conditional Probability, Bayes theorem"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 20.0,
+        "end": 30.0,
+        "text": " Total Probability, all these things are very important  You can understand it like this  If you are looking at a house and in that house  you feel that a very good wood work has been done  Very good floor has been laid"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 30.0,
+        "end": 40.0,
+        "text": " All these things you see from outside  But the most important thing of that house  is its base  And the base is made the strongest  Why do they make it?"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 40.0,
+        "end": 50.0,
+        "text": " Because you have built the whole house on it  So that's why  All this supervised learning  You are seeing it from above  But its base"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 50.0,
+        "end": 60.0,
+        "text": " Actually starts with probability  So that's why first of all  Conditional Probability  You will have some knowledge  What are we actually doing?"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 60.0,
+        "end": 70.0,
+        "text": " We are checking the likelihood of a particular event  Means chances of any event  Like the simplest example  Coin toss  Like if you have a coin"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 70.0,
+        "end": 80.0,
+        "text": " And if you toss it  Now here head is coming or tail is coming  There are two options, head or tail  So here the probability of head coming is 1 by 2  1 means head obviously"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 80.0,
+        "end": 90.0,
+        "text": " I have two sample space, either head or tail  From them head is coming 1 by 2 and tail is coming 1 by 2  We know this simplest  But in conditional probability  What is the actual meaning of condition?"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 90.0,
+        "end": 100.0,
+        "text": " That here also an event is happening  Here also the chances of an event happening  But  It is also depending on  Some other event"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 100.0,
+        "end": 110.0,
+        "text": " Condition is given here  That another event has already happened  And now tell  What are the chances of this event happening  It is the simplest example"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 110.0,
+        "end": 120.0,
+        "text": " Like if we talk here, tossing a fair coin  Means I have a fair coin  I have tossed it three times  So here what sample space can I have  Means what options can come"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 120.0,
+        "end": 130.0,
+        "text": " What can be the total sample space  Either all three come head, head-head-tail  Head-tail-head, first time it came head  Then tail came, second time tail came  In this way you have total"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 130.0,
+        "end": 140.0,
+        "text": " 8 possibilities  Any of these can be one  So what I have 8  Total sample space is done  Now I am saying here that I have an event"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 140.0,
+        "end": 150.0,
+        "text": " At least two tails appear  I want  Tell the probability of an event  And what is that event  At least two tails appear"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 150.0,
+        "end": 160.0,
+        "text": " At least two  At least two  Means more than two or two  At least two tails should occur  How will you do?"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 160.0,
+        "end": 170.0,
+        "text": " You will see from the total sample space  Where is more than two or two tail  Take it out, is it here? No  This is one tail, got it here  One, then two"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 170.0,
+        "end": 180.0,
+        "text": " Three, four  You can see here  More than two or two tail  So what will you do?  More than two or two tail is required"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 180.0,
+        "end": 190.0,
+        "text": " So I have four total options  And the sample space I have  What is that? Total 8  So what can you do?  Probability will come 1 by 2"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 190.0,
+        "end": 200.0,
+        "text": " My work is over  Yes or no? Simple  One more event is happening  And what is that event saying?  First coin shows head"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 200.0,
+        "end": 210.0,
+        "text": " Means the first coin  Means the first one came  After that, it is fine, tail comes, head comes  No matter what happens, but the first head should come  So see where is the first head coming"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 210.0,
+        "end": 220.0,
+        "text": " One, two  Three, four  Four  At four places, no matter later  The first head should be there, then you will say"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 220.0,
+        "end": 230.0,
+        "text": " Sir there are four options  Means the likelihood of events is how many?  Four and my sample space is 8  So 1 by 2  The answer is also there"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 230.0,
+        "end": 240.0,
+        "text": " This is the simplest  You got to know the funda of probability  Now let's come to conditional probability  If I ask now  Probability of occurrence of an event E"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 240.0,
+        "end": 250.0,
+        "text": " What?  At least two tail appear  But I give you the condition  That already the first coin  Should show head"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 250.0,
+        "end": 260.0,
+        "text": " Now I have given the given  Condition came  And we mention it like this  We are saying that find the probability  That at least two tail should come"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 260.0,
+        "end": 270.0,
+        "text": " This was simple  But now it is condition  At least two tail should come  Given that  What should be the first coin?"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 270.0,
+        "end": 280.0,
+        "text": " Your head should show  First coin  Your head should show  This thing is already done  So here first coin should be head"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 280.0,
+        "end": 290.0,
+        "text": " Constraint came  So in this case our conditional probability will be  What is its formula?  E by F formula  E intersection F divided by P F"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 290.0,
+        "end": 300.0,
+        "text": " Now you will find it easy  P F we have already calculated  What was it?  It was 1 by 2  Now see E intersection F"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 300.0,
+        "end": 310.0,
+        "text": " How will you calculate?  Such an event that satisfies both E and F  Intersection means  That satisfies both  So see"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 310.0,
+        "end": 320.0,
+        "text": " At least two tail should come  1, 2, 3, 4  Total 4  But it is AND  Now what is the second one saying?"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 320.0,
+        "end": 330.0,
+        "text": " First coin show head  Combine both  See it is truing both conditions  It is not doing this  So see one came to us"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 330.0,
+        "end": 342.0,
+        "text": " That one event is such  Where first head and later  At least two tail are also coming  So what is E intersection F saying?  1 by 8"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 342.0,
+        "end": 352.0,
+        "text": " How did 1 by 8 come?  Total event is 8  Only one event is such  Which is truing both conditions  Because chances of each event"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 352.0,
+        "end": 362.0,
+        "text": " Is 1 by 8  Its only probability is 1 by 8  So obviously what happened to it?  1 by 8  So here it came"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 362.0,
+        "end": 372.0,
+        "text": " We have already calculated  So when you solve it  It will become 2 by 8  Which you can call 1 by 4  So this is the simplest example"
+    },
+    {
+        "number": "Lec-11",
+        "title": "Conditional Probability with Easiest Explanation & Example",
+        "start": 372.0,
+        "end": 382.0,
+        "text": " Of condition and probability  And how we calculate formula  Note this simplest example  Somewhere all these things will be used in future  Thank you"
+    }
+]

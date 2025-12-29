@@ -1,0 +1,366 @@
+[
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 0.0,
+        "end": 10.0,
+        "text": " Dear students, welcome to Kids Measures.  In today's video, I am going to explain  Random Forest Algorithm.  And I will explain it with easy example.  I will explain it with easy example."
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 10.0,
+        "end": 20.0,
+        "text": " So that you can easily answer  in competitive exam, interview,  or any other interview.  So guys, like this video and subscribe to this channel.  If you haven't done it yet, you can do it."
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 20.0,
+        "end": 30.0,
+        "text": " And you can get it subscribed with devices.  Subscribers are very important.  So let's start. First of all, Random Forest  is actually, you can say  an extension of decision tree."
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 30.0,
+        "end": 40.0,
+        "text": " Means, the decision tree  which had some problems,  to remove it, Random Forest was made.  From the name, we can understand  what is in decision tree."
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 40.0,
+        "end": 50.0,
+        "text": " We create a tree on the basis of one data set.  Here, we will create  multiple trees.  And what can we call  multiple decision trees?"
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 50.0,
+        "end": 60.0,
+        "text": " Collection of trees is Forest.  So, the same thing is here.  We don't have to take decision  on the basis of one tree.  We have to create multiple decision trees."
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 60.0,
+        "end": 70.0,
+        "text": " And on the basis of that,  we will do predictions.  So, the first important line is  Random Forest or  Random Decision Forest is an ensemble"
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 70.0,
+        "end": 80.0,
+        "text": " learning. Ensemble means  group. Group means  that we will not tell  prediction or output on the basis of  one decision tree."
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 80.0,
+        "end": 90.0,
+        "text": " Multiple people will tell on the basis of  voting. Like,  for example, if any bill has to be  passed in India, any bill  has to be drafted, if it has to be passed,"
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 90.0,
+        "end": 100.0,
+        "text": " means, it has to be implemented, then you know  that in Lok Sabha or Rajya Sabha,  voting is done on it. So,  majority of voting on which yes or no  is done on the basis of that,"
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 100.0,
+        "end": 110.0,
+        "text": " then further, it is given to the President.  So, here,  one person is not taking decision.  Multiple people are taking decision on the basis of their voting.  So, that's why it is called"
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 110.0,
+        "end": 120.0,
+        "text": " Ensemble. Similarly, here,  in single decision tree also, it is single,  but in Random Forest, multiple  learning methodologies together  generate output."
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 120.0,
+        "end": 130.0,
+        "text": " What is the benefit of this? The benefit of this is that  the problem in single decision tree  whose overfitting  is automatically removed  because we are not relying on one thing."
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 130.0,
+        "end": 140.0,
+        "text": " Multiple output  is coming and the best  among them, on the basis of that,  we will generate the output. So, here  overfitting, you can understand by a simple example."
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 140.0,
+        "end": 150.0,
+        "text": " What is the meaning of  overfitting? That you  trained, means there was a dataset,  you trained your model  and it is giving very good result"
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 150.0,
+        "end": 160.0,
+        "text": " during training time, means  giving best output. But as soon as  you put test data, it got fussed.  I will explain with a simple example.  You made Maggi at home."
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 160.0,
+        "end": 170.0,
+        "text": " You made simple Maggi by mixing Maggi masala  in water and everything and made Maggi  and you ate it, you liked it very much.  But you thought that I will make it more complex.  So you made another methodology."
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 170.0,
+        "end": 180.0,
+        "text": " You thought that you make Maggi masala.  You cut onions, tomatoes, etc.  and made Maggi masala.  You liked that too. After that, you thought  that you make Maggi egg. You put egg"
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 180.0,
+        "end": 190.0,
+        "text": " and then another Maggi.  So, when you are at training time,  then best output is coming.  But when you did test, you called your friend  and told him that see how tasty Maggi is."
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 190.0,
+        "end": 200.0,
+        "text": " Try it. Maybe he  didn't like that Maggi. He liked the simple one.  So this is a simple fact  that sometimes we put so many attributes  and rely so much on one thing."
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 200.0,
+        "end": 210.0,
+        "text": " So somewhere  at training time, best output comes.  But at testing time,  output gets messed up.  So this problem does not come in random forest."
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 210.0,
+        "end": 220.0,
+        "text": " It does more accurate predictions.  And this is used for  classification and regression.  This is a very important point.  Generally, my algorithm is in classification"
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 220.0,
+        "end": 230.0,
+        "text": " and regression. But this  is used in classification and regression.  But if I talk more  accurate, then in classification,  it gives more accurate"
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 230.0,
+        "end": 240.0,
+        "text": " output. Note all these points.  Now here,  how does it work? How do we make?  So I have already made decision tree.  On the basis of that,"
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 240.0,
+        "end": 250.0,
+        "text": " there are some changes in it.  Because we are not making one decision tree,  we are making multiple decision tree. So the first step  is to create bootstrap  data from original"
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 250.0,
+        "end": 260.0,
+        "text": " data by randomly choosing  data. Repetition is allowed.  I will explain you with a simple example.  Let's suppose I have  a bucket of"
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 260.0,
+        "end": 270.0,
+        "text": " emails. Means I have  a lot of data set of emails.  Let's take it as an example.  I have 300  examples of email data set."
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 270.0,
+        "end": 280.0,
+        "text": " What we did is  from these 300,  I randomly chose 100.  Randomly means we have to fix  from 1 to 100. We have to"
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 280.0,
+        "end": 290.0,
+        "text": " sampling and randomly.  We have chosen any of them.  We have chosen 100 from 300.  After that,  we took another sample of 100."
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 290.0,
+        "end": 300.0,
+        "text": " But not like this,  you have taken 100 sample  from 300. Then you have put 100  back in it. Means  it became 300 again. Then"
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 300.0,
+        "end": 310.0,
+        "text": " from that 300, you have chosen  100 set randomly.  Then you have put 100 back. Then  you have chosen 100 set  randomly. Did you understand the difference?"
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 310.0,
+        "end": 320.0,
+        "text": " It is repetition. You are putting  that data back again and again. Otherwise,  what happens? You took 100 from 300  randomly. How much is left? 200.  Then from 200, you take 100. No."
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 320.0,
+        "end": 330.0,
+        "text": " From 300, you take 100.  Then put 100 back. Then it  became 300. Then randomly sample it.  Then put it back. Then randomly sample it.  In this way, randomly"
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 330.0,
+        "end": 340.0,
+        "text": " you have to do the samplization.  3 is made. Now what we have to do?  Not one decision tree, but multiple  decision trees. We are making 3 decision trees.  When we will make decision tree,"
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 340.0,
+        "end": 350.0,
+        "text": " then the sample of 100  that I have, it will have many  attributes. In email, there are many attributes.  Sender's, Recipient's  ID or in that,"
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 350.0,
+        "end": 360.0,
+        "text": " subject, attachment,  priority, many  attributes are there. From those  attributes, randomly we have chosen  some attributes and created a decision"
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 360.0,
+        "end": 370.0,
+        "text": " tree. And finally, I am  calculating the output based on this decision  tree that is this email  spam or not spam?  So let's suppose as an example,"
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 370.0,
+        "end": 380.0,
+        "text": " I got it. I chose  one of these 100 and finalized  it as spam.  Means you took one particular  in output. This is also called spam."
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 380.0,
+        "end": 390.0,
+        "text": " This is called not spam.  Means it is ham. What you did here?  From multiple samples,  from multiple samples, you  took randomized attributes and"
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 390.0,
+        "end": 400.0,
+        "text": " generated an output. And this output  is spam. Someone is saying spam,  someone is saying not spam. So how did you  finalize the output?  Here, you have to finalize based on"
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 400.0,
+        "end": 410.0,
+        "text": " majority voting. You have to see  on whom is more voting coming?  More voting is coming on spam.  So you output that finally this class  is a spam class. Means"
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 410.0,
+        "end": 420.0,
+        "text": " instead of relying on one thing,  you have done ensemble learning.  You are relying on multiple.  So the same thing is here stepwise.  First of all, you have created bootstrap"
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 420.0,
+        "end": 430.0,
+        "text": " means the same sample. Randomly  you generated the sample. After that  you created a randomized decision tree.  That randomized decision tree  you particularly from multiple"
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 430.0,
+        "end": 440.0,
+        "text": " attributes, randomly any attribute  you chose and then put those attributes  back. Then chose the attribute and  put it back. Then by randomizing  you created a decision tree. And then"
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 440.0,
+        "end": 450.0,
+        "text": " you made multiple decision trees  and finally on the basis of voting  that what is the maximum output coming?  So your classification is like this.  If you are using in regression"
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 450.0,
+        "end": 460.0,
+        "text": " then in regression let's suppose  there is numeric data. So in numeric  one output is giving decision tree 10.  Second decision tree is saying 20.  Third is saying 15. So what you will do?"
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 460.0,
+        "end": 470.0,
+        "text": " Then you will calculate the mean of all three.  The mean value will come, average  will be used in your regression.  But more accurate  output is given in this"
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 470.0,
+        "end": 480.0,
+        "text": " in classification. So note all these steps.  I have told you the diagram here.  So this diagram is  training data.  We have samplized it."
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 480.0,
+        "end": 490.0,
+        "text": " Finally we have trained  our model. After training  what we did? When my models  were trained, we put  each testing in it."
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 490.0,
+        "end": 500.0,
+        "text": " When we put each mail test  then what was the output of this mail?  Spam. Then we put a mail to test  in this. So it said  spam. Then we put a mail in this"
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 500.0,
+        "end": 510.0,
+        "text": " and checked it. So it came  not spam or ham. So finally  on the basis of voting, on the basis of majority  we calculate  what is my output. This is all about"
+    },
+    {
+        "number": "Lec-18",
+        "title": "Random Forest 🌳 in Machine Learning 🧑‍💻👩‍💻",
+        "start": 510.0,
+        "end": 512.0,
+        "text": " the random forest. Thank you."
+    }
+]

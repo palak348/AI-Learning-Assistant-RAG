@@ -1,0 +1,569 @@
+[
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 0.0,
+        "end": 10.0,
+        "text": " Dear students, Welcome to Gate Smashers  In today's video I am going to explain  Naive Bayes Classification  which is the method used in the supervised  learning and in supervised learning"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 10.0,
+        "end": 20.0,
+        "text": " whenever we talk about classification  then always remember  where we have to predict  from which class it belongs  like the simplest example is"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 20.0,
+        "end": 30.0,
+        "text": " email is spam or not spam  means I have to classify  a particular thing, I have to predict  that does it belong to this class  or it belongs to this class"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 30.0,
+        "end": 40.0,
+        "text": " so this is a classification  and in this method, Naive Bayes  is actually based on  Bayes theorem  so here probability has a very big role"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 40.0,
+        "end": 50.0,
+        "text": " because all these Bayes theorems  are based on probability  and first of all you have to understand  Bayes theorem then you will understand  Naive Bayes, actually it is nothing"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 50.0,
+        "end": 60.0,
+        "text": " in Naive Bayes, what is the base  actually it is only Bayes theorem  and what is the meaning of Naive  all the variables we are using  here are independent"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 60.0,
+        "end": 70.0,
+        "text": " we are assuming this  so in a way here  first of all understand Bayes theorem  means you understood the whole story  and I will tell you with example"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 70.0,
+        "end": 80.0,
+        "text": " all the story, with math  I will tell you all the story so watch till the end  because this is a system  which you cannot understand at once  I myself took time to understand it"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 80.0,
+        "end": 90.0,
+        "text": " so why? because if you  do this thing with step by step example  and if you do it by writing  then you will understand it very well  so first of all I will tell you about"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 90.0,
+        "end": 100.0,
+        "text": " Bayes theorem, like as an example  if I ask you  let's suppose I have a bag  and in that bag  there are 2 red balls and 3 black balls"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 100.0,
+        "end": 110.0,
+        "text": " ok, it is a simple bag  2 red, 3 black, now tell me  that red ball, means I took out a ball  and what is the probability of that ball  being red, the ball I took out"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 110.0,
+        "end": 120.0,
+        "text": " that probability of being red  so you have favorable, in a way  2 because how much is red, 2 and below  total how much is yours, 5 so you simply  say sir, 2 by 5, the answer will be"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 120.0,
+        "end": 130.0,
+        "text": " absolutely right, if I change you  in this question a little that  there are 2 bags, one bag 1 in which  2 red, 3 black, one bag 2  in which 4 red, 3 black"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 130.0,
+        "end": 140.0,
+        "text": " now if I ask you here that I took out a ball  what is the probability of it being red  so this is the fund of total probability  now how will you do in this  first of all you have to see that"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 140.0,
+        "end": 150.0,
+        "text": " if I choose bag 1  what is the probability of it, so bag 1  I chose, its probability is 1 by 2  because there are 2 bags, out of them I chose 1  and bag 2 also has 1 by 2"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 150.0,
+        "end": 160.0,
+        "text": " probability of choosing  you can call it an event, let's say  event 1 is that the ball came out of bag 1  1 by 2, event 2 is  that the ball came out of bag 2, 1 by 2"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 160.0,
+        "end": 170.0,
+        "text": " now what is the probability of red ball coming out of bag 1  so how much is red in bag 1  2, total how much is yours  5, so you say that sir  2 by 5 and out of bag 2"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 170.0,
+        "end": 180.0,
+        "text": " how much is red, 4  divided by total how much is 7  now you will easily understand the question  that sir if I take out a ball  and it should be red, so how will you calculate"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 180.0,
+        "end": 190.0,
+        "text": " its probability, total, total means  1 by 2 into  2 by 5 plus  here 1 by  2 into 4 by"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 190.0,
+        "end": 200.0,
+        "text": " 7, so this  your simple answer will be solved  now comes Bayes theorem  Bayes theorem has not come yet  so now it will come, now listen carefully"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 200.0,
+        "end": 210.0,
+        "text": " last case is very important  now what I said  that I took out a ball  which can come out of any bag, I took out a ball  and that ball is red"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 210.0,
+        "end": 220.0,
+        "text": " listen carefully, the ball  I took out is red  it is given that what is that ball  red, but that  came out of bag 1, its probability"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 220.0,
+        "end": 230.0,
+        "text": " tell, that's why it is called  reverse or cause probability  means what is reverse  saying, red ball  came out, I told you that it is red ball"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 230.0,
+        "end": 240.0,
+        "text": " but it came out of bag 1  or bag 2, means  if it came out of bag 1 then b1  by r is its probability  so how will you do this, here"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 240.0,
+        "end": 250.0,
+        "text": " what is its formula, I will show you here  the Bayes theorem actually  what does Bayes theorem say  that let's suppose if you have probability  y by x to calculate"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 250.0,
+        "end": 260.0,
+        "text": " here what is x, it is given  that ball is red  but y is taken out that b1  should be from bag, so how  will you do, x divided by y means"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 260.0,
+        "end": 270.0,
+        "text": " red and bag is from 1  into what you have here  y means probability of coming from bag 1  divided by what is that  your red ball is, so how will you do this, in same question"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 270.0,
+        "end": 280.0,
+        "text": " you know that red and  bag 1, red is and  bag 1, red is and bag 1 is  2 by 5 is its  probability, so now 2 by"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 280.0,
+        "end": 290.0,
+        "text": " 5 into here  bag came out of 1, you have already  calculated it, 1 by 2  and your ball should be  red, so probability of red"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 290.0,
+        "end": 300.0,
+        "text": " means total probability  of this comes, so  by solving this, you can write  whole in divide  and if you solve whole then"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 300.0,
+        "end": 310.0,
+        "text": " answer will come, that yes  this ball came out of b1  so what you have to understand here  what does Bayes theorem say, if I  have to find this particular thing y"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 310.0,
+        "end": 320.0,
+        "text": " and that my thing x1, x2  is depending on multiple variables  here only one variable is that ball is  red, but in actual real life  scenario, I will give you example of Bayes"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 320.0,
+        "end": 330.0,
+        "text": " there can be multiple variables  and what is the meaning of naiv, that those variables  are independent  now here let's see x1, x2  your variables are like this, so if"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 330.0,
+        "end": 340.0,
+        "text": " I have to check here that those things  are there or not  means this email is spam  or not spam  so if I have or not"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 340.0,
+        "end": 350.0,
+        "text": " that I have to classify probability  so what I will do, let's suppose if I say  yes, it is there  it belongs to this thing, so what I will do  all my variables, I will"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 350.0,
+        "end": 360.0,
+        "text": " take all of them in account, means I will consider all of them  so what will be my formula  like here x by y  happened, now here multiple x is there, multiple  variable is there, so x1 y"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 360.0,
+        "end": 370.0,
+        "text": " x2 y, x3 y, here  only one x was there, x by y was done  here multiple is there, so this is done  into probability of y, same  like here, same Bayes theorem"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 370.0,
+        "end": 380.0,
+        "text": " divide by, here only x was there  here probability of x1, x2  x3, x4, multiply all of them  that's it, so this is your  Bayes theorem, you can say"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 380.0,
+        "end": 390.0,
+        "text": " that Naive Bayes classification  works on this, on this formula  now we can find one more of this, what  if 9, what is the case of 9  it is like that, email"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 390.0,
+        "end": 400.0,
+        "text": " is spam or not  if email is spam  then yes probability is taken out  keeping multiple factors in mind  no, that mail is not spam"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 400.0,
+        "end": 410.0,
+        "text": " so keeping multiple factors  again probability is taken out according to 9  divide by, your factor  is same, so here  see carefully, even if you don't"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 410.0,
+        "end": 420.0,
+        "text": " consider this thing, because  it is constant here also, here  also, everywhere it is same  so in a way you can say that your  Bayes theorem, what is called Naive Bayes"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 420.0,
+        "end": 430.0,
+        "text": " is perfectly proportional to this value  even if you don't consider this  it will work, because it is in y also  in yes also and in no also  so if you are dividing by same value"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 430.0,
+        "end": 440.0,
+        "text": " in two places, even if you don't  answer is given by God  so y means  yes and no, the maximum  we will say that it belongs to that class"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 440.0,
+        "end": 450.0,
+        "text": " means in yes it is said  that 60% chance is there  and in no it is said 40%, so  more probability of yes, we will say  that it belongs to this class, just"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 450.0,
+        "end": 460.0,
+        "text": " on this concept  Naive Bayes classification  works, now comes the example  what is the example, it is a very simple  example here, the x values"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 460.0,
+        "end": 470.0,
+        "text": " I have, see one x1 is here  one x2 is here, means I have two  factors here, covid and flu  yes can be, no can be, yes can be  no can be, I have taken this sample data"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 470.0,
+        "end": 480.0,
+        "text": " and fever, fever means  yes fever is there, like  covid is yes, flu is no, so fever can be  a person, different people have data  it is not like you say with everyone"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 480.0,
+        "end": 490.0,
+        "text": " that yes I had covid  so I had fever, it can be that  some person has covid but no fever, it can be  that he has flu, it can be that  he has flu but no covid, so"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 490.0,
+        "end": 500.0,
+        "text": " multiple patients or persons  have taken the data, now  keeping these factors, x1, x2  in mind, what I have to calculate  what to predict, that fever is there"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 500.0,
+        "end": 510.0,
+        "text": " or not, whose  let's suppose I have a data  of a person, and that person's data  what is there, flu, covid  now listen carefully, first listen to the problem"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 510.0,
+        "end": 520.0,
+        "text": " statement, flu and covid  now what I have to do, flu and  covid is there, so what I have to  see here, that will fever belong to  yes or will it belong to no"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 520.0,
+        "end": 530.0,
+        "text": " so I will calculate  the probability of fever as yes and no  whose probability is more  belongs to that class  that's the only thing you have to find out"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 530.0,
+        "end": 540.0,
+        "text": " how will you find it, same formula  yes, you have assumed fever  to be yes, flu and covid  you have given it to you  so here flu yes, covid"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 540.0,
+        "end": 550.0,
+        "text": " yes, into p of yes, divide  by flu and covid, you will take  you will take in no also, so even if you  don't take, it is still yours, because divide by value  is the same, so even if you don't take"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 550.0,
+        "end": 560.0,
+        "text": " your work will still go on, this is the same formula  here  covid and flu is the same, x1, x2  so flu yes, covid yes  into yes probability, I have not"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 560.0,
+        "end": 570.0,
+        "text": " taken this because this and this  division is the same, so even if you don't consider  if you will do the division uselessly  it will not make any difference from the same number  here see no, flu no"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 570.0,
+        "end": 580.0,
+        "text": " covid no and fever no  so take out its probability, take out  the one whose is higher among the two  this is the simplest example and the best example  I am giving, you will easily understand"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 580.0,
+        "end": 590.0,
+        "text": " so see first of all fever yes  its probability, from the total data  you see that fever is of which class  1, 2, 3, 4, 5, 6, 7  7 times 10, total how many values are there"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 590.0,
+        "end": 600.0,
+        "text": " so this favorable case, prior probability  is taken out, fever no  3 cases, 3 times 10, this you have taken out  in the first step, after that  conditional probability means"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 600.0,
+        "end": 610.0,
+        "text": " covid and fever also  covid and fever also, so here  covid yes, fever yes, 1  covid yes, fever yes, 2  3, 4"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 610.0,
+        "end": 620.0,
+        "text": " clear, so 4 times 7  why did we do 4, because covid yes  fever yes, 4 cases are there  and fever yes, how many are there, 7 cases  out of 7 yes,"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 620.0,
+        "end": 630.0,
+        "text": " covid yes and fever yes, how many are there, 4  and flu yes and  flu yes and fever yes  how many cases are there, see where is flu yes  1 here, 1"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 630.0,
+        "end": 640.0,
+        "text": " 2  3, so 3 times total  your fever case is 7  now similarly no, covid no  fever no, covid no and fever no"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 640.0,
+        "end": 650.0,
+        "text": " so see where is covid, here no  fever no should be there, so we will not take this  see here, covid no fever no  1 came  2 came, so 2 times 3"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 650.0,
+        "end": 660.0,
+        "text": " and similarly you have flu no  fever no, so this also  2 times 3 came, so you calculate these values first  because directly you will find it easy  to fill in the formula, now see"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 660.0,
+        "end": 670.0,
+        "text": " what to do, flu  and covid yes, both are here  flu and covid, so flu and covid  your, sorry flu and fever  this fever is actually yes"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 670.0,
+        "end": 680.0,
+        "text": " this is also your fever actually yes  so flu yes covid, so here  you have 4 divided by 7  where covid yes fever yes  and what was the case of flu"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 680.0,
+        "end": 690.0,
+        "text": " flu yes and fever yes  3 by 7 came  into, what was this  probability of fever yes  7 by 10 came, that's it"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 690.0,
+        "end": 700.0,
+        "text": " if you solve this, if you solve this  7 by 7 cancel, here  what you have, 12 by  70 came, which you  6 by 35"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 700.0,
+        "end": 710.0,
+        "text": " if you solve this, then point  this will become 60  so you have 1 and this  7, around that point 1 7  its answer will come, now"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 710.0,
+        "end": 720.0,
+        "text": " you have the case of no  means flu no fever no  so see flu no fever no, you have already  calculated flu no  fever no, so you have 2 times 3"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 720.0,
+        "end": 730.0,
+        "text": " and you have covid no  fever no, this is also 2 times 3  and you have fever no case, how much is it  3 by 10, so this cut you  you have 4 by"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 730.0,
+        "end": 740.0,
+        "text": " 30 came, which you  can write 2 by  15 and what came point  1, here you have  point 1 and 3"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 740.0,
+        "end": 750.0,
+        "text": " point 1 is  2 by 15, so  point 1 20 and 5  this you have  almost the answer of point 1 3"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 750.0,
+        "end": 760.0,
+        "text": " will come, so now see  here yes case, means now you  have 2 cases, that a person came  with flu and covid  now in which class should I put it"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 760.0,
+        "end": 770.0,
+        "text": " in yes fever or no fever  so in yes fever what is the probability  point 1 7 and in no fever  what is the probability point 1 3  whose probability is more"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 770.0,
+        "end": 780.0,
+        "text": " whether it is a little more or more  more is not the value, so  where the value is more, it belongs to that class  means in yes fever  we will predict it, we are predicting it"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 780.0,
+        "end": 790.0,
+        "text": " that it will come in yes fever  but real time data  may not come in it  but this naive base classifies in this way  but in real data somewhere"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 790.0,
+        "end": 800.0,
+        "text": " when you use in real life  then due to some errors  sometimes outliers come, but we will see them in the future  how to fix it, but how  naive base works, it works on this"
+    },
+    {
+        "number": "Lec-8",
+        "title": "Naive Bayes Classification Full Explanation with examples",
+        "start": 800.0,
+        "end": 810.0,
+        "text": " whole concept, so listen  this well, in case  you feel a little doubt, then listen again  if you see it twice  you will definitely understand, guarantee, thank you"
+    }
+]

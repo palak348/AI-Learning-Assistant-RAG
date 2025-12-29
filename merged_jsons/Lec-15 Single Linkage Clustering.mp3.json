@@ -1,0 +1,268 @@
+[
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 0.0,
+        "end": 10.0,
+        "text": " Dear students, welcome to Gids Measures.  In today's video, I am going to explain  Single Linkage Clustering  and I will explain it with a numerical example.  This is a part of Hierarchical Clustering."
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 10.0,
+        "end": 20.0,
+        "text": " Single Linkage Clustering is  also called as Nearest Neighbour Clustering  or Minimum Method Clustering.  So I will explain you the  whole numerical. So before that"
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 20.0,
+        "end": 30.0,
+        "text": " like the video and subscribe to the channel.  If you haven't done it yet and if you have done it  then you can subscribe to the devices.  Subscribers are very important. So let's start.  So first of all, we have given the sample"
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 30.0,
+        "end": 40.0,
+        "text": " data points and  6 sample space.  First of all, we have to  create the proximity matrix.  Means distance between each"
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 40.0,
+        "end": 50.0,
+        "text": " and every point. Now see here  I have to find the distance between S1 and S2.  So what I will use?  I will use the Lucidian method.  And for that, I have already done it."
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 50.0,
+        "end": 60.0,
+        "text": " Again note it.  x2 minus x1  whole square plus  y2 minus y1  whole square plus"
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 60.0,
+        "end": 70.0,
+        "text": " square root.  I will show you one method.  You will understand. Between S1 and S2  I have to find the distance.  What is the Lucidian distance between them?"
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 70.0,
+        "end": 80.0,
+        "text": " So this is x1.  This is x2.  This is y1.  This is y2. Now you can easily  do it. How? 1 minus"
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 80.0,
+        "end": 90.0,
+        "text": " 4 whole square plus  4 minus 3  whole square plus  square root.  So this way you will need a calculator."
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 90.0,
+        "end": 100.0,
+        "text": " So that you can  calculate the exact value.  See the value between S1 and S2  I have written it like this.  Now between S1 and S1"
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 100.0,
+        "end": 110.0,
+        "text": " it is 0. And here  I have made axis like this.  And from S1 to S6 like this  I have made rows and columns.  Now you can say that"
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 110.0,
+        "end": 120.0,
+        "text": " how S1 to S3 has been calculated?  How it has been calculated?  This is my x1. This is my x2.  This is my y1. This is my y2.  So 2 minus 4 whole square"
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 120.0,
+        "end": 132.0,
+        "text": " 1 minus 3 whole square plus square root.  That's it. So in this way between S1 and S2  S1, S3, S4, S1, S5, S1, S6  all of them have been calculated.  And then after that S1, S2"
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 132.0,
+        "end": 142.0,
+        "text": " S2, S4, S5, S6  in this way you  can prepare all the metrics.  This is the first method.  Find the distance of the Lycidian"
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 142.0,
+        "end": 152.0,
+        "text": " and on the basis of that  I have created the metrics like this.  Now see  if you think that  why didn't I mention it here?"
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 152.0,
+        "end": 162.0,
+        "text": " Oh man! The distance between S1 and S2  which you will find  will also be the same between S2 and S1.  Value you can see.  Because here it is square root."
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 162.0,
+        "end": 172.0,
+        "text": " And here you are finding the square.  So square 1 minus 4  or square 4 minus 1.  So obviously 3 square will be 9.  And minus 3 square will be 9."
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 172.0,
+        "end": 182.0,
+        "text": " So that means you have to  find the same between S1 and S2  or S2 and S1.  So when you find this out  then the first step is done."
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 182.0,
+        "end": 192.0,
+        "text": " So after this what we have to do  is like the main idea of this method  why it is called single linkage clustering?  Because it has a single method  find the distance and"
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 192.0,
+        "end": 202.0,
+        "text": " the minimum distance  cluster it together.  So from the data, the minimum value  don't say 0, it is the same value.  The minimum value you can see"
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 202.0,
+        "end": 212.0,
+        "text": " here is  2.23  2.23  So that means S1 and S6  I will put them in the same cluster."
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 212.0,
+        "end": 222.0,
+        "text": " So S1 and S6  make a single cluster.  So S6 will die with S1  this row will die with this  and this whole column"
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 222.0,
+        "end": 232.0,
+        "text": " will die with this.  So S1, S2, S3, S5, S5  all these are written as it is.  So see how I have clustered  S1, S2, S3, S4"
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 232.0,
+        "end": 242.0,
+        "text": " this is my old matrix  now what I have done is  combined S1 and S6  rest of the values as it is  write it, that's it."
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 242.0,
+        "end": 252.0,
+        "text": " So my first cluster is ready  and these two values are there.  Now see, these are left  now from these what I have to do  again find out the minimum"
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 252.0,
+        "end": 262.0,
+        "text": " value of S1 and S6  which is minimum in 2.82  S3, so cluster it.  So here S3, combine this row with this  combine this column with this"
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 262.0,
+        "end": 272.0,
+        "text": " rest S2, S4, S5  as it is, let it be written  in rows and columns.  There is nothing, it looks  scary, big calculations are being done"
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 272.0,
+        "end": 282.0,
+        "text": " ok, calculation is a little lengthy  but it is easy, you can do it in an easy way.  So this was my matrix  in that I have combined S3  because its value is the lowest"
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 282.0,
+        "end": 292.0,
+        "text": " so S3 is combined here also  rest of the values are written as it is  Now see again, which is the minimum  3.16  see, one is S4"
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 292.0,
+        "end": 302.0,
+        "text": " and S5 is minimum  so S4 and S5  combine them and which is the other one  S1, S6, S3  this cluster has minimum with S2"
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 302.0,
+        "end": 312.0,
+        "text": " both values are same, so S2  combine with S2, S4 and S5  combine them, so  my final will be like this  S2 will be here"
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 312.0,
+        "end": 322.0,
+        "text": " S4 and S5 will be here  and finally, we will cluster  both of them. So here, what we create  in the end? If I want to create  dendrogram, then what we did?"
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 322.0,
+        "end": 332.0,
+        "text": " Recall again, first of all  S1 and S6  were clustered  because the distance between them was minimum  then what I did? I combined S3"
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 332.0,
+        "end": 342.0,
+        "text": " with them  do you remember?  S3 was combined with S3  see S3, then  S2, here again what we did?"
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 342.0,
+        "end": 352.0,
+        "text": " when S3 was combined  then what I did?  I combined S2 with S3  and along with that  S4 and S5"
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 352.0,
+        "end": 362.0,
+        "text": " I combined them  and then finally  obviously, now both of them have  same value, finally, we will combine  both of them. So this is how the"
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 362.0,
+        "end": 372.0,
+        "text": " clustering will be done and this is how  the hierarchy will be created  between each cluster. So this  is a simple method, calculation is a little  lengthy but if you perform it once"
+    },
+    {
+        "number": "Lec-15",
+        "title": "Single Linkage Clustering",
+        "start": 372.0,
+        "end": 376.0,
+        "text": " then you will understand easily.  Thank you!"
+    }
+]

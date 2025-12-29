@@ -1,0 +1,471 @@
+[
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 0.0,
+        "end": 13.0,
+        "text": " Dear students, welcome to Kids Measures.  In today's video, I am going to explain K-Medoid Clustering.  I will explain the whole concept through an example.  And note each and every point properly.  Calculations are a bit lengthy but they are very easy."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 13.0,
+        "end": 28.0,
+        "text": " So, we know a simple thing about clustering.  If I have multiple clusters, let's suppose I have two clusters.  And I have multiple data points.  I have to check which data point belongs to which cluster.  And there is a simple method for this."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 28.0,
+        "end": 40.0,
+        "text": " You can calculate the distance.  For example, I have to search for a job in a particular area.  I have found a job.  And after finding a job, I have to find where I want to live.  I have two locations."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 40.0,
+        "end": 55.0,
+        "text": " I will choose the location which is near my office.  For example, we are doing the same thing here.  Will this data point belong to this cluster or this cluster?  We have to find out based on distance.  I have already told you about Lucidian distance."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 55.0,
+        "end": 71.0,
+        "text": " Here, we will use the Manhattan distance formula.  It is a very simple formula.  Manhattan distance is x1 minus x2.  If you have two variables, x and y.  Then find the absolute value of x1 minus x2."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 71.0,
+        "end": 87.0,
+        "text": " And find the absolute value of y1 minus y2.  The result should not be in minus.  And add these two.  And that becomes your distance.  Let's suppose if the distance in this cluster is 10."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 87.0,
+        "end": 98.0,
+        "text": " And the distance in this cluster is 20.  Then I will add the nearest distance in 10.  This is the simple concept.  I have 10 data points here.  The values are x and y."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 98.0,
+        "end": 109.0,
+        "text": " The first thing you have to do is.  Let's suppose, in this question,  You have to make two clusters.  I have named those two clusters.  Let's say cluster k1 and cluster k2."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 109.0,
+        "end": 121.0,
+        "text": " Now, the first thing that has to happen is.  Two clusters have to be made.  That is, k1 and k2 have to be made.  But you have to find out two midoids.  Midoids means two values."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 121.0,
+        "end": 131.0,
+        "text": " Which belong to k1 and k2 by default.  And how will you choose that?  Randomly.  You can choose anyone.  If it is given in the question, then choose it."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 131.0,
+        "end": 142.0,
+        "text": " Otherwise, it is your wish.  So what I did here?  Randomly, I chose d1.  That d1 is my midoid.  Which belongs to k1."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 142.0,
+        "end": 153.0,
+        "text": " Means in cluster 1.  And let's suppose, I chose d6 randomly.  Which is my midoid of k2.  Which belongs to k2.  Now what to do?"
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 153.0,
+        "end": 163.0,
+        "text": " According to this d1.  Calculate the distance of everyone.  And according to this d6.  Calculate the distance of everyone.  It's very simple."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 163.0,
+        "end": 175.0,
+        "text": " You have found out here that d1, x1 is this.  And y1 is this.  Now let's calculate according to d2.  How will you do?  For d2, x2-x1."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 175.0,
+        "end": 187.0,
+        "text": " And y2-y1.  Means x2 is 5.  So 5-x1.  Obviously, x1 is 2.  Plus y2."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 187.0,
+        "end": 197.0,
+        "text": " y2 is 7.  And y1 is 3.  So this is your total.  And this is your total distance.  Which is 7."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 197.0,
+        "end": 209.0,
+        "text": " You have calculated the distance of d2.  Based on d1.  But how will you find out?  Should I put d2 here or here?  According to this, you have found out that distance is 7."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 209.0,
+        "end": 219.0,
+        "text": " But according to this, you haven't calculated.  So according to this, you have to do.  How?  d6.  Means x6-x1."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 219.0,
+        "end": 230.0,
+        "text": " Or x1-x6.  It's the same thing.  Because the result is obviously,  If it comes on minus, then we have to take the absolute value as plus.  So y6-y1."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 230.0,
+        "end": 238.0,
+        "text": " So let's calculate this too.  So what is my value here?  Here x2 will not come.  x1 will not come.  x2 will come."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 238.0,
+        "end": 249.0,
+        "text": " Why?  Because I have already fixed x1.  That this is the midpoint of your first cluster.  We have taken out the corresponding of d2.  So the corresponding of d2 is your x6-x2."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 249.0,
+        "end": 259.0,
+        "text": " So what is the value?  6-5.  And what is this y6?  Your y6 is 8.  And what is this?"
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 259.0,
+        "end": 264.0,
+        "text": " Your 7.  So how much is this total?  Your 1 has come.  And how much is this?  1 has come."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 264.0,
+        "end": 272.0,
+        "text": " So what is the distance?  2 has come.  Means you have taken out the distance of d2.  That d2 is how far from d1?  7."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 272.0,
+        "end": 282.0,
+        "text": " And how far is your 2 from d6?  2.  Everyone understood?  I am showing you by calculating 1.  That's why I am saying that the calculation here is very lengthy."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 282.0,
+        "end": 299.0,
+        "text": " It is easy but lengthy.  Because you have to calculate according to d3, d4, d6, d5, etc.  So we have calculated the distance of d2, 7 and 2.  Now what to do?  We have to choose the cluster based on minimum distance."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 299.0,
+        "end": 308.0,
+        "text": " So what is your minimum distance?  2.  So that means your d2 will come in which?  Your d2 will come in K2 cluster.  Okay?"
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 308.0,
+        "end": 320.0,
+        "text": " So this is a simple fund.  What did this thing do to you?  I have already said that we have chosen d1 and d6 randomly.  That this is in my cluster K1.  d1 is already there."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 320.0,
+        "end": 335.0,
+        "text": " And in K2 cluster you can say or you can make it in midoid also.  M1 and M2.  So this is in your d6.  Now you have calculated this distance.  M1 is your distance that is corresponding to d1."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 335.0,
+        "end": 346.0,
+        "text": " Distance of everyone else.  So d1 will obviously be 0.  But I had shown you the rest according to d2.  Now you have calculated all this.  Now what is M2?"
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 346.0,
+        "end": 361.0,
+        "text": " According to d6, you have calculated the distance of everyone.  So d6 to d6 will be 0.  But according to d1, d2, d3 of d6, I had also shown you 2.  So according to both, what is the minimum 2?  So that means M2."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 361.0,
+        "end": 371.0,
+        "text": " That means which will go in cluster 2?  Your d2 will go in it.  Which I have shown you.  I have shown you one.  But you have to do all these calculations."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 371.0,
+        "end": 382.0,
+        "text": " So according to that, you will know that my d1 is in M1.  d2 is in M2.  d3 is in M2.  You have to do all this.  Because look at the distance."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 382.0,
+        "end": 389.0,
+        "text": " This is obviously we have already done it.  This is 0.  This has come in M1.  This has come in M2.  Which is the minimum 6?"
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 389.0,
+        "end": 395.0,
+        "text": " So in M1, 3.  Which is the minimum 6?  So in M1.  Which is the minimum 2?  In M1."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 395.0,
+        "end": 413.0,
+        "text": " So in this way, you have come to know all the clusters.  Which data point has come in which cluster?  You can say that if I have a M1 medoid.  In that, I obviously have your d1.  In M1, we have selected d1 by default."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 413.0,
+        "end": 420.0,
+        "text": " But who else came?  d3 also came.  d4 also came.  Look, d3 also came.  In M1, d4 also came in M1."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 420.0,
+        "end": 432.0,
+        "text": " d5 also came.  d7 also came.  d10 also came in M1 medoid or M1 cluster.  And who came in M2?  In other clusters, d6 is by default."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 432.0,
+        "end": 440.0,
+        "text": " We had assigned it randomly.  But who came other than d6?  d2 came.  So write d2.  You will know which one came in which."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 440.0,
+        "end": 450.0,
+        "text": " d8 came.  And apart from this, d9 came in M1.  So in M1, d10 also came.  In M2, d12 also came.  In M2, d13 also came."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 450.0,
+        "end": 463.0,
+        "text": " So d9 came in M2.  So you have found this out with simple calculations.  It is a very simple fund.  You have found the distance one by one and put the minimum accordingly.  Now see, how many came in M1?"
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 463.0,
+        "end": 470.0,
+        "text": " 6 came.  Of which, we only put d1.  And in M2, 4 came.  Of which, we only put d6.  By putting according to the rest of the distance."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 470.0,
+        "end": 481.0,
+        "text": " Now what is the next step?  Cost has to be found.  How to find out the cost?  It is a very simple fund.  Find out the distance of d3 from d1."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 481.0,
+        "end": 491.0,
+        "text": " Like we have done now.  Means x3-x1  plus y3-y1.  Like we have done now.  Similarly, calculate d4 from d1."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 491.0,
+        "end": 501.0,
+        "text": " d x4-x1  Similarly, d5 from d1  d7 from d1  d10 from d1  And total all of them."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 501.0,
+        "end": 511.0,
+        "text": " And similarly, your d2  according to d6  d8  according to d6  d9 according to d6"
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 511.0,
+        "end": 521.0,
+        "text": " Means x9-x6  y9-y6  y9-y6  So in this way, you find out all the distance.  Total all of them."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 521.0,
+        "end": 531.0,
+        "text": " What will be the total of all?  Your distance will be.  Sorry, cost will be.  So how to calculate the cost?  See, if you don't want to do that."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 531.0,
+        "end": 541.0,
+        "text": " I will tell you a simple shortcut.  Find out all these distances.  Choose the minimum from both.  See, which is the minimum here?  0, which is the minimum here?"
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 541.0,
+        "end": 551.0,
+        "text": " 2, which is the minimum here?  6, so in this way, you  can find out all the cost.  How? By totaling all of them.  Choose the minimum from both."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 551.0,
+        "end": 561.0,
+        "text": " Or according to the formula.  But this will be easier.  Finally, what is your cost?  So this one thing was found out.  In making all these clustering and"
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 561.0,
+        "end": 571.0,
+        "text": " finding out the Medoid value,  33.  In the last, one more step is there.  What is the other step?  What you do is,"
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 571.0,
+        "end": 581.0,
+        "text": " you fix the value.  One Medoid is d1.  Second Medoid is d6.  Now let's suppose,  instead of d6 or d1,"
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 581.0,
+        "end": 591.0,
+        "text": " choose some other.  Means, this 2 3 is  in d1.  This 6 8 is in d6.  This is in the other cluster."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 591.0,
+        "end": 601.0,
+        "text": " Instead of assigning d6 in this,  choose some other randomly.  Means, like what I did here,  I chose one more.  Let's say d4."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 601.0,
+        "end": 611.0,
+        "text": " I kept d1 as it is.  But instead of d6,  I chose d4.  Just for an experiment.  Now what you have to do?"
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 611.0,
+        "end": 621.0,
+        "text": " You can do it in any.  You can take any other instead of d1.  I kept d1 as it is.  But my d4,  I took it in another cluster."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 621.0,
+        "end": 631.0,
+        "text": " So if I take d4 in another cluster,  means instead of d6, I consider d4.  So again, you have to do  the same thing.  You have to do calculations."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 631.0,
+        "end": 641.0,
+        "text": " This one will remain same.  There is no change in this.  This is the distance.  Calculate the distance of all corresponding d1.  We have already done that."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 641.0,
+        "end": 651.0,
+        "text": " But now, you have to calculate the distance  according to d4.  Let me show you.  5 plus  5 minus 7."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 651.0,
+        "end": 661.0,
+        "text": " So what is this?  Minus 2, which you will write as plus 2.  And what is this 2?  It is your 4 distance.  So we calculated 4 distance like this."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 661.0,
+        "end": 671.0,
+        "text": " So all these distances  have to be calculated according to d4.  I gave it a new name, k.  Earlier it was m1 and m2.  Now I gave it a new name, let's say k."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 671.0,
+        "end": 681.0,
+        "text": " Now again, we have to calculate  all the costs.  Take the first column and  calculate all the costs.  What was the cost earlier?"
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 681.0,
+        "end": 691.0,
+        "text": " When we took m1 and m2,  the cost was  33.  And now what is the cost?  35. So the advantage of swapping"
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 691.0,
+        "end": 701.0,
+        "text": " is that instead of d6,  you can swap d4.  So your first cost is good.  So you can take that only.  Or you can do further experiments."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 701.0,
+        "end": 711.0,
+        "text": " But this is the concept  of how the Madoid clustering  works. The calculation is a bit lengthy,  but it is very easy.  Once you do it, you will understand easily."
+    },
+    {
+        "number": "Lec-17",
+        "title": "K-medoids Clustering with Numerical Example",
+        "start": 711.0,
+        "end": 713.0,
+        "text": " Thank you."
+    }
+]

@@ -1,0 +1,1839 @@
+{
+    "chunks": [
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 0.0,
+            "end": 2.0,
+            "text": " Dear students, welcome to kids measures"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 2.0,
+            "end": 4.0,
+            "text": " In today's video I am going to explain"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 4.0,
+            "end": 6.0,
+            "text": " Complete linkage clustering"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 6.0,
+            "end": 9.0,
+            "text": " and with example I will tell you all the points"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 9.0,
+            "end": 11.0,
+            "text": " so that your college, university, exam, interviews"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 11.0,
+            "end": 14.0,
+            "text": " wherever you ask you can easily give the answer"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 14.0,
+            "end": 16.0,
+            "text": " so guys like this video and subscribe to the channel"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 16.0,
+            "end": 18.0,
+            "text": " if you haven't done it yet and if you have done it"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 18.0,
+            "end": 20.0,
+            "text": " then you can subscribe with devices"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 20.0,
+            "end": 21.0,
+            "text": " subscribers are very important"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 21.0,
+            "end": 22.0,
+            "text": " so let's start here"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 22.0,
+            "end": 24.0,
+            "text": " first of all if we talk about"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 24.0,
+            "end": 27.0,
+            "text": " complete linkage is a part of hierarchical clustering"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 27.0,
+            "end": 29.0,
+            "text": " where we create clusters"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 29.0,
+            "end": 32.0,
+            "text": " that which data point will come in which cluster"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 32.0,
+            "end": 34.0,
+            "text": " but along with that we create a hierarchy"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 34.0,
+            "end": 37.0,
+            "text": " means we create proper dendrogram"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 37.0,
+            "end": 39.0,
+            "text": " like we did in single linkage"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 39.0,
+            "end": 42.0,
+            "text": " it is exactly the same but what is different in complete linkage"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 42.0,
+            "end": 44.0,
+            "text": " if you do this numerical now"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 44.0,
+            "end": 46.0,
+            "text": " then you will easily understand"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 46.0,
+            "end": 48.0,
+            "text": " so see again I will tell you that"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 48.0,
+            "end": 50.0,
+            "text": " calculations are a little lengthy"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 50.0,
+            "end": 53.0,
+            "text": " in every video you will get calculations a little lengthy"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 53.0,
+            "end": 55.0,
+            "text": " but don't be afraid, don't be nervous"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 55.0,
+            "end": 57.0,
+            "text": " it is easy, just once you"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 57.0,
+            "end": 59.0,
+            "text": " it will take some time to remember all the steps"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 59.0,
+            "end": 62.0,
+            "text": " but if you do 1-2 examples then you will easily understand"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 62.0,
+            "end": 65.0,
+            "text": " so see here we have given data points"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 65.0,
+            "end": 67.0,
+            "text": " I am working on only one variable"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 67.0,
+            "end": 71.0,
+            "text": " we have data points 2, 6, 9, 11, 3"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 71.0,
+            "end": 73.0,
+            "text": " now we have to create them in clusters"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 73.0,
+            "end": 76.0,
+            "text": " and what to do is we have to create their hierarchy"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 76.0,
+            "end": 78.0,
+            "text": " so first of all what we do"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 78.0,
+            "end": 79.0,
+            "text": " like we did in single linkage"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 79.0,
+            "end": 82.0,
+            "text": " that first of all sir we will create distance matrix"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 82.0,
+            "end": 85.0,
+            "text": " that what is the distance between each data point"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 85.0,
+            "end": 87.0,
+            "text": " that we have to find out"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 87.0,
+            "end": 89.0,
+            "text": " so for distance matrix I have written"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 89.0,
+            "end": 91.0,
+            "text": " in your columns also"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 91.0,
+            "end": 93.0,
+            "text": " and in rows also I have written all the data points"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 93.0,
+            "end": 95.0,
+            "text": " and one by one we have to find out the distance"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 95.0,
+            "end": 97.0,
+            "text": " so how to find out the distance"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 97.0,
+            "end": 100.0,
+            "text": " we will calculate it from the distance formula"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 100.0,
+            "end": 102.0,
+            "text": " what is the formula"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 102.0,
+            "end": 106.0,
+            "text": " simple x1-x2 square"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 106.0,
+            "end": 110.0,
+            "text": " plus y1-y2 whole square"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 110.0,
+            "end": 112.0,
+            "text": " and above what comes, square root comes"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 112.0,
+            "end": 115.0,
+            "text": " so see here we are working on only one variable"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 115.0,
+            "end": 117.0,
+            "text": " take x, y is not here"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 117.0,
+            "end": 119.0,
+            "text": " so remove it from here"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 119.0,
+            "end": 123.0,
+            "text": " so simple formula is x1-x2 whole square"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 123.0,
+            "end": 125.0,
+            "text": " and above square root"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 125.0,
+            "end": 127.0,
+            "text": " because I have only one"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 127.0,
+            "end": 129.0,
+            "text": " if there are two then do according to two"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 129.0,
+            "end": 131.0,
+            "text": " if there are three then do according to three"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 131.0,
+            "end": 133.0,
+            "text": " there z1-z2 will come"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 133.0,
+            "end": 135.0,
+            "text": " so like I will show you one by one"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 135.0,
+            "end": 136.0,
+            "text": " rest you will understand"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 136.0,
+            "end": 138.0,
+            "text": " see if you have to find out between 2 and 6"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 138.0,
+            "end": 142.0,
+            "text": " so 2-6 whole square square root"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 142.0,
+            "end": 144.0,
+            "text": " what will be the answer, minus 4"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 144.0,
+            "end": 146.0,
+            "text": " when you square minus 4"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 146.0,
+            "end": 148.0,
+            "text": " so what will be the answer, 16"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 148.0,
+            "end": 150.0,
+            "text": " and square root of 16"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 150.0,
+            "end": 152.0,
+            "text": " so the answer will be 4"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 152.0,
+            "end": 154.0,
+            "text": " I will show you one more"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 154.0,
+            "end": 156.0,
+            "text": " but according to me you would have understood"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 156.0,
+            "end": 158.0,
+            "text": " between 2 and 9"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 158.0,
+            "end": 160.0,
+            "text": " so 2-9 whole square square root"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 160.0,
+            "end": 162.0,
+            "text": " what will be the answer, minus 7 square square root"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 162.0,
+            "end": 164.0,
+            "text": " so what will be the answer, 49"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 164.0,
+            "end": 166.0,
+            "text": " and what will be the answer, 7"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 166.0,
+            "end": 169.0,
+            "text": " so like this you have calculated all the values"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 169.0,
+            "end": 171.0,
+            "text": " rest you know"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 171.0,
+            "end": 173.0,
+            "text": " distance between 2 and 2, 6 and 6"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 173.0,
+            "end": 175.0,
+            "text": " will be 0"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 175.0,
+            "end": 177.0,
+            "text": " when this matrix is created"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 177.0,
+            "end": 179.0,
+            "text": " what is the second step"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 179.0,
+            "end": 181.0,
+            "text": " we have to find out that distance"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 181.0,
+            "end": 183.0,
+            "text": " which is minimum"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 183.0,
+            "end": 185.0,
+            "text": " means from all these data"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 185.0,
+            "end": 187.0,
+            "text": " don't say 0 is minimum"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 187.0,
+            "end": 189.0,
+            "text": " that is on same data"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 189.0,
+            "end": 191.0,
+            "text": " rest if you see carefully"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 191.0,
+            "end": 193.0,
+            "text": " you will find that one value is the smallest"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 193.0,
+            "end": 195.0,
+            "text": " 1"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 195.0,
+            "end": 197.0,
+            "text": " so in this you have to combine 2 and 3"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 197.0,
+            "end": 199.0,
+            "text": " so combine 2 and 3"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 199.0,
+            "end": 201.0,
+            "text": " make 2 and 3 cluster"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 201.0,
+            "end": 203.0,
+            "text": " so what is your result"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 203.0,
+            "end": 205.0,
+            "text": " 2-3 one cluster"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 205.0,
+            "end": 207.0,
+            "text": " rest of the data points will be as it is"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 207.0,
+            "end": 209.0,
+            "text": " like this"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 209.0,
+            "end": 211.0,
+            "text": " and like this you have 2 and 3"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 211.0,
+            "end": 213.0,
+            "text": " rest of the data points will be same"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 213.0,
+            "end": 215.0,
+            "text": " so see I will show you in next slide"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 215.0,
+            "end": 217.0,
+            "text": " so see I will show you in next slide"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 217.0,
+            "end": 219.0,
+            "text": " so 2 and 3"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 219.0,
+            "end": 221.0,
+            "text": " on one side rest of the data points"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 221.0,
+            "end": 223.0,
+            "text": " will be as it is"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 223.0,
+            "end": 225.0,
+            "text": " so what is the major difference"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 225.0,
+            "end": 227.0,
+            "text": " in complete linkage"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 227.0,
+            "end": 229.0,
+            "text": " that if I have to write"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 229.0,
+            "end": 231.0,
+            "text": " distance between 2 and 3, 6"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 231.0,
+            "end": 233.0,
+            "text": " so it is not like"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 233.0,
+            "end": 235.0,
+            "text": " I have to write same as it is"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 235.0,
+            "end": 237.0,
+            "text": " in single linkage"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 237.0,
+            "end": 239.0,
+            "text": " we have to write directly"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 239.0,
+            "end": 241.0,
+            "text": " rest of the values"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 241.0,
+            "end": 243.0,
+            "text": " but here"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 243.0,
+            "end": 245.0,
+            "text": " if I have 2 and 3"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 245.0,
+            "end": 247.0,
+            "text": " as a cluster"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 247.0,
+            "end": 249.0,
+            "text": " now I have to find out"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 249.0,
+            "end": 251.0,
+            "text": " distance between 2 and 3"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 251.0,
+            "end": 253.0,
+            "text": " so I will find out"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 253.0,
+            "end": 255.0,
+            "text": " distance between 2 and 3"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 255.0,
+            "end": 257.0,
+            "text": " and maximum value"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 257.0,
+            "end": 259.0,
+            "text": " means if I have to find out"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 259.0,
+            "end": 261.0,
+            "text": " distance then what formula I will use"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 261.0,
+            "end": 263.0,
+            "text": " 2 and 6"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 263.0,
+            "end": 265.0,
+            "text": " distance between 2 and 3"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 265.0,
+            "end": 267.0,
+            "text": " and 6 distance"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 267.0,
+            "end": 269.0,
+            "text": " and maximum value will come"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 269.0,
+            "end": 271.0,
+            "text": " this is complete linkage"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 271.0,
+            "end": 273.0,
+            "text": " you have to"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 273.0,
+            "end": 275.0,
+            "text": " like we say worst case"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 275.0,
+            "end": 277.0,
+            "text": " in worst case best case and average case"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 277.0,
+            "end": 279.0,
+            "text": " so that's why student think"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 279.0,
+            "end": 281.0,
+            "text": " sir we should take minimum distance"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 281.0,
+            "end": 283.0,
+            "text": " no we will take maximum distance"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 283.0,
+            "end": 285.0,
+            "text": " why? because it has simple reason"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 285.0,
+            "end": 287.0,
+            "text": " that if let's suppose this distance"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 287.0,
+            "end": 289.0,
+            "text": " is 10 and this distance is 20"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 289.0,
+            "end": 291.0,
+            "text": " so if you take 10"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 291.0,
+            "end": 293.0,
+            "text": " then 3 to 6 will not go"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 293.0,
+            "end": 295.0,
+            "text": " because you gave it 10 rupees to go"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 295.0,
+            "end": 297.0,
+            "text": " somewhere but"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 297.0,
+            "end": 299.0,
+            "text": " if it is 20 then how it will go in 10 rupees"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 299.0,
+            "end": 301.0,
+            "text": " so obviously both of you"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 301.0,
+            "end": 303.0,
+            "text": " in best case means"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 303.0,
+            "end": 305.0,
+            "text": " maximum value you have to consider"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 305.0,
+            "end": 307.0,
+            "text": " so we will consider that here"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 307.0,
+            "end": 309.0,
+            "text": " so see distance between 2 and 6"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 309.0,
+            "end": 311.0,
+            "text": " is 4"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 311.0,
+            "end": 313.0,
+            "text": " distance between 3 and 6"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 313.0,
+            "end": 315.0,
+            "text": " is 3 so maximum value"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 315.0,
+            "end": 317.0,
+            "text": " is 4 this is how"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 317.0,
+            "end": 319.0,
+            "text": " you have to calculate let me show you one more"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 319.0,
+            "end": 321.0,
+            "text": " see one more let's suppose"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 321.0,
+            "end": 323.0,
+            "text": " I have to find out"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 323.0,
+            "end": 325.0,
+            "text": " distance between 2 and 3 with 11"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 325.0,
+            "end": 327.0,
+            "text": " so how we will do? maximum of"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 327.0,
+            "end": 329.0,
+            "text": " between 2 and 11"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 329.0,
+            "end": 331.0,
+            "text": " between 3 and 11"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 331.0,
+            "end": 333.0,
+            "text": " maximum of both you have to find out"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 333.0,
+            "end": 335.0,
+            "text": " so see distance between 2 and 11"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 335.0,
+            "end": 337.0,
+            "text": " is 9"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 337.0,
+            "end": 339.0,
+            "text": " distance between 3 and 11"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 339.0,
+            "end": 341.0,
+            "text": " is 8"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 341.0,
+            "end": 343.0,
+            "text": " maximum value of both is 9"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 343.0,
+            "end": 345.0,
+            "text": " so see distance between 2 and 3"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 345.0,
+            "end": 347.0,
+            "text": " with 11 is 9"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 347.0,
+            "end": 349.0,
+            "text": " this way you have to calculate all the values"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 349.0,
+            "end": 351.0,
+            "text": " then complete link"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 351.0,
+            "end": 353.0,
+            "text": " will work properly so see"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 353.0,
+            "end": 355.0,
+            "text": " values are there now what we have to do?"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 355.0,
+            "end": 357.0,
+            "text": " when final settlement will be done then"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 357.0,
+            "end": 359.0,
+            "text": " again find minimum weight"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 359.0,
+            "end": 361.0,
+            "text": " which is 2"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 361.0,
+            "end": 363.0,
+            "text": " 2 is minimum between which?"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 363.0,
+            "end": 365.0,
+            "text": " between 9 and 11"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 365.0,
+            "end": 367.0,
+            "text": " so next cluster will be 9 and 11"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 367.0,
+            "end": 369.0,
+            "text": " so let's go to next slide"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 369.0,
+            "end": 371.0,
+            "text": " 2 and 3 is already done"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 371.0,
+            "end": 373.0,
+            "text": " 9 and 11"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 373.0,
+            "end": 375.0,
+            "text": " next cluster will be done but this distance"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 375.0,
+            "end": 377.0,
+            "text": " as it is we don't have to write now what is done?"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 377.0,
+            "end": 379.0,
+            "text": " 9 and 11"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 379.0,
+            "end": 381.0,
+            "text": " so my cluster is done now I have to find out"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 381.0,
+            "end": 383.0,
+            "text": " distance between 2 and 3"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 383.0,
+            "end": 385.0,
+            "text": " how much distance between 9 and 11"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 385.0,
+            "end": 387.0,
+            "text": " how we will find? maximum of"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 387.0,
+            "end": 389.0,
+            "text": " distance between 2 and 3 of 9"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 389.0,
+            "end": 391.0,
+            "text": " distance between 2 and 3 of 11"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 391.0,
+            "end": 393.0,
+            "text": " distance between 2 and 3 of 11"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 393.0,
+            "end": 395.0,
+            "text": " and maximum value of 9"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 395.0,
+            "end": 397.0,
+            "text": " distance between 2 and 3 of 9 is 7"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 397.0,
+            "end": 399.0,
+            "text": " distance between 2 and 3 of 11"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 399.0,
+            "end": 401.0,
+            "text": " is 9"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 401.0,
+            "end": 403.0,
+            "text": " so we have to find"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 403.0,
+            "end": 405.0,
+            "text": " distance between 2 and 3"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 405.0,
+            "end": 407.0,
+            "text": " if I have to find maximum value"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 407.0,
+            "end": 409.0,
+            "text": " which is 9"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 409.0,
+            "end": 411.0,
+            "text": " so this way value is maximum"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 411.0,
+            "end": 413.0,
+            "text": " I will do one more like this"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 413.0,
+            "end": 415.0,
+            "text": " I hope you understood"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 415.0,
+            "end": 417.0,
+            "text": " now let's say 9, 11"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 417.0,
+            "end": 419.0,
+            "text": " because this is new cluster"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 419.0,
+            "end": 421.0,
+            "text": " let's say I have to find distance"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 421.0,
+            "end": 423.0,
+            "text": " between 6 and 11"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 423.0,
+            "end": 425.0,
+            "text": " so distance between 6 and 9"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 425.0,
+            "end": 427.0,
+            "text": " and distance between 6 and 11"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 427.0,
+            "end": 429.0,
+            "text": " both of them maximum value"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 429.0,
+            "end": 431.0,
+            "text": " calculate it"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 431.0,
+            "end": 433.0,
+            "text": " 3"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 433.0,
+            "end": 435.0,
+            "text": " 6 and 11"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 435.0,
+            "end": 437.0,
+            "text": " 5"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 437.0,
+            "end": 439.0,
+            "text": " so distance between 9 and 11"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 439.0,
+            "end": 441.0,
+            "text": " is 5"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 441.0,
+            "end": 443.0,
+            "text": " this way you have to calculate"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 443.0,
+            "end": 445.0,
+            "text": " values"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 445.0,
+            "end": 447.0,
+            "text": " now again"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 447.0,
+            "end": 449.0,
+            "text": " calculate value"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 449.0,
+            "end": 451.0,
+            "text": " 4"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 451.0,
+            "end": 453.0,
+            "text": " so 2, 3"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 453.0,
+            "end": 455.0,
+            "text": " is 6"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 455.0,
+            "end": 457.0,
+            "text": " so 2, 3 is 6"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 457.0,
+            "end": 459.0,
+            "text": " so new cluster is"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 459.0,
+            "end": 461.0,
+            "text": " 2, 3"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 461.0,
+            "end": 463.0,
+            "text": " 6"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 463.0,
+            "end": 465.0,
+            "text": " now let's say I have to find distance"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 465.0,
+            "end": 467.0,
+            "text": " between 2, 3 and 6"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 467.0,
+            "end": 469.0,
+            "text": " with 9, 11"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 469.0,
+            "end": 471.0,
+            "text": " so how I will find?"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 471.0,
+            "end": 473.0,
+            "text": " first of all distance between 2, 3"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 473.0,
+            "end": 475.0,
+            "text": " and 9, 11"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 475.0,
+            "end": 477.0,
+            "text": " and here what will be 6's"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 477.0,
+            "end": 479.0,
+            "text": " with whom 6's?"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 479.0,
+            "end": 481.0,
+            "text": " with 9, 11"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 481.0,
+            "end": 483.0,
+            "text": " so distance between 2, 3 and 9, 11"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 483.0,
+            "end": 485.0,
+            "text": " is 9"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 485.0,
+            "end": 487.0,
+            "text": " and distance between 6 and 9, 11"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 487.0,
+            "end": 489.0,
+            "text": " is 5"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 489.0,
+            "end": 491.0,
+            "text": " so maximum value"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 491.0,
+            "end": 493.0,
+            "text": " is 9"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 493.0,
+            "end": 495.0,
+            "text": " so calculate distance"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 495.0,
+            "end": 497.0,
+            "text": " like this"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 497.0,
+            "end": 499.0,
+            "text": " so finally, last only one value is left"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 499.0,
+            "end": 501.0,
+            "text": " so we have to merge both"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 501.0,
+            "end": 503.0,
+            "text": " so if we have to make dendrogram"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 503.0,
+            "end": 505.0,
+            "text": " first of all merge 2 and 3"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 505.0,
+            "end": 507.0,
+            "text": " ok"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 507.0,
+            "end": 509.0,
+            "text": " after that merge 2 and 3"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 509.0,
+            "end": 511.0,
+            "text": " see here"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 511.0,
+            "end": 513.0,
+            "text": " merge 2 and 3 first"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 513.0,
+            "end": 515.0,
+            "text": " then merge 9 and 11"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 515.0,
+            "end": 517.0,
+            "text": " then what we did after that?"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 517.0,
+            "end": 519.0,
+            "text": " we merged 9 and 11"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 519.0,
+            "end": 521.0,
+            "text": " after that with 2, 3"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 521.0,
+            "end": 523.0,
+            "text": " merged 6"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 523.0,
+            "end": 525.0,
+            "text": " means here 6 came"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 525.0,
+            "end": 527.0,
+            "text": " and merged 6 with 2, 3"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 527.0,
+            "end": 529.0,
+            "text": " and finally merged all"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 529.0,
+            "end": 531.0,
+            "text": " this is how the dendrogram"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 531.0,
+            "end": 533.0,
+            "text": " will be created"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 533.0,
+            "end": 535.0,
+            "text": " so remember this complete linkage step"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 535.0,
+            "end": 537.0,
+            "text": " that you don't have to write direct distance"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 537.0,
+            "end": 539.0,
+            "text": " which is written in single"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 539.0,
+            "end": 541.0,
+            "text": " you have to find the distance of every data point"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 541.0,
+            "end": 543.0,
+            "text": " and maximum value will be your answer"
+        },
+        {
+            "number": "Lec-16",
+            "title": "Complete Linkage⛓️ Clustering with Example",
+            "start": 543.0,
+            "end": 545.0,
+            "text": " thank you"
+        }
+    ],
+    "text": " Dear students, welcome to kids measures In today's video I am going to explain Complete linkage clustering and with example I will tell you all the points so that your college, university, exam, interviews wherever you ask you can easily give the answer so guys like this video and subscribe to the channel if you haven't done it yet and if you have done it then you can subscribe with devices subscribers are very important so let's start here first of all if we talk about complete linkage is a part of hierarchical clustering where we create clusters that which data point will come in which cluster but along with that we create a hierarchy means we create proper dendrogram like we did in single linkage it is exactly the same but what is different in complete linkage if you do this numerical now then you will easily understand so see again I will tell you that calculations are a little lengthy in every video you will get calculations a little lengthy but don't be afraid, don't be nervous it is easy, just once you it will take some time to remember all the steps but if you do 1-2 examples then you will easily understand so see here we have given data points I am working on only one variable we have data points 2, 6, 9, 11, 3 now we have to create them in clusters and what to do is we have to create their hierarchy so first of all what we do like we did in single linkage that first of all sir we will create distance matrix that what is the distance between each data point that we have to find out so for distance matrix I have written in your columns also and in rows also I have written all the data points and one by one we have to find out the distance so how to find out the distance we will calculate it from the distance formula what is the formula simple x1-x2 square plus y1-y2 whole square and above what comes, square root comes so see here we are working on only one variable take x, y is not here so remove it from here so simple formula is x1-x2 whole square and above square root because I have only one if there are two then do according to two if there are three then do according to three there z1-z2 will come so like I will show you one by one rest you will understand see if you have to find out between 2 and 6 so 2-6 whole square square root what will be the answer, minus 4 when you square minus 4 so what will be the answer, 16 and square root of 16 so the answer will be 4 I will show you one more but according to me you would have understood between 2 and 9 so 2-9 whole square square root what will be the answer, minus 7 square square root so what will be the answer, 49 and what will be the answer, 7 so like this you have calculated all the values rest you know distance between 2 and 2, 6 and 6 will be 0 when this matrix is created what is the second step we have to find out that distance which is minimum means from all these data don't say 0 is minimum that is on same data rest if you see carefully you will find that one value is the smallest 1 so in this you have to combine 2 and 3 so combine 2 and 3 make 2 and 3 cluster so what is your result 2-3 one cluster rest of the data points will be as it is like this and like this you have 2 and 3 rest of the data points will be same so see I will show you in next slide so see I will show you in next slide so 2 and 3 on one side rest of the data points will be as it is so what is the major difference in complete linkage that if I have to write distance between 2 and 3, 6 so it is not like I have to write same as it is in single linkage we have to write directly rest of the values but here if I have 2 and 3 as a cluster now I have to find out distance between 2 and 3 so I will find out distance between 2 and 3 and maximum value means if I have to find out distance then what formula I will use 2 and 6 distance between 2 and 3 and 6 distance and maximum value will come this is complete linkage you have to like we say worst case in worst case best case and average case so that's why student think sir we should take minimum distance no we will take maximum distance why? because it has simple reason that if let's suppose this distance is 10 and this distance is 20 so if you take 10 then 3 to 6 will not go because you gave it 10 rupees to go somewhere but if it is 20 then how it will go in 10 rupees so obviously both of you in best case means maximum value you have to consider so we will consider that here so see distance between 2 and 6 is 4 distance between 3 and 6 is 3 so maximum value is 4 this is how you have to calculate let me show you one more see one more let's suppose I have to find out distance between 2 and 3 with 11 so how we will do? maximum of between 2 and 11 between 3 and 11 maximum of both you have to find out so see distance between 2 and 11 is 9 distance between 3 and 11 is 8 maximum value of both is 9 so see distance between 2 and 3 with 11 is 9 this way you have to calculate all the values then complete link will work properly so see values are there now what we have to do? when final settlement will be done then again find minimum weight which is 2 2 is minimum between which? between 9 and 11 so next cluster will be 9 and 11 so let's go to next slide 2 and 3 is already done 9 and 11 next cluster will be done but this distance as it is we don't have to write now what is done? 9 and 11 so my cluster is done now I have to find out distance between 2 and 3 how much distance between 9 and 11 how we will find? maximum of distance between 2 and 3 of 9 distance between 2 and 3 of 11 distance between 2 and 3 of 11 and maximum value of 9 distance between 2 and 3 of 9 is 7 distance between 2 and 3 of 11 is 9 so we have to find distance between 2 and 3 if I have to find maximum value which is 9 so this way value is maximum I will do one more like this I hope you understood now let's say 9, 11 because this is new cluster let's say I have to find distance between 6 and 11 so distance between 6 and 9 and distance between 6 and 11 both of them maximum value calculate it 3 6 and 11 5 so distance between 9 and 11 is 5 this way you have to calculate values now again calculate value 4 so 2, 3 is 6 so 2, 3 is 6 so new cluster is 2, 3 6 now let's say I have to find distance between 2, 3 and 6 with 9, 11 so how I will find? first of all distance between 2, 3 and 9, 11 and here what will be 6's with whom 6's? with 9, 11 so distance between 2, 3 and 9, 11 is 9 and distance between 6 and 9, 11 is 5 so maximum value is 9 so calculate distance like this so finally, last only one value is left so we have to merge both so if we have to make dendrogram first of all merge 2 and 3 ok after that merge 2 and 3 see here merge 2 and 3 first then merge 9 and 11 then what we did after that? we merged 9 and 11 after that with 2, 3 merged 6 means here 6 came and merged 6 with 2, 3 and finally merged all this is how the dendrogram will be created so remember this complete linkage step that you don't have to write direct distance which is written in single you have to find the distance of every data point and maximum value will be your answer thank you"
+}

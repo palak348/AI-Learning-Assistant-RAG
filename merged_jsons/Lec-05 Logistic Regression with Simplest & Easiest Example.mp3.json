@@ -1,0 +1,422 @@
+[
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 0.0,
+        "end": 10.0,
+        "text": " Dear students, welcome to Gids Measures  In today's video I am going to explain  Logistic Regression  Which is used in supervised learning  And in that also"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 10.0,
+        "end": 20.0,
+        "text": " Classification model is used  Where we have to predict about classes  The simplest example is  Email one, that is email  Spam or not spam"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 20.0,
+        "end": 30.0,
+        "text": " If I give you any  Symptom of any particular disease  So is it a disease or not  Whenever we have to decide a category  Is it or not"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 30.0,
+        "end": 40.0,
+        "text": " So that is your classification  So in logistic regression  What is the concept we have  Like if you have read about linear regression  Because I have already made a video on it"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 40.0,
+        "end": 50.0,
+        "text": " In linear regression we predict  Values come under regression  In that we had  The concept of independent variable  And dependent variable"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 50.0,
+        "end": 60.0,
+        "text": " Here also the same concept is that  One we have independent variable  And the second is our dependent variable  Now see dependent variable  Is that which we are going to predict"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 60.0,
+        "end": 70.0,
+        "text": " Means we predict it  And independent variable is that  Which helps in predicting  So independent variable can also be multiple  It is not that it is only one"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 70.0,
+        "end": 80.0,
+        "text": " It can be more also  But this is yours only  Which we have to predict  So in this example I am taking study hours  Study hours means 2 hours, some 4 hours, some 6 hours"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 80.0,
+        "end": 90.0,
+        "text": " Some 8 hours and exam result  Now here the most important thing  Which you have to keep in mind  Students get confused  In linear regression"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 90.0,
+        "end": 100.0,
+        "text": " We have this variable  This data is continuous  Here also it is continuous  2, 3, 4, 5 like this  But this data is important"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 100.0,
+        "end": 110.0,
+        "text": " Which we are going to predict  Which is dependent variable  That data is your categorical  Categorical means kind of discrete data  Binary data in the form of 0 or 1"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 110.0,
+        "end": 120.0,
+        "text": " In the form of yes or no  Whether this thing will happen or not  That this data will be in the form  So that's why whatever we have  Independent variable"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 120.0,
+        "end": 130.0,
+        "text": " With the help of that independent variable  What will we find  That either this thing will happen or not  We are deciding the category  That either it will come in this category or this category"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 130.0,
+        "end": 140.0,
+        "text": " Like now here someone gives you  Let's suppose you have data  You have used this data, trained it, model trained it  Now after that you have to predict  That there is a person who studies for 5 hours"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 140.0,
+        "end": 150.0,
+        "text": " Although he studies less  But let's suppose there is a student  Who studies for 5 hours  So predict that he will pass  Or fail and let's suppose"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 150.0,
+        "end": 160.0,
+        "text": " If I have considered 0 as fail  And 1 as pass  Then I have to find out that he will come in the category of fail  Or will come in the category of pass  And there is another student who studies for 1.5 hours"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 160.0,
+        "end": 172.0,
+        "text": " So will he come in the category of fail  Or will come in the category of pass  So we have to find out the probability here  That 0 means fail, 1 means pass  So if my probability is 0.8"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 172.0,
+        "end": 182.0,
+        "text": " So that means he will be nearest to  The one who passed  If let's suppose it is 0.2  Then he will be nearest to the one who failed  So this is the probability event"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 182.0,
+        "end": 192.0,
+        "text": " That we have to find out  And our result comes in the form of 0 and 1  So here  The sigmoid function  Is used"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 192.0,
+        "end": 202.0,
+        "text": " What is this sigmoid function  What is my y  This is your predicting variable  The value of the predicting variable  We calculate it like this"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 202.0,
+        "end": 212.0,
+        "text": " And always remember that whatever value of y  Sigmoid function  The purpose of sigmoid function is  That the values that will come in sigmoid function  All the values"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 212.0,
+        "end": 222.0,
+        "text": " Will be in between 0 and 1  0 means  Your lowest and 1 means highest  So it will give value in between  And this is my 1 divided by 1 plus e"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 222.0,
+        "end": 232.0,
+        "text": " You already know  A0  What is A0 here  Intercept  Like if you have read linear regression"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 232.0,
+        "end": 242.0,
+        "text": " I have told about intercept there also  Intercept means  If I take value of x as 0  Then where is the value of y  Intercepting in the graph"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 242.0,
+        "end": 252.0,
+        "text": " And here A1  What is it called  It is coefficient that if I  Increment the value of x to 1  Then how much effect it has on the value of y"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 252.0,
+        "end": 262.0,
+        "text": " So that is the meaning of A1  Means if I increase or decrease the value of x  Then what effect it has on the value of y  So that is your  Coefficient A1"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 262.0,
+        "end": 272.0,
+        "text": " And what is x here  X is your independent variable  Like we have taken here  R study, independent  It can be multiple also but here I am explaining with the simplest example"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 272.0,
+        "end": 282.0,
+        "text": " So here x came here in a way  Which is what study r  I have told you independent  Your independent variable came here  We are studying for 2 hours"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 282.0,
+        "end": 292.0,
+        "text": " And here what we have  What is y, your result of exam  Now the result of exam is not continuous here  Means 2,3,4,5  Like this"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 292.0,
+        "end": 302.0,
+        "text": " Here the result of exam is either 0  Or 1, understood  Pass or fail, so value will lie between 0 and 1  So what is this in a way  This will be its half value"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 302.0,
+        "end": 312.0,
+        "text": " 0.5, so in a way what it is doing  It is dividing in two classes  Understood, divided in two classes  If any value is going in upper class  So it means its chances are"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 312.0,
+        "end": 322.0,
+        "text": " Of passing and if it is going in lower  So its chances are of failing  This is the classification  We have to find out the class that it is in this or this  Here or there"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 322.0,
+        "end": 332.0,
+        "text": " This thing is your  Logistic regression which works on this particular  Sigmoid value  Now let's suppose some of my values  Lying here, means 0 on the lower value"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 332.0,
+        "end": 342.0,
+        "text": " And some values are lying on my upper value  Now let's suppose this was my training data  Now I am predicting  Let's suppose I said that a student came  Who studies for 5 hours"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 342.0,
+        "end": 352.0,
+        "text": " Means my x value is 5  Because study hours are 5  Now here you will say  Sir how will we find out the value of A0 and A1  Which is my intercept, this is my coefficient"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 352.0,
+        "end": 362.0,
+        "text": " How will we find out its value  So guys I will calculate its value  In further video and show you  Because it actually works  On your maximum likelihood estimation"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 362.0,
+        "end": 372.0,
+        "text": " Maximum likelihood  On maximum likelihood estimation  And in that also cost function  Has to be optimized again and again  With gradient descent method"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 372.0,
+        "end": 382.0,
+        "text": " Or specialized solver method  So it has a lot of mathematics  I will tell you further, don't worry  Why? Because if you get any question  On this numerical, then these values"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 382.0,
+        "end": 392.0,
+        "text": " Will give you  That A0's value is this  A1's value is this  But if you see my linear regression video  I have calculated properly"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 392.0,
+        "end": 402.0,
+        "text": " Here I will show you further  Because it is a time consuming task  So here  Just note that maximum likelihood  Estimation is used"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 402.0,
+        "end": 412.0,
+        "text": " Then cost estimation  And to optimize it using gradient descent method  We get some values  So optimizer gave me value  That what is my value here"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 412.0,
+        "end": 422.0,
+        "text": " Minus 1.5  A0's value gave me minus 1.5  And A1's value gave me 0.6  Means by optimizing  Cost again and again"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 422.0,
+        "end": 432.0,
+        "text": " By using iterative method  I got a best value of A0 and A1  Now what we have to do  We have to put that value here  Let's suppose value of x"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 432.0,
+        "end": 442.0,
+        "text": " Means a student came who said that I study for 5 hours  So put it, A0's value is  Minus 1.5  Plus A1's value is  0.6 into 5"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 442.0,
+        "end": 452.0,
+        "text": " So when we calculate its value  Then it will be 1.5  And put 1.5 here  Means what is the value of this whole  1.5, so if you solve it"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 452.0,
+        "end": 462.0,
+        "text": " 1 divided by 1 plus  e power minus 1.5  Because it is minus  So 1.5 is its value  If you consider it as z"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 462.0,
+        "end": 472.0,
+        "text": " So z value is 1.5  So if you calculate this  Then its result will be around  0.818  Means 81%"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 472.0,
+        "end": 482.0,
+        "text": " Chances are there, means more than 81  Almost 81 or 82%  Chances are there that if it increases this much  Then it will pass  And see 0.81"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 482.0,
+        "end": 492.0,
+        "text": " If this is my 1, this is my 0, this is my 0.5  So you can say that  0.818 is lying here  0.818  So in which category is it coming"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 492.0,
+        "end": 502.0,
+        "text": " It is coming in the pass category  This is the classification, so I am telling you a general model  If a student says  I study for 1.5 hours  Means I study for 1.5 hours"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 502.0,
+        "end": 512.0,
+        "text": " So tell me, if you study for 1.5 hours  Then put the value  Minus 1.5 plus 0.6 into  1.5  If you do this"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 512.0,
+        "end": 522.0,
+        "text": " Then you will get minus 1.5 plus 0.9  Minus 0.6  Its answer will come  And if you put this value here  Then it will come 1 divided by"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 522.0,
+        "end": 532.0,
+        "text": " 1 plus e power  Minus is outside and inside is also minus  So in a way, it became plus 0.6  So if you solve this  Then your result will come"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 532.0,
+        "end": 542.0,
+        "text": " 0.35 something  Means this 0.35  If you say, it has 30-35%  chances of passing  So in a way, it came below 0.5"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 542.0,
+        "end": 552.0,
+        "text": " Value, means it will lie somewhere here  So in a way, it came in the category  Kind of  It has chances of failing  It passed because now from 0.5"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 552.0,
+        "end": 562.0,
+        "text": " So this way, the category  Decides, classifies  Particular data, predicts  Value, just remember this concept  It is different from linear regression"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 562.0,
+        "end": 572.0,
+        "text": " Because the predicting variable  Which we are predicting, is category based  Yes or no, but in linear regression  It was in continuity, like  Price is going up or down"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 572.0,
+        "end": 582.0,
+        "text": " Based on house size  Means if you are given house size  And in 1, you are given house price  So in that, house price is not yes or no  If house size is 100 square foot"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 582.0,
+        "end": 592.0,
+        "text": " So let's suppose, house is 1 lakh  200 square foot is 2 lakh, 300 square foot is 5 lakh  So that means, that value is not in yes or no  It is not category based, it is continuous  So this concept"
+    },
+    {
+        "number": "Lec-5",
+        "title": "Logistic Regression with Simplest & Easiest Example",
+        "start": 592.0,
+        "end": 600.0,
+        "text": " You remember it  You will get an idea, how to classify  Using this logistic regression  Thank you"
+    }
+]

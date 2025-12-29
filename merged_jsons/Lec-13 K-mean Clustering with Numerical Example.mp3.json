@@ -1,0 +1,338 @@
+[
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 0.0,
+        "end": 10.0,
+        "text": " Dear students, welcome to GIT smashers  In today's video, I am going to explain  K-mean clustering method  and with real life example, I will explain  how we do calculations"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 10.0,
+        "end": 20.0,
+        "text": " For example, I am taking  customer segmentation based on  online shopping behavior  It's a simple thing, we all  do online shopping"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 20.0,
+        "end": 30.0,
+        "text": " Now, I have to find out  which customers can lie in the same cluster  and which can lie in different clusters  For example,  as a beginner, you know"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 30.0,
+        "end": 40.0,
+        "text": " what is clustering method  If I have many data points  and I have told them that this data point  is in this cluster and this data point is in this cluster  then why did I put all of them"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 40.0,
+        "end": 50.0,
+        "text": " in one cluster?  There must be some similarity  that's why I put them in one cluster  and why did I put this and this in different cluster?  Because there is no"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 50.0,
+        "end": 60.0,
+        "text": " similarity between these two  that's why they are in different cluster  This is the thing  that you have to apply here  and how to calculate, you can do all those steps"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 60.0,
+        "end": 70.0,
+        "text": " one by one  The first step is  how many clusters you have to make  Let's suppose I have two clusters  You may have been asked in the question"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 70.0,
+        "end": 80.0,
+        "text": " that you have to make two or three  Based on that, let's suppose I have  two clusters  that I have one cluster K1 and one cluster K2  Now I have to decide which one will go in which"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 80.0,
+        "end": 90.0,
+        "text": " Here, the first cluster  is defined that I have two clusters  The second point here is  to do centroid calculation  Centroid means a value"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 90.0,
+        "end": 100.0,
+        "text": " based on which we will  do further calculation  and at least we should know  that at least one value I have to initialize  that in this cluster"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 100.0,
+        "end": 110.0,
+        "text": " this value will lie  and in this cluster  this value will lie or is related  So to initialize  you can randomly assign"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 110.0,
+        "end": 120.0,
+        "text": " anyone from all these values  that this value is in K1  and this value is in K2  You can use any method  randomly word"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 120.0,
+        "end": 130.0,
+        "text": " But let's suppose  Let's make a simple assumption  that I have associated  customer C1 with K1  and I have associated C2 with K2"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 130.0,
+        "end": 140.0,
+        "text": " Now let's suppose  20 and 500  are in this cluster  and value of 40 and 1000  are in this cluster"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 140.0,
+        "end": 150.0,
+        "text": " Now after this  calculation will start  because now we have to  calculate according to other customers  based on these values"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 150.0,
+        "end": 160.0,
+        "text": " Means we have these values  which we have to observe  and these two values are such that  we have initialized centroid  Now we have to see that"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 160.0,
+        "end": 170.0,
+        "text": " first of all, customer 3  that customer 3 will go in this  or in this  So how do I have to calculate  Now this centroid"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 170.0,
+        "end": 180.0,
+        "text": " has been initialized but for C3  you have to calculate  that the nearest  or the nearest distance wise  will decide"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 180.0,
+        "end": 190.0,
+        "text": " If it is nearest to this, then it will go in this  otherwise in this  Now how to calculate this distance and nearest  It is very simple  Use Lucidian formula distance"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 190.0,
+        "end": 200.0,
+        "text": " It is a very simple formula  x2-x1 square, y2-y1 square  and whole square  Now you have to calculate this value  Now what can you do here"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 200.0,
+        "end": 210.0,
+        "text": " Like what is x2 here  Observed value which I have to observe  and what can this be, your centroid value  This is also your observed value  What is this, your centroid value"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 210.0,
+        "end": 220.0,
+        "text": " If you apply this formula  So first of all, apply in this, in C3  What is this, observed value  and what is this, centroid value  So first of all, what is observed value, 30"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 220.0,
+        "end": 230.0,
+        "text": " Just once you will feel a little  Sir, the calculation is too much but nothing  30-20  This is my x2-x1 square  plus"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 230.0,
+        "end": 240.0,
+        "text": " 800  800 is my other variable  Calculate according to the number of variables  So the other variable x2 is this, x1 is this  y2 is this, y1 is this"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 240.0,
+        "end": 250.0,
+        "text": " So 800-500  square and here  we will find out its root  So this value has to be calculated  So when we calculate this value"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 250.0,
+        "end": 260.0,
+        "text": " You can say that what is this  300 plus this came, 300 square  and here we have to find out its cube root  So here we have to find out its square root  So what can I do with this"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 260.0,
+        "end": 270.0,
+        "text": " You can calculate it completely  But you know that this value is somewhere  It is a major value  Means it is more than this  So if you calculate this, then 300 point something"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 270.0,
+        "end": 280.0,
+        "text": " value will come  Because this is only 100  So if you add 300 square plus 100  So obviously its value  will finally come to 300"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 280.0,
+        "end": 290.0,
+        "text": " Point something  Second, c3  Now I will calculate according to c2  that can it come in k2  So for that, this is my observed value"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 290.0,
+        "end": 300.0,
+        "text": " and this is my centroid value  Clear?  And this is my observed value which I have to observe  And this is my centroid value  So just square this"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 300.0,
+        "end": 310.0,
+        "text": " We will find out its square root  So see here also, 200 square  Here 10 square  So 200 square plus 100  So somewhere you can say"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 310.0,
+        "end": 320.0,
+        "text": " value 200 point something  You can also calculate if you want  So which is the small value between the two  200, means where the distance will be less  that value will go inside"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 320.0,
+        "end": 330.0,
+        "text": " So where is the distance less?  This one is less, so where will c3 go  It will go inside  You can say this  So you calculate like this"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 330.0,
+        "end": 340.0,
+        "text": " But once we have calculated  I found out that c3 will go inside  Because it is nearest  And according to this value 300 came  So it will not go inside, it will go inside"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 340.0,
+        "end": 350.0,
+        "text": " Now c3 came inside  It is not that after that we have to calculate c4 or c5  We have to do this only  But there is a small update  Now you have to update"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 350.0,
+        "end": 360.0,
+        "text": " When one value is assigned  Any value you initialize and assign  That c3 will come inside  Now it is necessary to update the centroid  How to update the centroid?"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 360.0,
+        "end": 370.0,
+        "text": " Very simple formula  First value was 40  Then added, what was the value?  30, calculate the mean of this  If you calculate the mean, what will come?"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 370.0,
+        "end": 380.0,
+        "text": " 35, very simple  What was the value here? 800  And what was the value here?  1000, so divide by 2  Calculate the mean value"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 380.0,
+        "end": 390.0,
+        "text": " So if you divide 1800 by 2, it will be 900  So now cut this one  And instead of that  35, 900  This new centroid value came"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 390.0,
+        "end": 400.0,
+        "text": " Because there are only two clusters  But this has to be updated  Now after this, if I have to calculate for c4  So how will you calculate c4?  For c4, see"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 400.0,
+        "end": 410.0,
+        "text": " 18 minus  20 square  Plus, what is the other value?  300 minus 500  Square, okay"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 410.0,
+        "end": 420.0,
+        "text": " And if I calculate for c4 from here  So 18 minus  35 square  Plus, what is here?  300, value of y2"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 420.0,
+        "end": 430.0,
+        "text": " Earlier 1000, now take 900  Square  And here  If I solve this  So see, here 200 square, what is here?"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 430.0,
+        "end": 440.0,
+        "text": " 600, obviously, what will be the value of this?  Minimum will come, so you can say  Where will c4 lie?  It will lie in this  So after this, it is necessary to update this"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 440.0,
+        "end": 450.0,
+        "text": " How? 20 plus  20 plus 18  Divide by 2 and 500  Plus, this value was 500  And this was 300"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 450.0,
+        "end": 460.0,
+        "text": " 300 divided by 2  So this is the new centroid  Just update this step again and again  And at last, we will know  Which customer lies in which cluster"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 460.0,
+        "end": 470.0,
+        "text": " This is the  Simple funda of k-mean clustering method  Note all these points  Note all these steps  You can easily solve any numerical"
+    },
+    {
+        "number": "Lec-13",
+        "title": "K-mean Clustering with Numerical Example",
+        "start": 470.0,
+        "end": 472.0,
+        "text": " Thank you"
+    }
+]

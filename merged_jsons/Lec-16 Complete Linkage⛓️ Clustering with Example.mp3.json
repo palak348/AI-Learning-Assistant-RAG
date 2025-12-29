@@ -1,0 +1,373 @@
+[
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 0.0,
+        "end": 11.0,
+        "text": " Dear students, welcome to kids measures  In today's video I am going to explain  Complete linkage clustering  and with example I will tell you all the points  so that your college, university, exam, interviews"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 11.0,
+        "end": 21.0,
+        "text": " wherever you ask you can easily give the answer  so guys like this video and subscribe to the channel  if you haven't done it yet and if you have done it  then you can subscribe with devices  subscribers are very important"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 21.0,
+        "end": 32.0,
+        "text": " so let's start here  first of all if we talk about  complete linkage is a part of hierarchical clustering  where we create clusters  that which data point will come in which cluster"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 32.0,
+        "end": 44.0,
+        "text": " but along with that we create a hierarchy  means we create proper dendrogram  like we did in single linkage  it is exactly the same but what is different in complete linkage  if you do this numerical now"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 44.0,
+        "end": 55.0,
+        "text": " then you will easily understand  so see again I will tell you that  calculations are a little lengthy  in every video you will get calculations a little lengthy  but don't be afraid, don't be nervous"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 55.0,
+        "end": 67.0,
+        "text": " it is easy, just once you  it will take some time to remember all the steps  but if you do 1-2 examples then you will easily understand  so see here we have given data points  I am working on only one variable"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 67.0,
+        "end": 79.0,
+        "text": " we have data points 2, 6, 9, 11, 3  now we have to create them in clusters  and what to do is we have to create their hierarchy  so first of all what we do  like we did in single linkage"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 79.0,
+        "end": 91.0,
+        "text": " that first of all sir we will create distance matrix  that what is the distance between each data point  that we have to find out  so for distance matrix I have written  in your columns also"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 91.0,
+        "end": 102.0,
+        "text": " and in rows also I have written all the data points  and one by one we have to find out the distance  so how to find out the distance  we will calculate it from the distance formula  what is the formula"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 102.0,
+        "end": 117.0,
+        "text": " simple x1-x2 square  plus y1-y2 whole square  and above what comes, square root comes  so see here we are working on only one variable  take x, y is not here"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 117.0,
+        "end": 129.0,
+        "text": " so remove it from here  so simple formula is x1-x2 whole square  and above square root  because I have only one  if there are two then do according to two"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 129.0,
+        "end": 138.0,
+        "text": " if there are three then do according to three  there z1-z2 will come  so like I will show you one by one  rest you will understand  see if you have to find out between 2 and 6"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 138.0,
+        "end": 150.0,
+        "text": " so 2-6 whole square square root  what will be the answer, minus 4  when you square minus 4  so what will be the answer, 16  and square root of 16"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 150.0,
+        "end": 160.0,
+        "text": " so the answer will be 4  I will show you one more  but according to me you would have understood  between 2 and 9  so 2-9 whole square square root"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 160.0,
+        "end": 171.0,
+        "text": " what will be the answer, minus 7 square square root  so what will be the answer, 49  and what will be the answer, 7  so like this you have calculated all the values  rest you know"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 171.0,
+        "end": 181.0,
+        "text": " distance between 2 and 2, 6 and 6  will be 0  when this matrix is created  what is the second step  we have to find out that distance"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 181.0,
+        "end": 191.0,
+        "text": " which is minimum  means from all these data  don't say 0 is minimum  that is on same data  rest if you see carefully"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 191.0,
+        "end": 201.0,
+        "text": " you will find that one value is the smallest  1  so in this you have to combine 2 and 3  so combine 2 and 3  make 2 and 3 cluster"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 201.0,
+        "end": 211.0,
+        "text": " so what is your result  2-3 one cluster  rest of the data points will be as it is  like this  and like this you have 2 and 3"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 211.0,
+        "end": 221.0,
+        "text": " rest of the data points will be same  so see I will show you in next slide  so see I will show you in next slide  so 2 and 3  on one side rest of the data points"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 221.0,
+        "end": 231.0,
+        "text": " will be as it is  so what is the major difference  in complete linkage  that if I have to write  distance between 2 and 3, 6"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 231.0,
+        "end": 241.0,
+        "text": " so it is not like  I have to write same as it is  in single linkage  we have to write directly  rest of the values"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 241.0,
+        "end": 251.0,
+        "text": " but here  if I have 2 and 3  as a cluster  now I have to find out  distance between 2 and 3"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 251.0,
+        "end": 261.0,
+        "text": " so I will find out  distance between 2 and 3  and maximum value  means if I have to find out  distance then what formula I will use"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 261.0,
+        "end": 271.0,
+        "text": " 2 and 6  distance between 2 and 3  and 6 distance  and maximum value will come  this is complete linkage"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 271.0,
+        "end": 281.0,
+        "text": " you have to  like we say worst case  in worst case best case and average case  so that's why student think  sir we should take minimum distance"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 281.0,
+        "end": 291.0,
+        "text": " no we will take maximum distance  why? because it has simple reason  that if let's suppose this distance  is 10 and this distance is 20  so if you take 10"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 291.0,
+        "end": 301.0,
+        "text": " then 3 to 6 will not go  because you gave it 10 rupees to go  somewhere but  if it is 20 then how it will go in 10 rupees  so obviously both of you"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 301.0,
+        "end": 311.0,
+        "text": " in best case means  maximum value you have to consider  so we will consider that here  so see distance between 2 and 6  is 4"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 311.0,
+        "end": 321.0,
+        "text": " distance between 3 and 6  is 3 so maximum value  is 4 this is how  you have to calculate let me show you one more  see one more let's suppose"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 321.0,
+        "end": 331.0,
+        "text": " I have to find out  distance between 2 and 3 with 11  so how we will do? maximum of  between 2 and 11  between 3 and 11"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 331.0,
+        "end": 341.0,
+        "text": " maximum of both you have to find out  so see distance between 2 and 11  is 9  distance between 3 and 11  is 8"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 341.0,
+        "end": 351.0,
+        "text": " maximum value of both is 9  so see distance between 2 and 3  with 11 is 9  this way you have to calculate all the values  then complete link"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 351.0,
+        "end": 361.0,
+        "text": " will work properly so see  values are there now what we have to do?  when final settlement will be done then  again find minimum weight  which is 2"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 361.0,
+        "end": 371.0,
+        "text": " 2 is minimum between which?  between 9 and 11  so next cluster will be 9 and 11  so let's go to next slide  2 and 3 is already done"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 371.0,
+        "end": 381.0,
+        "text": " 9 and 11  next cluster will be done but this distance  as it is we don't have to write now what is done?  9 and 11  so my cluster is done now I have to find out"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 381.0,
+        "end": 391.0,
+        "text": " distance between 2 and 3  how much distance between 9 and 11  how we will find? maximum of  distance between 2 and 3 of 9  distance between 2 and 3 of 11"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 391.0,
+        "end": 401.0,
+        "text": " distance between 2 and 3 of 11  and maximum value of 9  distance between 2 and 3 of 9 is 7  distance between 2 and 3 of 11  is 9"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 401.0,
+        "end": 411.0,
+        "text": " so we have to find  distance between 2 and 3  if I have to find maximum value  which is 9  so this way value is maximum"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 411.0,
+        "end": 421.0,
+        "text": " I will do one more like this  I hope you understood  now let's say 9, 11  because this is new cluster  let's say I have to find distance"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 421.0,
+        "end": 431.0,
+        "text": " between 6 and 11  so distance between 6 and 9  and distance between 6 and 11  both of them maximum value  calculate it"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 431.0,
+        "end": 441.0,
+        "text": " 3  6 and 11  5  so distance between 9 and 11  is 5"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 441.0,
+        "end": 451.0,
+        "text": " this way you have to calculate  values  now again  calculate value  4"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 451.0,
+        "end": 461.0,
+        "text": " so 2, 3  is 6  so 2, 3 is 6  so new cluster is  2, 3"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 461.0,
+        "end": 471.0,
+        "text": " 6  now let's say I have to find distance  between 2, 3 and 6  with 9, 11  so how I will find?"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 471.0,
+        "end": 481.0,
+        "text": " first of all distance between 2, 3  and 9, 11  and here what will be 6's  with whom 6's?  with 9, 11"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 481.0,
+        "end": 491.0,
+        "text": " so distance between 2, 3 and 9, 11  is 9  and distance between 6 and 9, 11  is 5  so maximum value"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 491.0,
+        "end": 501.0,
+        "text": " is 9  so calculate distance  like this  so finally, last only one value is left  so we have to merge both"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 501.0,
+        "end": 511.0,
+        "text": " so if we have to make dendrogram  first of all merge 2 and 3  ok  after that merge 2 and 3  see here"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 511.0,
+        "end": 521.0,
+        "text": " merge 2 and 3 first  then merge 9 and 11  then what we did after that?  we merged 9 and 11  after that with 2, 3"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 521.0,
+        "end": 531.0,
+        "text": " merged 6  means here 6 came  and merged 6 with 2, 3  and finally merged all  this is how the dendrogram"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 531.0,
+        "end": 541.0,
+        "text": " will be created  so remember this complete linkage step  that you don't have to write direct distance  which is written in single  you have to find the distance of every data point"
+    },
+    {
+        "number": "Lec-16",
+        "title": "Complete Linkage⛓️ Clustering with Example",
+        "start": 541.0,
+        "end": 545.0,
+        "text": " and maximum value will be your answer  thank you"
+    }
+]
