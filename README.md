@@ -1,8 +1,5 @@
 # AI Learning Assistant (RAG-based)
 
-![RAG Based AI Learning Assistant Flowchart](images/rag-flowchart.png)
-
-## Overview
 
 This project builds an AI-powered learning assistant for the Machine Learning course using Retrieval-Augmented Generation (RAG). It answers user questions by referencing actual course content (video subtitles), guiding users to relevant videos and timestamps for deeper learning.
 
@@ -64,8 +61,6 @@ ai-rag-based-project/
 ├── videos/                 # Original course videos (MP4, AVI, etc.)
 ├── audios/                 # Converted MP3 audio files
 ├── jsons/                  # Transcribed subtitle chunks (JSON format)
-├── images/                 # Project images and diagrams
-│   └── rag-flowchart.png   # RAG workflow diagram
 ├── video_to_mp3.py         # Convert videos to MP3 audio
 ├── mp3_to_jsons.py         # Transcribe audio and create chunks
 ├── preprocess_json.py      # Generate embeddings from chunks
